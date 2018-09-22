@@ -46,24 +46,6 @@ void print(Node *t)\\
 
 int main()
 {
-	setlocale(LC_ALL, "Russian");
-	Node *t = NULL;
-	int val,n,s;
-	cout << "Ââåäèòå êîðåíü äåðåâà -";
-	cin >> val; cout << endl;
-	push(&t, val);
-	cout << "Ââåäèòå êîëè÷åñòâî ýëåìåíòîâ " << endl;
-	cin >> n;
-	for (int i = 0; i < n; i++)
-	{
-		cout << "Ââåäèòå ÷èñëî" << endl << "->";
-			cin >> s;
-		push(&t, s);
-	}
-	cout << "Âàøå äåðåâî" << endl;
-	print(t);
-	cout << endl<<"Íàæìèòå ëþáóþ êëàâèøó..."<<endl;
-	_getch();
 	return 0;
 }
 
