@@ -1,0 +1,22 @@
+The task of calculating the time of work of an office manager.
+
+  This query chooses in data base those messages that have been sent/received within the 24 hours 
+(starting from the moment of launching) and groups them by five-minute intervals. 
+Farther calculated sum of the wasted time for reading/writing a messages.
+Was used statistical average data about reading/writing text by people`s. 
+Here the constant 0.6833 is a average writing speed, 3.3333 is a average reading speed. 
+
+
+select sum(ResultTime), datetime(TimeStamp/1000, 'unixepoch', 'localtime') from 
+	(select TimeStamp, datetime(TimeStamp/1000, 'unixepoch', 'localtime') as Time, Body,   
+		case when ContactID is 1
+		then (length(Body) - length(replace(Body, ' ', '')) + 1) / 0.6833
+		else (length(Body) - length(replace(Body, ' ', '')) + 1) / 3.3333
+		end as ResultTime from
+			(select * from EventInfo where datetime(TimeStamp/1000, 'unixepoch', 'localtime')
+				between
+					datetime(strftime('%s', 'now', '-1 day'), 'unixepoch', 'localtime')
+					and
+					datetime(strftime('%s', 'now'), 'unixepoch', 'localtime')
+			)
+		) group by strftime('%s', 'now') - (TimeStamp/1000) / 300
