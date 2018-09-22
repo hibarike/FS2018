@@ -49,20 +49,20 @@ int main()
 	setlocale(LC_ALL, "Russian");
 	Node *t = NULL;
 	int val,n,s;
-	cout << "Ââåäèòå êîðåíü äåðåâà -";
+	cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ ÃªÃ®Ã°Ã¥Ã­Ã¼ Ã¤Ã¥Ã°Ã¥Ã¢Ã  -";
 	cin >> val; cout << endl;
 	push(&t, val);
-	cout << "Ââåäèòå êîëè÷åñòâî ýëåìåíòîâ " << endl;
+	cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ ÃªÃ®Ã«Ã¨Ã·Ã¥Ã±Ã²Ã¢Ã® Ã½Ã«Ã¥Ã¬Ã¥Ã­Ã²Ã®Ã¢ " << endl;
 	cin >> n;
 	for (int i = 0; i < n; i++)
 	{
-		cout << "Ââåäèòå ÷èñëî" << endl << "->";
+		cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã·Ã¨Ã±Ã«Ã®" << endl << "->";
 			cin >> s;
 		push(&t, s);
 	}
-	cout << "Âàøå äåðåâî" << endl;
+	cout << "Ã‚Ã Ã¸Ã¥ Ã¤Ã¥Ã°Ã¥Ã¢Ã®" << endl;
 	print(t);
-	cout << endl<<"Íàæìèòå ëþáóþ êëàâèøó..."<<endl;
+	cout << endl<<"ÃÃ Ã¦Ã¬Ã¨Ã²Ã¥ Ã«Ã¾Ã¡Ã³Ã¾ ÃªÃ«Ã Ã¢Ã¨Ã¸Ã³..."<<endl;
 	_getch();
 	return 0;
 }
