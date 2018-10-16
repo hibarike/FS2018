@@ -41,7 +41,7 @@ var file = new File("~/Desktop/jstask/export.json");
 if(file.open("w"))
 {
     file.encoding = "UTF-8";
-    file.write(jamJSON.stringify (objectArr /*jsonData*/));
+    file.write(jamJSON.stringify (jsonData));
     file.close;
 }
 
