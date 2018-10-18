@@ -5,7 +5,6 @@
 var doc = app.activeDocument;
 var layer = doc.activeLayer;
 var group = layer.parent.layers;
-var objectArr = [];
 var jsonData = {
     docWidth: 0, 
     docHeight: 0, 
