@@ -1,6 +1,6 @@
 //@includepath "~/JSON Action Manager/"
 //@include "jamEngine.jsxinc"
-//@include "jamJSON.jsxinc"
+//@include "jamJSON.jsxinc" 
 
 var doc = app.activeDocument;
 var layer = doc.activeLayer;
