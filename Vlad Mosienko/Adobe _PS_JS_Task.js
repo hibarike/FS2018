@@ -10,69 +10,71 @@ var jsonData = {
     docHeight: 0, 
     coordsArr: []
 };
+//writing main size of a document to json
 jsonData.docHeight = parseInt(doc.height.toString().replace(' px', ''));
 jsonData.docWidth = parseInt(doc.width.toString().replace(' px', ''));
-
+//use pixels for describing size properties
 app.preferences.rulerUnits = Units.PIXELS;
 
 unvisibleAll(group);
 
-for(var i = 0; i < group.length; ++i)
-{
-    // переключаемся на другой слой и делаем его видимым
+for(var i = 0; i < group.length; ++i) {
+    // switch to another layer and do it visible
     switchLayer(i);
 
-    // сохораняем текущее состояние документа
+    // save current state of a document
     var savedState = app.activeDocument.activeHistoryState;
 
-    // получаем все необходимые нам координаты и обрезаем
+    // get all layers coordinates
     jsonData.coordsArr.push(getCoordinates(savedState));
+    // trimming 
     Trim(true, true, true, true);
 
-    // сохраняем как отдельную картинку
-    savePng(layer.name.toString());
+    // save trimmed layer as a separate png file
+    savePng(layer.name.toString(), "C:/Users/Vlad/Desktop/jstask/");
 
-    // откат на снепшот 
+    // rollback to snapshot
     doc.activeHistoryState = savedState;
 }
-// сохраняем данные с координатами в файл
+
+// save data with coordinates to file
 var file = new File("~/Desktop/jstask/export.json");
-if(file.open("w"))
-{
+if(file.open("w")) {
     file.encoding = "UTF-8";
     file.write(jamJSON.stringify (jsonData));
     file.close;
 }
 
-
-//скрытие всех слоев
-function unvisibleAll(group){
-    for(var i = 0; i < group.length; i++){
+// make invisible all layers
+function unvisibleAll(group) {
+    for(var i = 0; i < group.length; i++) {
         group[i].visible = false;
     }
 } 
-//тримминг
-function Trim(up, left, down, right){
+
+// trimming
+function Trim(up, left, down, right) {
     app.activeDocument.trim(TrimType.TOPLEFT, up, left, down, right);
 }
 
 
-//координаты левого верхнего и правого нижнего угла
-// изображения после тримминга относительно предыдущего слоя
-function getCoordinates(savedState){
-    var obj = { name: app.activeDocument.activeLayer.name.toString(),
+// get coords of upper left and lower right angles
+// of image after trimming
+function getCoordinates(savedState) {
+    var obj = { 
+        name: app.activeDocument.activeLayer.name.toString(),
         left_x: 0, 
         left_y: 0,
         right_x: 0, 
         right_y: 0
     };
     var doc = app.activeDocument;
-    // правый нижний 
+    // lower right
     Trim(false, false, true, true);
     obj.right_x = parseInt(doc.width.toString().replace(' px', ''));
     obj.right_y = parseInt(doc.height.toString().replace(' px', ''));
 
-    //левый верхний
+    // upper left
     Trim(false, true, false, true);
     var abs_width = parseInt(doc.width.toString().replace(' px', ''));
     doc.activeHistoryState = savedState;
@@ -92,18 +94,16 @@ function getCoordinates(savedState){
     return obj;
 }
 
-function savePng(name)
-{
+function savePng(name, path) {
     var options = new ExportOptionsSaveForWeb();
     options.quality = 70;
     options.format = SaveDocumentType.JPEG;
     options.optimized = true;
-    var path = new File("C:/Users/Vlad/Desktop/jstask/" + name + ".png");
+    var path = new File(path + name + ".png");
     doc.exportDocument(path, ExportType.SAVEFORWEB,options);
 }
 
-function switchLayer(i)
-{
+function switchLayer(i) {
     layer.visible = false;
     doc.activeLayer =  group[i];
     layer = doc.activeLayer;
