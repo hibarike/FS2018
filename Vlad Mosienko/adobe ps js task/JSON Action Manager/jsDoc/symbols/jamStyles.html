@@ -1,0 +1,2260 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="generator" content="JsDoc Toolkit" />
+		
+		<title>JsDoc Reference - jamStyles</title>
+
+		<style type="text/css">
+			/* default.css */
+body
+{
+	font: 12px "Lucida Grande", Tahoma, Arial, Helvetica, sans-serif;
+	width: 980px;
+}
+
+.header
+{
+	clear: both;
+	background-color: #ccc;
+	padding: 8px;
+}
+
+h1
+{
+	font-size: 150%;
+	font-weight: bold;
+	padding: 0;
+	margin: 1em 0 0 .3em;
+}
+
+hr
+{
+	border: none 0;
+	border-top: 1px solid #7F8FB1;
+	height: 1px;
+}
+
+pre.code
+{
+	display: block;
+	padding: 8px;
+	border: 1px dashed #ccc;
+}
+
+#index
+{
+	margin-top: 24px;
+	float: left;
+	width: 160px;
+	position: absolute;
+	left: 8px;
+	background-color: #F3F3F3;
+	padding: 8px;
+}
+
+#content
+{
+	margin-left: 190px;
+	width: 790px;
+}
+
+.classList
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0 0 0 8px;
+	font-family: arial, sans-serif;
+	font-size: 1em;
+	overflow: auto;
+}
+
+.classList li
+{
+	padding: 0;
+	margin: 0 0 8px 0;
+}
+
+.summaryTable { width: 100%; }
+
+h1.classTitle
+{
+	font-size:170%;
+	line-height:130%;
+}
+
+h2 { font-size: 110%; }
+caption, div.sectionTitle
+{
+	background-color: #7F8FB1;
+	color: #fff;
+	font-size:130%;
+	text-align: left;
+	padding: 2px 6px 2px 6px;
+	border: 1px #7F8FB1 solid;
+}
+
+div.sectionTitle { margin-bottom: 8px; }
+.summaryTable thead { display: none; }
+
+.summaryTable td
+{
+	vertical-align: top;
+	padding: 4px;
+	border-bottom: 1px #7F8FB1 solid;
+	border-right: 1px #7F8FB1 solid;
+}
+
+/*col#summaryAttributes {}*/
+.summaryTable td.attributes
+{
+	border-left: 1px #7F8FB1 solid;
+	width: 140px;
+	text-align: right;
+}
+
+td.attributes, .fixedFont
+{
+	line-height: 15px;
+	color: #002EBE;
+	font-family: "Courier New",Courier,monospace;
+	font-size: 13px;
+}
+
+.summaryTable td.nameDescription
+{
+	text-align: left;
+	font-size: 13px;
+	line-height: 15px;
+}
+
+.summaryTable td.nameDescription, .description
+{
+	line-height: 15px;
+	padding: 4px;
+	padding-left: 4px;
+}
+
+.summaryTable { margin-bottom: 8px; }
+
+ul.inheritsList
+{
+	list-style: square;
+	margin-left: 20px;
+	padding-left: 0;
+}
+
+.detailList {
+	margin-left: 20px; 
+	line-height: 15px;
+}
+.detailList dt { margin-left: 20px; }
+
+.detailList .heading
+{
+	font-weight: bold;
+	padding-bottom: 6px;
+	margin-left: 0;
+}
+
+.light, td.attributes, .light a:link, .light a:visited
+{
+	color: #777;
+	font-style: italic;
+}
+
+.fineprint
+{
+	text-align: right;
+	font-size: 10px;
+}
+		</style>
+	</head>
+
+	<body>
+<!-- ============================== header ================================= -->	
+		<!-- begin static/header.html -->
+		<div id="header">
+</div>
+		<!-- end static/header.html -->
+
+<!-- ============================== classes index ============================ -->
+		<div id="index">
+			<!-- begin publish.classesIndex -->
+			<div align="center"><a href="../index.html">Class Index</a>
+| <a href="../files.html">File Index</a></div>
+<hr />
+<h2>Classes</h2>
+<ul class="classList">
+	
+	<li><a href="../symbols/jamActions.html">jamActions</a></li>
+	
+	<li><a href="../symbols/jamBooks.html">jamBooks</a></li>
+	
+	<li><a href="../symbols/jamColors.html">jamColors</a></li>
+	
+	<li><a href="../symbols/jamEngine.html">jamEngine</a></li>
+	
+	<li><a href="../symbols/jamHelpers.html">jamHelpers</a></li>
+	
+	<li><a href="../symbols/jamJSON.html">jamJSON</a></li>
+	
+	<li><a href="../symbols/jamLayers.html">jamLayers</a></li>
+	
+	<li><a href="../symbols/jamShapes.html">jamShapes</a></li>
+	
+	<li><a href="../symbols/jamStyles.html">jamStyles</a></li>
+	
+	<li><a href="../symbols/jamText.html">jamText</a></li>
+	
+	<li><a href="../symbols/jamUtils.html">jamUtils</a></li>
+	
+</ul>
+<hr />
+			<!-- end publish.classesIndex -->
+		</div>
+		
+		<div id="content">
+<!-- ============================== class title ============================ -->
+			<h1 class="classTitle">
+				
+				Namespace jamStyles
+			</h1>
+
+<!-- ============================== class summary ========================== -->			
+			<p class="description">
+				<br />Version
+					4.5.<br />
+				
+				
+			
+				
+				
+				
+					<br /><i>Defined in: </i> <a href="../symbols/src/jamStyles.jsxinc.html">jamStyles.jsxinc</a>.
+				
+			</p>
+
+<!-- ============================== constructor summary ==================== -->			
+			
+			<table class="summaryTable" cellspacing="0" summary="A summary of the constructor documented in the class jamStyles.">
+				<caption>Namespace Summary</caption>
+				<thead>
+					<tr>
+						<th scope="col">Constructor Attributes</th>
+						<th scope="col">Constructor Name and Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="attributes">&nbsp;</td>
+						<td class="nameDescription" >
+							<div class="fixedFont">
+								<b><a href="../symbols/jamStyles.html#constructor">jamStyles</a></b>
+							</div>
+							<div class="description">Global object (used to simulate a namespace in JavaScript) containing
+a set of layer styles-related functions for scripts written with the
+<a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-action-manager/">JSON Action Manager</a> engine.</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			
+
+<!-- ============================== properties summary ===================== -->
+			
+
+<!-- ============================== methods summary ======================== -->
+			
+				
+				
+				<table class="summaryTable" cellspacing="0" summary="A summary of the methods documented in the class jamStyles.">
+					<caption>Method Summary</caption>
+					<thead>
+						<tr>
+							<th scope="col">Method Attributes</th>
+							<th scope="col">Method Name and Description</th>
+						</tr>
+					</thead>
+					<tbody>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamStyles.<b><a href="../symbols/jamStyles.html#.applyLayerStyle">applyLayerStyle</a></b>(styleName, merge)
+								</div>
+								<div class="description">Apply a layer style preset.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamStyles.<b><a href="../symbols/jamStyles.html#.clearLayerStyle">clearLayerStyle</a></b>()
+								</div>
+								<div class="description">Clear a layer style (reset blending options to default and remove all layer effects).</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamStyles.<b><a href="../symbols/jamStyles.html#.copyLayerStyle">copyLayerStyle</a></b>()
+								</div>
+								<div class="description">Copy a layer style.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamStyles.<b><a href="../symbols/jamStyles.html#.dataFromStylesFile">dataFromStylesFile</a></b>(stylesFile, includePatternsInfo)
+								</div>
+								<div class="description">Convert a styles file (*.asl or Styles.psp) into a data structure in JSON format [available in CS2 or later].</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamStyles.<b><a href="../symbols/jamStyles.html#.fromBlendOptionsObject">fromBlendOptionsObject</a></b>(blendOptionsObject)
+								</div>
+								<div class="description">Get a simplified blending options JSON object from a blending options object in JSON AM Data Format.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamStyles.<b><a href="../symbols/jamStyles.html#.fromDocumentModeObject">fromDocumentModeObject</a></b>(documentModeObject)
+								</div>
+								<div class="description">Get a simplified document mode JSON object from a document mode object in JSON AM Data Format.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamStyles.<b><a href="../symbols/jamStyles.html#.fromLayerEffectsObject">fromLayerEffectsObject</a></b>(layerEffectsObject)
+								</div>
+								<div class="description">Get a simplified layer effects JSON object from a layer effects object in JSON AM Data Format.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamStyles.<b><a href="../symbols/jamStyles.html#.getLayerStyle">getLayerStyle</a></b>()
+								</div>
+								<div class="description">Get the current layer style (blending options and layer effects) [available in CS2 or later].</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamStyles.<b><a href="../symbols/jamStyles.html#.isStylesFile">isStylesFile</a></b>(file)
+								</div>
+								<div class="description">Test if a given file is a styles file (*.asl).</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamStyles.<b><a href="../symbols/jamStyles.html#.isStylesPalette">isStylesPalette</a></b>(file)
+								</div>
+								<div class="description">Test if a given file is a styles palette file (Styles.psp).</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamStyles.<b><a href="../symbols/jamStyles.html#.pasteLayerStyle">pasteLayerStyle</a></b>()
+								</div>
+								<div class="description">Paste a layer style.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamStyles.<b><a href="../symbols/jamStyles.html#.patternsFileFromPatterns">patternsFileFromPatterns</a></b>(patternsFile, patternsData)
+								</div>
+								<div class="description">Generate a patterns file from patterns data extracted from a styles file (*.asl or Styles.psp).</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamStyles.<b><a href="../symbols/jamStyles.html#.patternsFromStylesFile">patternsFromStylesFile</a></b>(stylesFile)
+								</div>
+								<div class="description">Extract patterns data from a styles file (*.asl or Styles.psp).</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamStyles.<b><a href="../symbols/jamStyles.html#.removeAllLayerEffects">removeAllLayerEffects</a></b>()
+								</div>
+								<div class="description">Remove (delete) all layer effects.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamStyles.<b><a href="../symbols/jamStyles.html#.removeLayerEffect">removeLayerEffect</a></b>(effect)
+								</div>
+								<div class="description">Remove (delete) a layer effect.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamStyles.<b><a href="../symbols/jamStyles.html#.removeLayerEffects">removeLayerEffects</a></b>(effects)
+								</div>
+								<div class="description">Remove (delete) several layer effects.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamStyles.<b><a href="../symbols/jamStyles.html#.scaleLayerEffects">scaleLayerEffects</a></b>(scale)
+								</div>
+								<div class="description">Scale layer effects.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamStyles.<b><a href="../symbols/jamStyles.html#.setApplicationGlobalAngle">setApplicationGlobalAngle</a></b>(globalLightingAngle, globalAltitude)
+								</div>
+								<div class="description">Set application's layer effects global angle (global light: lighting angle and altitude).</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamStyles.<b><a href="../symbols/jamStyles.html#.setDocumentGlobalAngle">setDocumentGlobalAngle</a></b>(globalLightingAngle, globalAltitude)
+								</div>
+								<div class="description">Set document's layer effects global angle (global light: lighting angle and altitude).</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamStyles.<b><a href="../symbols/jamStyles.html#.setLayerStyle">setLayerStyle</a></b>(layerStyleObj, ignoreScale)
+								</div>
+								<div class="description">Set the current layer style (blending options and layer effects).</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamStyles.<b><a href="../symbols/jamStyles.html#.showHideAllDocumentEffects">showHideAllDocumentEffects</a></b>(show)
+								</div>
+								<div class="description">Show or hide all document effects.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamStyles.<b><a href="../symbols/jamStyles.html#.showHideAllLayerEffects">showHideAllLayerEffects</a></b>(show)
+								</div>
+								<div class="description">Show or hide all layer effects.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamStyles.<b><a href="../symbols/jamStyles.html#.showHideLayerEffect">showHideLayerEffect</a></b>(effect, show)
+								</div>
+								<div class="description">Show or hide a layer effect.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamStyles.<b><a href="../symbols/jamStyles.html#.showHideLayerEffects">showHideLayerEffects</a></b>(effects, show)
+								</div>
+								<div class="description">Show or hide several layer effects.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamStyles.<b><a href="../symbols/jamStyles.html#.toBlendOptionsObject">toBlendOptionsObject</a></b>(blendOptions)
+								</div>
+								<div class="description">Get a blending options object in JSON AM Data Format from a simplified blending options JSON object.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamStyles.<b><a href="../symbols/jamStyles.html#.toDocumentModeObject">toDocumentModeObject</a></b>(documentMode)
+								</div>
+								<div class="description">Get a document mode object in JSON AM Data Format from a simplified document mode JSON object.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamStyles.<b><a href="../symbols/jamStyles.html#.toLayerEffectsObject">toLayerEffectsObject</a></b>(layerEffects)
+								</div>
+								<div class="description">Get a layer effects object in JSON AM Data Format from a simplified layer effects JSON object.</div>
+							</td>
+						</tr>
+					
+					</tbody>
+				</table>
+				
+				
+				
+			
+<!-- ============================== events summary ======================== -->
+			
+
+<!-- ============================== constructor details ==================== -->		
+			
+			<div class="details"><a name="constructor"> </a>
+				<div class="sectionTitle">
+					Namespace Detail
+				</div>
+				
+				<div class="fixedFont">
+						<b>jamStyles</b>
+				</div>
+				
+				<div class="description">
+					Global object (used to simulate a namespace in JavaScript) containing
+a set of layer styles-related functions for scripts written with the
+<a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-action-manager/">JSON Action Manager</a> engine.<br />
+Uses information found in the document
+<a href="http://www.tonton-pixel.com/Photoshop%20Additional%20File%20Formats/styles-file-format.html">Photoshop Styles File Format</a>.
+					<br /><i>Author: </i>Michel MARIANI.
+				</div>
+				
+				
+				
+				
+					
+					
+					
+					
+					
+					
+					
+
+			</div>
+			
+
+<!-- ============================== field details ========================== -->		
+			
+
+<!-- ============================== method details ========================= -->		
+			
+				<div class="sectionTitle">
+					Method Detail
+				</div>
+				
+					<a name=".applyLayerStyle"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					
+					<span class="light">jamStyles.</span><b>applyLayerStyle</b>(styleName, merge)
+					
+					</div>
+					<div class="description">
+						Apply a layer style preset.
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">jamUtils.loadPreset ("style", "Logo X-Aqua in Blue Glass (Button)", "Logo-X-Aqua.asl");
+jamStyles.<strong>applyLayerStyle</strong> ("Logo X-Aqua in Blue Glass (Button)");</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>styleName</b>
+									
+								</dt>
+								<dd>Layer style preset name</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>merge</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Merge with current layer style</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name=".clearLayerStyle"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					
+					<span class="light">jamStyles.</span><b>clearLayerStyle</b>()
+					
+					</div>
+					<div class="description">
+						Clear a layer style (reset blending options to default and remove all layer effects).
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">jamStyles.<strong>clearLayerStyle</strong> ();</pre>
+					
+					
+					
+						
+						
+						
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name=".copyLayerStyle"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					
+					<span class="light">jamStyles.</span><b>copyLayerStyle</b>()
+					
+					</div>
+					<div class="description">
+						Copy a layer style.
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">jamStyles.<strong>copyLayerStyle</strong> ();</pre>
+					
+					
+					
+						
+						
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/jamStyles.html#.pasteLayerStyle">jamStyles.pasteLayerStyle</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".dataFromStylesFile"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Object|String}</span>
+					<span class="light">jamStyles.</span><b>dataFromStylesFile</b>(stylesFile, includePatternsInfo)
+					
+					</div>
+					<div class="description">
+						Convert a styles file (*.asl or Styles.psp) into a data structure in JSON format [available in CS2 or later].
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">function stylesFileFilter (f)
+{
+    return (f instanceof Folder) || jamStyles.isStylesFile (f);
+}
+var select = (File.fs === "Macintosh") ? stylesFileFilter : "Styles Files:*.asl,All Files:*";
+var stylesFile = File.openDialog ("Select a styles file:", select);
+if (stylesFile !== null)
+{
+    var fileData = jamStyles.<strong>dataFromStylesFile</strong> (stylesFile, true);
+    if (typeof fileData === 'string')
+    {
+        alert (fileData + "\n" + "Styles file: “" + File.decode (stylesFile.name) + "”");
+    }
+    else
+    {
+        alert ("Number of patterns: " + fileData["patterns"].length);
+        alert ("Number of styles: " + fileData["styles"].length);
+    }
+}</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{String|Object}</span> <b>stylesFile</b>
+									
+								</dt>
+								<dd>Styles file path string or File object</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>includePatternsInfo</b>
+									
+								</dt>
+								<dd>Include embedded patterns basic info</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Object|String}</span> Converted styles file data structure in JSON format, or error message string</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name=".fromBlendOptionsObject"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Object}</span>
+					<span class="light">jamStyles.</span><b>fromBlendOptionsObject</b>(blendOptionsObject)
+					
+					</div>
+					<div class="description">
+						Get a simplified blending options JSON object from a blending options object in JSON AM Data Format.
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">jamEngine.meaningfulIds = true;
+jamEngine.parseFriendly = true;
+var style = { };
+var actionDescriptor;
+var jsonDesc;
+actionDescriptor = jamActions.readActionDescriptor (stylesFile);
+jsonDesc = jamEngine.classIdAndActionDescriptorToJson (0, actionDescriptor)["&lt;descriptor&gt;"];
+style["name"] = jsonDesc["name"][1];
+style["ID"] = jsonDesc["ID"][1];
+actionDescriptor = jamActions.readActionDescriptor (stylesFile);
+jsonDesc = jamEngine.classIdAndActionDescriptorToJson (0, actionDescriptor)["&lt;descriptor&gt;"];
+if ("blendOptions" in jsonDesc)
+{
+    style["blendOptions"] = jamStyles.<strong>fromBlendOptionsObject</strong> (jsonDesc["blendOptions"]);
+}
+$.writeln (jamJSON.stringify (style, '\t'));</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Object|Array}</span> <b>blendOptionsObject</b>
+									
+								</dt>
+								<dd>Blending options object in <a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-am-data-format/">JSON AM Data Format</a></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Object}</span> Simplified blending options JSON object
+(cf. <a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-simplified-formats/blending-options-object-simplified-format/">Blending Options Object Simplified Format</a>)</dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/jamStyles.html#.toBlendOptionsObject">jamStyles.toBlendOptionsObject</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".fromDocumentModeObject"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Object}</span>
+					<span class="light">jamStyles.</span><b>fromDocumentModeObject</b>(documentModeObject)
+					
+					</div>
+					<div class="description">
+						Get a simplified document mode JSON object from a document mode object in JSON AM Data Format.
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">jamEngine.meaningfulIds = true;
+jamEngine.parseFriendly = true;
+var style = { };
+var actionDescriptor;
+var jsonDesc;
+actionDescriptor = jamActions.readActionDescriptor (stylesFile);
+jsonDesc = jamEngine.classIdAndActionDescriptorToJson (0, actionDescriptor)["&lt;descriptor&gt;"];
+style["name"] = jsonDesc["name"][1];
+style["ID"] = jsonDesc["ID"][1];
+actionDescriptor = jamActions.readActionDescriptor (stylesFile);
+jsonDesc = jamEngine.classIdAndActionDescriptorToJson (0, actionDescriptor)["&lt;descriptor&gt;"];
+if ("documentMode" in jsonDesc)
+{
+    style["documentMode"] = jamStyles.<strong>fromDocumentModeObject</strong> (jsonDesc["documentMode"]);
+}
+$.writeln (jamJSON.stringify (style, '\t'));</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Object|Array}</span> <b>documentModeObject</b>
+									
+								</dt>
+								<dd>Document mode object in <a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-am-data-format/">JSON AM Data Format</a></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Object}</span> Simplified document mode JSON object
+(cf. <a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-simplified-formats/document-mode-object-simplified-format/">Document Mode Object Simplified Format</a>)</dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/jamStyles.html#.toDocumentModeObject">jamStyles.toDocumentModeObject</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".fromLayerEffectsObject"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Object}</span>
+					<span class="light">jamStyles.</span><b>fromLayerEffectsObject</b>(layerEffectsObject)
+					
+					</div>
+					<div class="description">
+						Get a simplified layer effects JSON object from a layer effects object in JSON AM Data Format.
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">if (parseInt (app.version) &gt;= 10) // CS3
+{
+    jamEngine.meaningfulIds = true;
+    jamEngine.parseFriendly = true;
+    try
+    {
+        var resultDescObj = jamEngine.jsonGet
+        (
+            [
+                [ "property", [ "&lt;property&gt;", "layerEffects" ] ],
+                [ "layer", [ "&lt;enumerated&gt;", [ "ordinal", "targetEnum" ] ] ]
+            ]
+        );
+        var layerEffects = jamStyles.<strong>fromLayerEffectsObject</strong> (resultDescObj["layerEffects"]);
+    }
+    catch (e)
+    {
+        var layerEffects = null;
+    }
+    if (layerEffects)
+    {
+        $.writeln (jamJSON.stringify (layerEffects, '\t'));
+    }
+    else
+    {
+        alert ("No layer effects selected.");
+    }
+}</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Object|Array}</span> <b>layerEffectsObject</b>
+									
+								</dt>
+								<dd>Layer effects object in <a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-am-data-format/">JSON AM Data Format</a></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Object}</span> Simplified layer effects JSON object
+(cf. <a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-simplified-formats/layer-effects-object-simplified-format/">Layer Effects Object Simplified Format</a>)</dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/jamStyles.html#.toLayerEffectsObject">jamStyles.toLayerEffectsObject</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".getLayerStyle"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Object|Null}</span>
+					<span class="light">jamStyles.</span><b>getLayerStyle</b>()
+					
+					</div>
+					<div class="description">
+						Get the current layer style (blending options and layer effects) [available in CS2 or later].
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">var layerStyleObj = jamStyles.<strong>getLayerStyle</strong> ();
+if (layerStyleObj)
+{
+    if ("layerEffects" in layerStyleObj)
+    {
+        var layerEffectsObj = layerStyleObj["layerEffects"];
+        if ("dropShadow" in layerEffectsObj)
+        {
+            var dropShadowObj = layerEffectsObj["dropShadow"];
+            alert ("Drop shadow distance: " + dropShadowObj["distance"]);
+        }
+        else
+        {
+            alert ("No drop shadow");
+        }
+    }
+    else
+    {
+        alert ("No layer effects");
+    }
+}</pre>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Object|Null}</span> Simplified layer style JSON object made of two optional members: <br>
+"blendOptions" (cf. <a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-simplified-formats/blending-options-object-simplified-format/">Blending Options Object Simplified Format</a>)<br>
+"layerEffects" (cf. <a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-simplified-formats/layer-effects-object-simplified-format/">Layer Effects Object Simplified Format</a>)<br>
+or null if not available</dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/jamStyles.html#.setLayerStyle">jamStyles.setLayerStyle</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".isStylesFile"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Boolean}</span>
+					<span class="light">jamStyles.</span><b>isStylesFile</b>(file)
+					
+					</div>
+					<div class="description">
+						Test if a given file is a styles file (*.asl).
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">function stylesFileFilter (f)
+{
+    return (f instanceof Folder) || jamStyles.<strong>isStylesFile</strong> (f);
+}
+var select = (File.fs === "Macintosh") ? stylesFileFilter : "Styles Files:*.asl,All Files:*";
+var stylesFile = File.openDialog ("Select a styles file:", select);
+if (stylesFile !== null)
+{
+    alert ("OK!");
+}</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Object}</span> <b>file</b>
+									
+								</dt>
+								<dd>File object</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Boolean}</span> true if styles file</dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/jamStyles.html#.isStylesPalette">jamStyles.isStylesPalette</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".isStylesPalette"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Boolean}</span>
+					<span class="light">jamStyles.</span><b>isStylesPalette</b>(file)
+					
+					</div>
+					<div class="description">
+						Test if a given file is a styles palette file (Styles.psp).
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">function stylesPaletteFilter (f)
+{
+    return (f instanceof Folder) || jamStyles.<strong>isStylesPalette</strong> (f);
+}
+var select = (File.fs === "Macintosh") ? stylesPaletteFilter : "Styles Palette File:Styles.psp,All Files:*.*";
+var stylesPaletteFile = File.openDialog ("Select a styles palette file:", select);
+if (stylesPaletteFile !== null)
+{
+    alert ("OK!");
+}</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Object}</span> <b>file</b>
+									
+								</dt>
+								<dd>File object</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Boolean}</span> true if styles palette file</dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/jamStyles.html#.isStylesFile">jamStyles.isStylesFile</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".pasteLayerStyle"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					
+					<span class="light">jamStyles.</span><b>pasteLayerStyle</b>()
+					
+					</div>
+					<div class="description">
+						Paste a layer style.
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">jamStyles.<strong>pasteLayerStyle</strong> ();</pre>
+					
+					
+					
+						
+						
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/jamStyles.html#.copyLayerStyle">jamStyles.copyLayerStyle</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".patternsFileFromPatterns"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					
+					<span class="light">jamStyles.</span><b>patternsFileFromPatterns</b>(patternsFile, patternsData)
+					
+					</div>
+					<div class="description">
+						Generate a patterns file from patterns data extracted from a styles file (*.asl or Styles.psp).
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">function stylesFileFilter (f)
+{
+    return (f instanceof Folder) || jamStyles.isStylesFile (f);
+}
+var select = (File.fs === "Macintosh") ? stylesFileFilter : "Styles Files:*.asl,All Files:*";
+var stylesFile = File.openDialog ("Select a styles file:", select);
+if (stylesFile !== null)
+{
+    var patternsData = jamStyles.patternsFromStylesFile (stylesFile);
+    if (typeof patternsData === 'string')
+    {
+        alert (patternsData + "\n" + "Styles file: “" + File.decode (stylesFile.name) + "”");
+    }
+    else
+    {
+        var patternsFile = new File ("~/Desktop/myPatterns.pat");
+        jamStyles.<strong>patternsFileFromPatterns</strong> (patternsFile, patternsData);
+        patternsFile.parent.execute ();
+    }
+}</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{String|Object}</span> <b>patternsFile</b>
+									
+								</dt>
+								<dd>Patterns file path string or File object</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Array}</span> <b>patternsData</b>
+									
+								</dt>
+								<dd>JSON array of patterns data</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name=".patternsFromStylesFile"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Array|String}</span>
+					<span class="light">jamStyles.</span><b>patternsFromStylesFile</b>(stylesFile)
+					
+					</div>
+					<div class="description">
+						Extract patterns data from a styles file (*.asl or Styles.psp).
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">function stylesFileFilter (f)
+{
+    return (f instanceof Folder) || jamStyles.isStylesFile (f);
+}
+var select = (File.fs === "Macintosh") ? stylesFileFilter : "Styles Files:*.asl,All Files:*";
+var stylesFile = File.openDialog ("Select a styles file:", select);
+if (stylesFile !== null)
+{
+    var patternsData = jamStyles.<strong>patternsFromStylesFile</strong> (stylesFile);
+    if (typeof patternsData === 'string')
+    {
+        alert (patternsData + "\n" + "Styles file: “" + File.decode (stylesFile.name) + "”");
+    }
+    else
+    {
+        alert ("Number of patterns: " + patternsData.length);
+    }
+}</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{String|Object}</span> <b>stylesFile</b>
+									
+								</dt>
+								<dd>Styles file path string or File object</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Array|String}</span> JSON array of patterns data, or error message string</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name=".removeAllLayerEffects"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					
+					<span class="light">jamStyles.</span><b>removeAllLayerEffects</b>()
+					
+					</div>
+					<div class="description">
+						Remove (delete) all layer effects.
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">jamStyles.<strong>removeAllLayerEffects</strong> ();</pre>
+					
+					
+					
+						
+						
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/jamStyles.html#.removeLayerEffect">jamStyles.removeLayerEffect</a></dd>
+							
+								<dd><a href="../symbols/jamStyles.html#.removeLayerEffects">jamStyles.removeLayerEffects</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".removeLayerEffect"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					
+					<span class="light">jamStyles.</span><b>removeLayerEffect</b>(effect)
+					
+					</div>
+					<div class="description">
+						Remove (delete) a layer effect.
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">jamStyles.<strong>removeLayerEffect</strong> ("dropShadow");</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>effect</b>
+									
+								</dt>
+								<dd>Layer effect to remove (delete), among:<br>
+<ul>
+<li>"bevelEmboss"</li>
+<li>"frameFX"</li>
+<li>"innerShadow"</li>
+<li>"innerGlow"</li>
+<li>"chromeFX"</li>
+<li>"solidFill"</li>
+<li>"gradientFill"</li>
+<li>"patternFill"</li>
+<li>"outerGlow"</li>
+<li>"dropShadow"</li>
+</ul></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/jamStyles.html#.removeLayerEffects">jamStyles.removeLayerEffects</a></dd>
+							
+								<dd><a href="../symbols/jamStyles.html#.removeAllLayerEffects">jamStyles.removeAllLayerEffects</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".removeLayerEffects"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					
+					<span class="light">jamStyles.</span><b>removeLayerEffects</b>(effects)
+					
+					</div>
+					<div class="description">
+						Remove (delete) several layer effects.
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">jamStyles.<strong>removeLayerEffects</strong> ([ "dropShadow", "bevelEmboss" ]);</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Array}</span> <b>effects</b>
+									
+								</dt>
+								<dd>Array of layer effects to remove (delete), among:<br>
+<ul>
+<li>"bevelEmboss"</li>
+<li>"frameFX"</li>
+<li>"innerShadow"</li>
+<li>"innerGlow"</li>
+<li>"chromeFX"</li>
+<li>"solidFill"</li>
+<li>"gradientFill"</li>
+<li>"patternFill"</li>
+<li>"outerGlow"</li>
+<li>"dropShadow"</li>
+</ul></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/jamStyles.html#.removeLayerEffect">jamStyles.removeLayerEffect</a></dd>
+							
+								<dd><a href="../symbols/jamStyles.html#.removeAllLayerEffects">jamStyles.removeAllLayerEffects</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".scaleLayerEffects"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					
+					<span class="light">jamStyles.</span><b>scaleLayerEffects</b>(scale)
+					
+					</div>
+					<div class="description">
+						Scale layer effects.
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">jamStyles.<strong>scaleLayerEffects</strong> (200);</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>scale</b>
+									
+								</dt>
+								<dd>Layer effects scaling factor (percentage: 1% to 1000%)</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name=".setApplicationGlobalAngle"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					
+					<span class="light">jamStyles.</span><b>setApplicationGlobalAngle</b>(globalLightingAngle, globalAltitude)
+					
+					</div>
+					<div class="description">
+						Set application's layer effects global angle (global light: lighting angle and altitude).
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">jamStyles.<strong>setApplicationGlobalAngle</strong> (30, 45);</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>globalLightingAngle</b>
+									
+								</dt>
+								<dd>Global lighting angle (-180° to 180°)</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>globalAltitude</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Global altitude (0° to 90°)</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/jamStyles.html#.setDocumentGlobalAngle">jamStyles.setDocumentGlobalAngle</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".setDocumentGlobalAngle"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					
+					<span class="light">jamStyles.</span><b>setDocumentGlobalAngle</b>(globalLightingAngle, globalAltitude)
+					
+					</div>
+					<div class="description">
+						Set document's layer effects global angle (global light: lighting angle and altitude).
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">jamStyles.<strong>setDocumentGlobalAngle</strong> (120, 90);</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>globalLightingAngle</b>
+									
+								</dt>
+								<dd>Global lighting angle (-180° to 180°)</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>globalAltitude</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Global altitude (0° to 90°)</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/jamStyles.html#.setApplicationGlobalAngle">jamStyles.setApplicationGlobalAngle</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".setLayerStyle"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					
+					<span class="light">jamStyles.</span><b>setLayerStyle</b>(layerStyleObj, ignoreScale)
+					
+					</div>
+					<div class="description">
+						Set the current layer style (blending options and layer effects).
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">jamStyles.<strong>setLayerStyle</strong>
+(
+    {
+        "blendOptions":
+        {
+            "mode": "difference",
+            "opacity": 100,
+            "fillOpacity": 70,
+            "blendInterior": true
+        },
+        "layerEffects":
+        {
+            "scale": 100,
+            "solidFill":
+            {
+                "enabled": true,
+                "mode": "normal",
+                "opacity": 100,
+                "color": { "red": 125, "green": 0, "blue": 215 }
+            },
+            "dropShadow":
+            {
+                "enabled": true,
+                "mode": "multiply",
+                "color": { "red": 0, "green": 0, "blue": 0 },
+                "opacity": 70,
+                "localLightingAngle": 135,
+                "useGlobalAngle": false,
+                "distance": 10,
+                "chokeMatte": 20,
+                "blur": 15,
+                "transparencyShape":
+                {
+                    "name": "Linear",
+                    "curve":
+                    [
+                        { "horizontal": 0, "vertical": 0 },
+                        { "horizontal": 255, "vertical": 255 }
+                    ]
+                },
+                "antiAlias": false,
+                "noise": 8,
+                "layerConceals": true
+            }
+        }
+    }
+);</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Object|Null}</span> <b>layerStyleObj</b>
+									
+								</dt>
+								<dd>Simplified layer style JSON object made of two optional members: <br>
+"blendOptions" (cf. <a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-simplified-formats/blending-options-object-simplified-format/">Blending Options Object Simplified Format</a>)<br>
+"layerEffects" (cf. <a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-simplified-formats/layer-effects-object-simplified-format/">Layer Effects Object Simplified Format</a>)<br>
+If null, apply default style (none), i.e., reset blending options to default and remove all layer effects</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>ignoreScale</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Ignore scale property of layer effects; false by default</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/jamStyles.html#.getLayerStyle">jamStyles.getLayerStyle</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".showHideAllDocumentEffects"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					
+					<span class="light">jamStyles.</span><b>showHideAllDocumentEffects</b>(show)
+					
+					</div>
+					<div class="description">
+						Show or hide all document effects.
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">jamStyles.<strong>showHideAllDocumentEffects</strong> ();      // Hide
+jamStyles.<strong>showHideAllDocumentEffects</strong> (true);  // Show</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>show</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Show (instead of hide) all document effects; false by default<br></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/jamStyles.html#.showHideLayerEffect">jamStyles.showHideLayerEffect</a></dd>
+							
+								<dd><a href="../symbols/jamStyles.html#.showHideLayerEffects">jamStyles.showHideLayerEffects</a></dd>
+							
+								<dd><a href="../symbols/jamStyles.html#.showHideAllLayerEffects">jamStyles.showHideAllLayerEffects</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".showHideAllLayerEffects"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					
+					<span class="light">jamStyles.</span><b>showHideAllLayerEffects</b>(show)
+					
+					</div>
+					<div class="description">
+						Show or hide all layer effects.
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">jamStyles.<strong>showHideAllLayerEffects</strong> ();      // Hide
+jamStyles.<strong>showHideAllLayerEffects</strong> (true);  // Show</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>show</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Show (instead of hide) all layer effects; false by default<br></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/jamStyles.html#.showHideLayerEffect">jamStyles.showHideLayerEffect</a></dd>
+							
+								<dd><a href="../symbols/jamStyles.html#.showHideLayerEffects">jamStyles.showHideLayerEffects</a></dd>
+							
+								<dd><a href="../symbols/jamStyles.html#.showHideAllDocumentEffects">jamStyles.showHideAllDocumentEffects</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".showHideLayerEffect"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					
+					<span class="light">jamStyles.</span><b>showHideLayerEffect</b>(effect, show)
+					
+					</div>
+					<div class="description">
+						Show or hide a layer effect.
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">jamStyles.<strong>showHideLayerEffect</strong> ("dropShadow");         // Hide
+jamStyles.<strong>showHideLayerEffect</strong> ("bevelEmboss", true);  // Show</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>effect</b>
+									
+								</dt>
+								<dd>Layer effect to show or hide, among:<br>
+<ul>
+<li>"bevelEmboss"</li>
+<li>"frameFX"</li>
+<li>"innerShadow"</li>
+<li>"innerGlow"</li>
+<li>"chromeFX"</li>
+<li>"solidFill"</li>
+<li>"gradientFill"</li>
+<li>"patternFill"</li>
+<li>"outerGlow"</li>
+<li>"dropShadow"</li>
+</ul></dd>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>show</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Show (instead of hide) the layer effect; false by default<br></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/jamStyles.html#.showHideLayerEffects">jamStyles.showHideLayerEffects</a></dd>
+							
+								<dd><a href="../symbols/jamStyles.html#.showHideAllLayerEffects">jamStyles.showHideAllLayerEffects</a></dd>
+							
+								<dd><a href="../symbols/jamStyles.html#.showHideAllDocumentEffects">jamStyles.showHideAllDocumentEffects</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".showHideLayerEffects"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					
+					<span class="light">jamStyles.</span><b>showHideLayerEffects</b>(effects, show)
+					
+					</div>
+					<div class="description">
+						Show or hide several layer effects.
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">jamStyles.<strong>showHideLayerEffects</strong> ([ "dropShadow", "bevelEmboss" ]);                       // Hide
+jamStyles.<strong>showHideLayerEffects</strong> ([ "solidFill", "gradientFill", "patternFill" ], true);  // Show</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Array}</span> <b>effects</b>
+									
+								</dt>
+								<dd>Array of layer effects to show or hide, among:<br>
+<ul>
+<li>"bevelEmboss"</li>
+<li>"frameFX"</li>
+<li>"innerShadow"</li>
+<li>"innerGlow"</li>
+<li>"chromeFX"</li>
+<li>"solidFill"</li>
+<li>"gradientFill"</li>
+<li>"patternFill"</li>
+<li>"outerGlow"</li>
+<li>"dropShadow"</li>
+</ul></dd>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>show</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Show (instead of hide) the layer effects; false by default<br></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/jamStyles.html#.showHideLayerEffect">jamStyles.showHideLayerEffect</a></dd>
+							
+								<dd><a href="../symbols/jamStyles.html#.showHideAllLayerEffects">jamStyles.showHideAllLayerEffects</a></dd>
+							
+								<dd><a href="../symbols/jamStyles.html#.showHideAllDocumentEffects">jamStyles.showHideAllDocumentEffects</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".toBlendOptionsObject"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Object|Array}</span>
+					<span class="light">jamStyles.</span><b>toBlendOptionsObject</b>(blendOptions)
+					
+					</div>
+					<div class="description">
+						Get a blending options object in JSON AM Data Format from a simplified blending options JSON object.
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">var blendOptions =
+{
+    "mode": "overlay",
+    "opacity": 75,
+    "fillOpacity": 50
+};
+jamEngine.jsonPlay
+(
+    "set",
+    {
+        "target":
+        {
+            "&lt;reference&gt;":
+            [
+                { "layer": { "&lt;enumerated&gt;": { "ordinal": "targetEnum" } } }
+            ]
+        },
+        "to": jamStyles.<strong>toBlendOptionsObject</strong> (blendOptions)
+    }
+);</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Object}</span> <b>blendOptions</b>
+									
+								</dt>
+								<dd>Simplified blending options JSON object
+(cf. <a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-simplified-formats/blending-options-object-simplified-format/">Blending Options Object Simplified Format</a>)</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Object|Array}</span> Blending options object in <a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-am-data-format/">JSON AM Data Format</a></dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/jamStyles.html#.fromBlendOptionsObject">jamStyles.fromBlendOptionsObject</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".toDocumentModeObject"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Object|Array}</span>
+					<span class="light">jamStyles.</span><b>toDocumentModeObject</b>(documentMode)
+					
+					</div>
+					<div class="description">
+						Get a document mode object in JSON AM Data Format from a simplified document mode JSON object.
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">var documentMode =
+{
+    "colorSpace": "RGBColor",
+    "depth": 8
+};
+alert (jamJSON.stringify (jamStyles.<strong>toDocumentModeObject</strong> (documentMode), '\t'));
+// -&gt;
+// [
+//     "&lt;object&gt;",
+//     [
+//         "documentMode",
+//         {
+//             "colorSpace":
+//             [
+//                 "&lt;enumerated&gt;",
+//                 [
+//                     "colorSpace",
+//                     "RGBColor"
+//                 ]
+//             ],
+//             "depth":
+//             [
+//                 "&lt;integer&gt;",
+//                 8
+//             ]
+//         }
+//     ]
+// ]</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Object}</span> <b>documentMode</b>
+									
+								</dt>
+								<dd>Simplified document mode JSON object
+(cf. <a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-simplified-formats/document-mode-object-simplified-format/">Document Mode Object Simplified Format</a>)</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Object|Array}</span> Document mode object in <a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-am-data-format/">JSON AM Data Format</a></dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/jamStyles.html#.fromDocumentModeObject">jamStyles.fromDocumentModeObject</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".toLayerEffectsObject"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Object|Array}</span>
+					<span class="light">jamStyles.</span><b>toLayerEffectsObject</b>(layerEffects)
+					
+					</div>
+					<div class="description">
+						Get a layer effects object in JSON AM Data Format from a simplified layer effects JSON object.
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">var layerEffects =
+{
+    "scale": 100,
+    "dropShadow":
+    {
+        "enabled": true,
+        "mode": "multiply",
+        "color": { "red": 0, "green": 0, "blue": 0 },
+        "opacity": 70,
+        "localLightingAngle": 135,
+        "useGlobalAngle": false,
+        "distance": 10,
+        "chokeMatte": 20,
+        "blur": 15,
+        "transparencyShape":
+        {
+            "name": "Linear",
+            "curve":
+            [
+                { "horizontal": 0, "vertical": 0 },
+                { "horizontal": 255, "vertical": 255 }
+            ]
+        },
+        "antiAlias": false,
+        "noise": 8,
+        "layerConceals": true
+    }
+};
+jamEngine.jsonPlay
+(
+    "set",
+    {
+        "target":
+        {
+            "&lt;reference&gt;":
+            [
+                { "property": { "&lt;property&gt;": "layerEffects" } },
+                { "layer": { "&lt;enumerated&gt;": { "ordinal": "targetEnum" } } }
+            ]
+        },
+        "to": jamStyles.<strong>toLayerEffectsObject</strong> (layerEffects)
+    }
+);</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Object}</span> <b>layerEffects</b>
+									
+								</dt>
+								<dd>Simplified layer effects JSON object
+(cf. <a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-simplified-formats/layer-effects-object-simplified-format/">Layer Effects Object Simplified Format</a>)</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Object|Array}</span> Layer effects object in <a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-am-data-format/">JSON AM Data Format</a></dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/jamStyles.html#.fromLayerEffectsObject">jamStyles.fromLayerEffectsObject</a></dd>
+							
+							</dl>
+						
+
+					
+				
+			
+			
+<!-- ============================== event details ========================= -->		
+			
+			
+			<hr />
+		</div>
+
+		
+<!-- ============================== footer ================================= -->
+		<div class="fineprint" style="clear:both">
+			
+			Documentation generated by <a href="http://code.google.com/p/jsdoc-toolkit/" target="_blank">JsDoc Toolkit</a> 2.4.0 on Wed Oct 12 2016 23:32:44 GMT+0200 (CEST)
+		</div>
+	</body>
+</html>

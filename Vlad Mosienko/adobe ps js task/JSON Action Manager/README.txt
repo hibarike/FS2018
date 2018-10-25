@@ -1,0 +1,1 @@
+Source: http://www.tonton-pixel.com/json-photoshop-scripting/json-action-manager/index.html
