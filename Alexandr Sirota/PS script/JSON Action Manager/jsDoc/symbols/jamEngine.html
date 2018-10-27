@@ -1,0 +1,1818 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="generator" content="JsDoc Toolkit" />
+		
+		<title>JsDoc Reference - jamEngine</title>
+
+		<style type="text/css">
+			/* default.css */
+body
+{
+	font: 12px "Lucida Grande", Tahoma, Arial, Helvetica, sans-serif;
+	width: 980px;
+}
+
+.header
+{
+	clear: both;
+	background-color: #ccc;
+	padding: 8px;
+}
+
+h1
+{
+	font-size: 150%;
+	font-weight: bold;
+	padding: 0;
+	margin: 1em 0 0 .3em;
+}
+
+hr
+{
+	border: none 0;
+	border-top: 1px solid #7F8FB1;
+	height: 1px;
+}
+
+pre.code
+{
+	display: block;
+	padding: 8px;
+	border: 1px dashed #ccc;
+}
+
+#index
+{
+	margin-top: 24px;
+	float: left;
+	width: 160px;
+	position: absolute;
+	left: 8px;
+	background-color: #F3F3F3;
+	padding: 8px;
+}
+
+#content
+{
+	margin-left: 190px;
+	width: 790px;
+}
+
+.classList
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0 0 0 8px;
+	font-family: arial, sans-serif;
+	font-size: 1em;
+	overflow: auto;
+}
+
+.classList li
+{
+	padding: 0;
+	margin: 0 0 8px 0;
+}
+
+.summaryTable { width: 100%; }
+
+h1.classTitle
+{
+	font-size:170%;
+	line-height:130%;
+}
+
+h2 { font-size: 110%; }
+caption, div.sectionTitle
+{
+	background-color: #7F8FB1;
+	color: #fff;
+	font-size:130%;
+	text-align: left;
+	padding: 2px 6px 2px 6px;
+	border: 1px #7F8FB1 solid;
+}
+
+div.sectionTitle { margin-bottom: 8px; }
+.summaryTable thead { display: none; }
+
+.summaryTable td
+{
+	vertical-align: top;
+	padding: 4px;
+	border-bottom: 1px #7F8FB1 solid;
+	border-right: 1px #7F8FB1 solid;
+}
+
+/*col#summaryAttributes {}*/
+.summaryTable td.attributes
+{
+	border-left: 1px #7F8FB1 solid;
+	width: 140px;
+	text-align: right;
+}
+
+td.attributes, .fixedFont
+{
+	line-height: 15px;
+	color: #002EBE;
+	font-family: "Courier New",Courier,monospace;
+	font-size: 13px;
+}
+
+.summaryTable td.nameDescription
+{
+	text-align: left;
+	font-size: 13px;
+	line-height: 15px;
+}
+
+.summaryTable td.nameDescription, .description
+{
+	line-height: 15px;
+	padding: 4px;
+	padding-left: 4px;
+}
+
+.summaryTable { margin-bottom: 8px; }
+
+ul.inheritsList
+{
+	list-style: square;
+	margin-left: 20px;
+	padding-left: 0;
+}
+
+.detailList {
+	margin-left: 20px; 
+	line-height: 15px;
+}
+.detailList dt { margin-left: 20px; }
+
+.detailList .heading
+{
+	font-weight: bold;
+	padding-bottom: 6px;
+	margin-left: 0;
+}
+
+.light, td.attributes, .light a:link, .light a:visited
+{
+	color: #777;
+	font-style: italic;
+}
+
+.fineprint
+{
+	text-align: right;
+	font-size: 10px;
+}
+		</style>
+	</head>
+
+	<body>
+<!-- ============================== header ================================= -->	
+		<!-- begin static/header.html -->
+		<div id="header">
+</div>
+		<!-- end static/header.html -->
+
+<!-- ============================== classes index ============================ -->
+		<div id="index">
+			<!-- begin publish.classesIndex -->
+			<div align="center"><a href="../index.html">Class Index</a>
+| <a href="../files.html">File Index</a></div>
+<hr />
+<h2>Classes</h2>
+<ul class="classList">
+	
+	<li><a href="../symbols/jamActions.html">jamActions</a></li>
+	
+	<li><a href="../symbols/jamBooks.html">jamBooks</a></li>
+	
+	<li><a href="../symbols/jamColors.html">jamColors</a></li>
+	
+	<li><a href="../symbols/jamEngine.html">jamEngine</a></li>
+	
+	<li><a href="../symbols/jamHelpers.html">jamHelpers</a></li>
+	
+	<li><a href="../symbols/jamJSON.html">jamJSON</a></li>
+	
+	<li><a href="../symbols/jamLayers.html">jamLayers</a></li>
+	
+	<li><a href="../symbols/jamShapes.html">jamShapes</a></li>
+	
+	<li><a href="../symbols/jamStyles.html">jamStyles</a></li>
+	
+	<li><a href="../symbols/jamText.html">jamText</a></li>
+	
+	<li><a href="../symbols/jamUtils.html">jamUtils</a></li>
+	
+</ul>
+<hr />
+			<!-- end publish.classesIndex -->
+		</div>
+		
+		<div id="content">
+<!-- ============================== class title ============================ -->
+			<h1 class="classTitle">
+				
+				Namespace jamEngine
+			</h1>
+
+<!-- ============================== class summary ========================== -->			
+			<p class="description">
+				<br />Version
+					4.5.<br />
+				
+				
+			
+				
+				
+				
+					<br /><i>Defined in: </i> <a href="../symbols/src/jamEngine.jsxinc.html">jamEngine.jsxinc</a>.
+				
+			</p>
+
+<!-- ============================== constructor summary ==================== -->			
+			
+			<table class="summaryTable" cellspacing="0" summary="A summary of the constructor documented in the class jamEngine.">
+				<caption>Namespace Summary</caption>
+				<thead>
+					<tr>
+						<th scope="col">Constructor Attributes</th>
+						<th scope="col">Constructor Name and Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="attributes">&nbsp;</td>
+						<td class="nameDescription" >
+							<div class="fixedFont">
+								<b><a href="../symbols/jamEngine.html#constructor">jamEngine</a></b>
+							</div>
+							<div class="description">Global object (used to simulate a namespace in JavaScript) containing all the methods and properties of the
+<a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-action-manager/">JSON Action Manager</a> engine.</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			
+
+<!-- ============================== properties summary ===================== -->
+			
+				
+				
+				<table class="summaryTable" cellspacing="0" summary="A summary of the fields documented in the class jamEngine.">
+					<caption>Field Summary</caption>
+					<thead>
+						<tr>
+							<th scope="col">Field Attributes</th>
+							<th scope="col">Field Name and Description</th>
+						</tr>
+					</thead>
+					<tbody>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">
+								jamEngine.<b><a href="../symbols/jamEngine.html#.displayDialogs">displayDialogs</a></b>
+								</div>
+								<div class="description">Global option: default value for displayDialogs when calling jamEngine.jsonPlay ().</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">
+								jamEngine.<b><a href="../symbols/jamEngine.html#.meaningfulIds">meaningfulIds</a></b>
+								</div>
+								<div class="description">Global option: generate as "meaningful" as possible ID strings (instead of "canonic" ID strings).</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">
+								jamEngine.<b><a href="../symbols/jamEngine.html#.parseFriendly">parseFriendly</a></b>
+								</div>
+								<div class="description">Global option: generate alternative, more parse-friendly JSON compact format (using ordered pairs made of arrays instead of objects).</div>
+							</td>
+						</tr>
+					
+					</tbody>
+				</table>
+				
+				
+				
+			
+
+<!-- ============================== methods summary ======================== -->
+			
+				
+				
+				<table class="summaryTable" cellspacing="0" summary="A summary of the methods documented in the class jamEngine.">
+					<caption>Method Summary</caption>
+					<thead>
+						<tr>
+							<th scope="col">Method Attributes</th>
+							<th scope="col">Method Name and Description</th>
+						</tr>
+					</thead>
+					<tbody>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamEngine.<b><a href="../symbols/jamEngine.html#.actionReferenceToJson">actionReferenceToJson</a></b>(actionReference)
+								</div>
+								<div class="description">Convert an ActionReference object into a reference array in JSON AM Data Format.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamEngine.<b><a href="../symbols/jamEngine.html#.buildCompact">buildCompact</a></b>(type, value)
+								</div>
+								<div class="description">Build an element in compact format from type and value.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamEngine.<b><a href="../symbols/jamEngine.html#.classIdAndActionDescriptorToJson">classIdAndActionDescriptorToJson</a></b>(classId, actionDescriptor)
+								</div>
+								<div class="description">Convert a class numerical ID and an ActionDescriptor object into a class unified ID string and a descriptor object in JSON AM Data Format.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamEngine.<b><a href="../symbols/jamEngine.html#.compactToExplicit">compactToExplicit</a></b>(compact, typeKey, valueKey)
+								</div>
+								<div class="description">Expand a special case of JavaScript literal object, from compact to explicit format.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamEngine.<b><a href="../symbols/jamEngine.html#.equivalentUniIdStrs">equivalentUniIdStrs</a></b>(uniIdStr1, uniIdStr2)
+								</div>
+								<div class="description">Test if two unified ID strings are equivalent (map to the same numerical ID).</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamEngine.<b><a href="../symbols/jamEngine.html#.eventIdAndActionDescriptorToJson">eventIdAndActionDescriptorToJson</a></b>(eventId, actionDescriptor)
+								</div>
+								<div class="description">Convert an event numerical ID and an ActionDescriptor object into an event unified ID string and a descriptor object in JSON AM Data Format.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamEngine.<b><a href="../symbols/jamEngine.html#.explicitToCompact">explicitToCompact</a></b>(explicit, typeKey, valueKey)
+								</div>
+								<div class="description">Shrink a special case of JavaScript literal object, from explicit to compact format.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamEngine.<b><a href="../symbols/jamEngine.html#.getConflictingStringIdStrs">getConflictingStringIdStrs</a></b>(charIdStr)
+								</div>
+								<div class="description">Get an array of conflicting StringID strings corresponding to a CharID string.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamEngine.<b><a href="../symbols/jamEngine.html#.idToUniIdStrs">idToUniIdStrs</a></b>(id)
+								</div>
+								<div class="description">Convert a numerical ID into a CharID string and a StringID string (or an array of conflicting StringID strings).</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamEngine.<b><a href="../symbols/jamEngine.html#.jsonGet">jsonGet</a></b>(referenceArr)
+								</div>
+								<div class="description">Get information from a reference array in JSON AM Data Format.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamEngine.<b><a href="../symbols/jamEngine.html#.jsonPlay">jsonPlay</a></b>(eventUniIdStr, descriptorObj, displayDialogs)
+								</div>
+								<div class="description">Play an event as a unified ID string with a descriptor object in JSON AM Data Format.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamEngine.<b><a href="../symbols/jamEngine.html#.jsonToActionDescriptor">jsonToActionDescriptor</a></b>(descriptorObj)
+								</div>
+								<div class="description">Convert a descriptor object in JSON AM Data Format into an ActionDescriptor object.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamEngine.<b><a href="../symbols/jamEngine.html#.jsonToActionReference">jsonToActionReference</a></b>(referenceArr)
+								</div>
+								<div class="description">Convert a reference array in JSON AM Data Format into an ActionReference object.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamEngine.<b><a href="../symbols/jamEngine.html#.normalizeJsonItem">normalizeJsonItem</a></b>(item, options)
+								</div>
+								<div class="description">Normalize a JSON AM item, according to normalizing options.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamEngine.<b><a href="../symbols/jamEngine.html#.parseCompact">parseCompact</a></b>(compact)
+								</div>
+								<div class="description">Parse an element in compact format into type and value as a two-element array.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamEngine.<b><a href="../symbols/jamEngine.html#.simplifyList">simplifyList</a></b>(object, hookFunction)
+								</div>
+								<div class="description">Simplifies a JSON AM List into a JSON array.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamEngine.<b><a href="../symbols/jamEngine.html#.simplifyObject">simplifyObject</a></b>(object, hookFunction)
+								</div>
+								<div class="description">Simplifies a JSON AM Object into a JSON object.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamEngine.<b><a href="../symbols/jamEngine.html#.uniIdStrToId">uniIdStrToId</a></b>(uniIdStr)
+								</div>
+								<div class="description">Convert a unified ID string into its numerical ID.</div>
+							</td>
+						</tr>
+					
+					</tbody>
+				</table>
+				
+				
+				
+			
+<!-- ============================== events summary ======================== -->
+			
+
+<!-- ============================== constructor details ==================== -->		
+			
+			<div class="details"><a name="constructor"> </a>
+				<div class="sectionTitle">
+					Namespace Detail
+				</div>
+				
+				<div class="fixedFont">
+						<b>jamEngine</b>
+				</div>
+				
+				<div class="description">
+					Global object (used to simulate a namespace in JavaScript) containing all the methods and properties of the
+<a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-action-manager/">JSON Action Manager</a> engine.
+					<br /><i>Author: </i>Michel MARIANI.
+				</div>
+				
+				
+				
+				
+					
+					
+					
+					
+					
+					
+					
+
+			</div>
+			
+
+<!-- ============================== field details ========================== -->		
+			
+				<div class="sectionTitle">
+					Field Detail
+				</div>
+				
+					<a name=".displayDialogs"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Object}</span>
+					<span class="light">jamEngine.</span><b>displayDialogs</b>
+					
+					</div>
+					<div class="description">
+						Global option: default value for displayDialogs when calling jamEngine.jsonPlay ().
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">jamEngine.<strong>displayDialogs</strong> = DialogModes.ALL;</pre>
+					
+					
+
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Default Value:</dt>
+							<dd>
+								DialogModes.ERROR
+							</dd>
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".meaningfulIds"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Boolean}</span>
+					<span class="light">jamEngine.</span><b>meaningfulIds</b>
+					
+					</div>
+					<div class="description">
+						Global option: generate as "meaningful" as possible ID strings (instead of "canonic" ID strings).
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">jamEngine.<strong>meaningfulIds</strong> = false;
+var resultDescriptorObj = jamEngine.jsonGet
+(
+    [
+        { "'Prpr'": { "&lt;property&gt;": "'HstN'" } },
+        { "'capp'": { "&lt;enumerated&gt;": { "'Ordn'": "'Trgt'" } } }
+    ]
+);
+alert (jamJSON.stringify (resultDescriptorObj)); // -> { "'HstN'": { "&lt;string&gt;": "Adobe Photoshop CS" } }</pre>
+					
+					<pre class="code">jamEngine.<strong>meaningfulIds</strong> = true;
+var resultDescriptorObj = jamEngine.jsonGet
+(
+    [
+        { "property": { "&lt;property&gt;": "hostName" } },
+        { "application": { "&lt;enumerated&gt;": { "ordinal": "targetEnum" } } }
+    ]
+);
+alert (jamJSON.stringify (resultDescriptorObj)); // -> { "hostName": { "&lt;string&gt;": "Adobe Photoshop CS" } }</pre>
+					
+					
+
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Default Value:</dt>
+							<dd>
+								false
+							</dd>
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".parseFriendly"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Boolean}</span>
+					<span class="light">jamEngine.</span><b>parseFriendly</b>
+					
+					</div>
+					<div class="description">
+						Global option: generate alternative, more parse-friendly JSON compact format (using ordered pairs made of arrays instead of objects).
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">jamEngine.meaningfulIds = true;
+jamEngine.<strong>parseFriendly</strong> = false;
+var resultDescriptorObj = jamEngine.jsonGet
+(
+    [
+        { "property": { "&lt;property&gt;": "rulerUnits" } },
+        { "application": { "&lt;enumerated&gt;": { "ordinal": "targetEnum" } } }
+    ]
+);
+alert (jamJSON.stringify (resultDescriptorObj));
+// -> { "rulerUnits": { "&lt;enumerated&gt;": { "rulerUnits": "rulerPixels" } } }
+var rulerUnits = resultDescriptorObj["rulerUnits"]["&lt;enumerated&gt;"]["rulerUnits"];
+alert (jamJSON.stringify (rulerUnits)); // -> "rulerPixels"</pre>
+					
+					<pre class="code">jamEngine.meaningfulIds = true;
+jamEngine.<strong>parseFriendly</strong> = true;
+var resultDescriptorObj = jamEngine.jsonGet
+(
+    [
+        [ "property", [ "&lt;property&gt;", "rulerUnits" ] ],
+        [ "application", [ "&lt;enumerated&gt;", [ "ordinal", "targetEnum" ] ] ]
+    ]
+);
+alert (jamJSON.stringify (resultDescriptorObj));
+// -> { "rulerUnits": [ "&lt;enumerated&gt;", [ "rulerUnits", "rulerPixels" ] ] }
+var rulerUnits = resultDescriptorObj["rulerUnits"][1][1];
+alert (jamJSON.stringify (rulerUnits)); // -> "rulerPixels"</pre>
+					
+					
+
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Default Value:</dt>
+							<dd>
+								false
+							</dd>
+							</dl>
+						
+
+					
+				
+			
+
+<!-- ============================== method details ========================= -->		
+			
+				<div class="sectionTitle">
+					Method Detail
+				</div>
+				
+					<a name=".actionReferenceToJson"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Array}</span>
+					<span class="light">jamEngine.</span><b>actionReferenceToJson</b>(actionReference)
+					
+					</div>
+					<div class="description">
+						Convert an ActionReference object into a reference array in JSON AM Data Format.
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">jamEngine.meaningfulIds = true;
+var referenceArr = jamEngine.<strong>actionReferenceToJson</strong> (actionReference);
+$.writeln ('jamEngine.jsonGet');
+$.writeln ('(');
+$.writeln (jamJSON.stringify (referenceArr, '\t', '\t');
+$.writeln (');');</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Object}</span> <b>actionReference</b>
+									
+								</dt>
+								<dd>ActionReference object</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Array}</span> Reference array in <a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-am-data-format/">JSON AM Data Format</a></dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/jamEngine.html#.jsonToActionReference">jamEngine.jsonToActionReference</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".buildCompact"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Object|Array}</span>
+					<span class="light">jamEngine.</span><b>buildCompact</b>(type, value)
+					
+					</div>
+					<div class="description">
+						Build an element in compact format from type and value.
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">jamEngine.parseFriendly = false;
+var compact = jamEngine.<strong>buildCompact</strong> ("percentUnit", 50);
+// -> { "percentUnit": 50 }</pre>
+					
+					<pre class="code">jamEngine.parseFriendly = true;
+var compact = jamEngine.<strong>buildCompact</strong> ("percentUnit", 50);
+// -> [ "percentUnit", 50 ]</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>type</b>
+									
+								</dt>
+								<dd>Type (must be a string)</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Object|Array|String|Number|Boolean|Null}</span> <b>value</b>
+									
+								</dt>
+								<dd>Value</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Object|Array}</span> JavaScript literal object or array in compact format: { (type): (value) } or [ (type), (value) ] depending on the boolean value of jamEngine.parseFriendy</dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/jamEngine.html#.parseCompact">jamEngine.parseCompact</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".classIdAndActionDescriptorToJson"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Object}</span>
+					<span class="light">jamEngine.</span><b>classIdAndActionDescriptorToJson</b>(classId, actionDescriptor)
+					
+					</div>
+					<div class="description">
+						Convert a class numerical ID and an ActionDescriptor object into a class unified ID string and a descriptor object in JSON AM Data Format.
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">var objectObj = jamEngine.<strong>classIdAndActionDescriptorToJson</strong>
+(
+    jamEngine.uniIdStrToId (signature),
+    app.getCustomOptions (signature)
+);
+var customOptions = objectObj["&lt;descriptor&gt;"];</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>classId</b>
+									
+								</dt>
+								<dd>Class numerical ID</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Object}</span> <b>actionDescriptor</b>
+									
+								</dt>
+								<dd>ActionDescriptor object</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Object}</span> Class unified ID string and descriptor object in <a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-am-data-format/">JSON AM Data Format</a></dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/jamEngine.html#.eventIdAndActionDescriptorToJson">jamEngine.eventIdAndActionDescriptorToJson</a></dd>
+							
+								<dd><a href="../symbols/jamEngine.html#.jsonToActionDescriptor">jamEngine.jsonToActionDescriptor</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".compactToExplicit"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Object}</span>
+					<span class="light">jamEngine.</span><b>compactToExplicit</b>(compact, typeKey, valueKey)
+					
+					</div>
+					<div class="description">
+						Expand a special case of JavaScript literal object, from compact to explicit format.
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">var compactObj = { "pixelsUnit": 5 };
+var explicitObj = jamEngine.<strong>compactToExplicit</strong> (compactObj, "&lt;unit&gt;", "&lt;double&gt;");
+// -> { "&lt;unit&gt;": "pixelsUnit", "&lt;double&gt;": 5 }</pre>
+					
+					<pre class="code">var compactArr = [ "pixelsUnit", 5 ];
+var defaultExplicitObj = jamEngine.<strong>compactToExplicit</strong> (compactArr);
+// -> { "&lt;type&gt;": "pixelsUnit", "&lt;value&gt;": 5 }</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Object|Array}</span> <b>compact</b>
+									
+								</dt>
+								<dd>JavaScript literal object or array in compact format: { (type): (value) } or [ (type), (value) ]</dd>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>typeKey</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Type key string ("&lt;type&gt;" by default)</dd>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>valueKey</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Value key string ("&lt;value&gt;" by default)</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Object}</span> JavaScript literal object in explicit format: { (typeKey): (type), (valueKey): (value) }</dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/jamEngine.html#.explicitToCompact">jamEngine.explicitToCompact</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".equivalentUniIdStrs"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Boolean}</span>
+					<span class="light">jamEngine.</span><b>equivalentUniIdStrs</b>(uniIdStr1, uniIdStr2)
+					
+					</div>
+					<div class="description">
+						Test if two unified ID strings are equivalent (map to the same numerical ID).
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">jamEngine.<strong>equivalentUniIdStrs</strong> ("green", "'Grn '");    // returns true
+jamEngine.<strong>equivalentUniIdStrs</strong> ("grain", "'Grn '");    // returns true
+jamEngine.<strong>equivalentUniIdStrs</strong> ("green", "grain");     // returns true
+jamEngine.<strong>equivalentUniIdStrs</strong> ("null", "'null'");     // returns true
+jamEngine.<strong>equivalentUniIdStrs</strong> ("target", "'Trgt'");   // returns false
+jamEngine.<strong>equivalentUniIdStrs</strong> ("target", "null");     // returns true
+jamEngine.<strong>equivalentUniIdStrs</strong> ("target", "'null'");   // returns true
+jamEngine.<strong>equivalentUniIdStrs</strong> ("axis", "'Axis'");     // returns true
+jamEngine.<strong>equivalentUniIdStrs</strong> ("center", "contrast"); // returns true
+jamEngine.<strong>equivalentUniIdStrs</strong> ("'Grn '", "'Grns'");   // returns false
+jamEngine.<strong>equivalentUniIdStrs</strong> ("green", "greens");    // returns false</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>uniIdStr1</b>
+									
+								</dt>
+								<dd>unified ID string (either <code>"'xxxx'"</code> or <code>"xxxxxxxx"</code>)</dd>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>uniIdStr2</b>
+									
+								</dt>
+								<dd>unified ID string (either <code>"'xxxx'"</code> or <code>"xxxxxxxx"</code>)</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Boolean}</span> true if the two unified ID strings are equivalent, false otherwise</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name=".eventIdAndActionDescriptorToJson"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Object}</span>
+					<span class="light">jamEngine.</span><b>eventIdAndActionDescriptorToJson</b>(eventId, actionDescriptor)
+					
+					</div>
+					<div class="description">
+						Convert an event numerical ID and an ActionDescriptor object into an event unified ID string and a descriptor object in JSON AM Data Format.
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">jamEngine.meaningfulIds = true;
+var playObj = jamEngine.<strong>eventIdAndActionDescriptorToJson</strong> (eventId, actionDescriptor);
+$.writeln ('jamEngine.jsonPlay');
+$.writeln ('(');
+$.writeln (jamJSON.stringify (playObj["&lt;event&gt;"], '\t', '\t') + ',');
+$.writeln (jamJSON.stringify (playObj["&lt;descriptor&gt;"], '\t', '\t'));
+$.writeln (');');</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>eventId</b>
+									
+								</dt>
+								<dd>Event numerical ID</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Object|Null}</span> <b>actionDescriptor</b>
+									<i>Optional</i>
+								</dt>
+								<dd>ActionDescriptor object (can be null)</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Object}</span> Event unified ID string and descriptor object in <a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-am-data-format/">JSON AM Data Format</a></dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/jamEngine.html#.classIdAndActionDescriptorToJson">jamEngine.classIdAndActionDescriptorToJson</a></dd>
+							
+								<dd><a href="../symbols/jamEngine.html#.jsonToActionDescriptor">jamEngine.jsonToActionDescriptor</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".explicitToCompact"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Object|Array}</span>
+					<span class="light">jamEngine.</span><b>explicitToCompact</b>(explicit, typeKey, valueKey)
+					
+					</div>
+					<div class="description">
+						Shrink a special case of JavaScript literal object, from explicit to compact format.
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">jamEngine.parseFriendly = false;
+var explicitObj = { "&lt;unit&gt;": "pixelsUnit", "&lt;double&gt;": 5 };
+var compactObj = jamEngine.<strong>explicitToCompact</strong> (explicitObj, "&lt;unit&gt;", "&lt;double&gt;");
+// -> { "pixelsUnit": 5 }</pre>
+					
+					<pre class="code">jamEngine.parseFriendly = true;
+var defaultExplicitObj = { "&lt;type&gt;": "pixelsUnit", "&lt;value&gt;": 5 };
+var compactArr = jamEngine.<strong>explicitToCompact</strong> (defaultExplicitObj);
+// -> [ "pixelsUnit", 5 ]</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Object}</span> <b>explicit</b>
+									
+								</dt>
+								<dd>JavaScript literal object in explicit format: { (typeKey): (type), (valueKey): (value) }</dd>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>typeKey</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Type key string ("&lt;type&gt;" by default)</dd>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>valueKey</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Value key string ("&lt;value&gt;" by default)</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Object|Array}</span> JavaScript literal object or array in compact format: { (type): (value) } or [ (type), (value) ] depending on the boolean value of jamEngine.parseFriendy</dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/jamEngine.html#.compactToExplicit">jamEngine.compactToExplicit</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".getConflictingStringIdStrs"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Array|Null}</span>
+					<span class="light">jamEngine.</span><b>getConflictingStringIdStrs</b>(charIdStr)
+					
+					</div>
+					<div class="description">
+						Get an array of conflicting StringID strings corresponding to a CharID string.
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">alert (jamJSON.stringify (jamEngine.<strong>getConflictingStringIdStrs</strong> ("'Rd  '")));
+// -> null
+alert (jamJSON.stringify (jamEngine.<strong>getConflictingStringIdStrs</strong> ("'Grn '")));
+// -> [ "grain", "green" ]
+alert (jamJSON.stringify (jamEngine.<strong>getConflictingStringIdStrs</strong> ("'Bl  '")));
+// -> null</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>charIdStr</b>
+									
+								</dt>
+								<dd>CharID string (<code>"'xxxx'"</code>)</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Array|Null}</span> Array of conflicting StringID strings corresponding to a CharID string if available, null otherwise</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name=".idToUniIdStrs"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Object}</span>
+					<span class="light">jamEngine.</span><b>idToUniIdStrs</b>(id)
+					
+					</div>
+					<div class="description">
+						Convert a numerical ID into a CharID string and a StringID string (or an array of conflicting StringID strings).
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">var uniIdStr = "green";
+alert (jamJSON.stringify (jamEngine.<strong>idToUniIdStrs</strong> (jamEngine.uniIdStrToId (uniIdStr))));
+// -> [ "'Grn '", [ "grain", "green" ] ]</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>id</b>
+									
+								</dt>
+								<dd>Numerical ID</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Object}</span> Two-element array: CharID string (<code>"'xxxx'"</code>) (empty string if not available) and StringID string (<code>"xxxxxxxx"</code>) (empty string if not available, or array of StringID strings if they are conflicting)</dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/jamEngine.html#.uniIdStrToId">jamEngine.uniIdStrToId</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".jsonGet"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Object}</span>
+					<span class="light">jamEngine.</span><b>jsonGet</b>(referenceArr)
+					
+					</div>
+					<div class="description">
+						Get information from a reference array in JSON AM Data Format.
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">jamEngine.meaningfulIds = true;
+var resultDescriptorObj = jamEngine.<strong>jsonGet</strong>
+(
+    [
+        { "property": { "&lt;property&gt;": "numberOfDocuments" } },
+        { "application": { "&lt;enumerated&gt;": { "ordinal": "targetEnum" } } }
+    ]
+);
+alert ("Number of documents: " + resultDescriptorObj["numberOfDocuments"]["&lt;integer&gt;"]);</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Array}</span> <b>referenceArr</b>
+									
+								</dt>
+								<dd>Reference array in <a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-am-data-format/">JSON AM Data Format</a></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Object}</span> Descriptor object in <a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-am-data-format/">JSON AM Data Format</a></dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/jamEngine.html#.jsonPlay">jamEngine.jsonPlay</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".jsonPlay"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Object}</span>
+					<span class="light">jamEngine.</span><b>jsonPlay</b>(eventUniIdStr, descriptorObj, displayDialogs)
+					
+					</div>
+					<div class="description">
+						Play an event as a unified ID string with a descriptor object in JSON AM Data Format.
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">jamEngine.<strong>jsonPlay</strong>
+(
+    "motionBlur",
+    {
+        "angle": { "&lt;integer&gt;": -45 },
+        "distance": { "&lt;unitDouble&gt;": { "pixelsUnit": 200 } }
+    }
+);</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>eventUniIdStr</b>
+									
+								</dt>
+								<dd>Event unified ID string</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Object|Null}</span> <b>descriptorObj</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Descriptor object in <a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-am-data-format/">JSON AM Data Format</a>; can be null</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Object}</span> <b>displayDialogs</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Dialog mode:<br />
+<ul>
+<li>DialogModes.ERROR: show dialogs on error only (by default, unless jamEngine.displayDialogs has been set to another value)</li>
+<li>DialogModes.ALL: show all dialogs</li>
+<li>DialogModes.NO: show no dialogs</li>
+</ul></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Object}</span> Descriptor object in <a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-am-data-format/">JSON AM Data Format</a></dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/jamEngine.html#.jsonGet">jamEngine.jsonGet</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".jsonToActionDescriptor"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Object}</span>
+					<span class="light">jamEngine.</span><b>jsonToActionDescriptor</b>(descriptorObj)
+					
+					</div>
+					<div class="description">
+						Convert a descriptor object in JSON AM Data Format into an ActionDescriptor object.
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">app.putCustomOptions (signature, jamEngine.<strong>jsonToActionDescriptor</strong> (customOptions));</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Object}</span> <b>descriptorObj</b>
+									
+								</dt>
+								<dd>Descriptor object in <a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-am-data-format/">JSON AM Data Format</a></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Object}</span> ActionDescriptor object</dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/jamEngine.html#.classIdAndActionDescriptorToJson">jamEngine.classIdAndActionDescriptorToJson</a></dd>
+							
+								<dd><a href="../symbols/jamEngine.html#.eventIdAndActionDescriptorToJson">jamEngine.eventIdAndActionDescriptorToJson</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".jsonToActionReference"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Object}</span>
+					<span class="light">jamEngine.</span><b>jsonToActionReference</b>(referenceArr)
+					
+					</div>
+					<div class="description">
+						Convert a reference array in JSON AM Data Format into an ActionReference object.
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">var referenceArr =
+[
+    { "property": { "&lt;property&gt;": "hostName" } },
+    { "application": { "&lt;enumerated&gt;": { "ordinal": "targetEnum" } } }
+];
+var actionReference = jamEngine.<strong>jsonToActionReference</strong> (referenceArr);</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Array}</span> <b>referenceArr</b>
+									
+								</dt>
+								<dd>Reference array in <a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-am-data-format/">JSON AM Data Format</a></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Object}</span> ActionReference object</dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/jamEngine.html#.actionReferenceToJson">jamEngine.actionReferenceToJson</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".normalizeJsonItem"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Object|Array}</span>
+					<span class="light">jamEngine.</span><b>normalizeJsonItem</b>(item, options)
+					
+					</div>
+					<div class="description">
+						Normalize a JSON AM item, according to normalizing options.
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">var item = { "&lt;object&gt;": { "'Grsc'": { "'Gry '": { "&lt;double&gt;": 50 } } } };
+var normalizedItem = jamEngine.<strong>normalizeJsonItem</strong> (item, { meaningfulIds: true, parseFriendly: true });
+alert (jamJSON.stringify (normalizedItem));
+// -> [ "&lt;object&gt;", [ "grayscale", { "gray": [ "&lt;double&gt;", 50 ] } ] ]</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Object|Array}</span> <b>item</b>
+									
+								</dt>
+								<dd>JSON AM item in compact format</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Object}</span> <b>options</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Normalizing options (meaningfulIds and parseFriendly, overriding currently defined jamEngine global options when present)</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Object|Array}</span> Normalized JSON AM item, according to normalizing options</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name=".parseCompact"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Array}</span>
+					<span class="light">jamEngine.</span><b>parseCompact</b>(compact)
+					
+					</div>
+					<div class="description">
+						Parse an element in compact format into type and value as a two-element array.
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">var compactObj = { "percentUnit": 50 };
+var parsed = jamEngine.<strong>parseCompact</strong> (compactObj);
+// -> [ "percentUnit", 50 ]</pre>
+					
+					<pre class="code">var compactArr = [ "percentUnit", 50 ];
+var parsed = jamEngine.<strong>parseCompact</strong> (compactArr);
+// -> [ "percentUnit", 50 ]</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Object|Array}</span> <b>compact</b>
+									
+								</dt>
+								<dd>JavaScript literal object or array in compact format: { (type): (value) } or [ (type), (value) ]</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Array}</span> Two-element array: [ (type), (value) ]</dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/jamEngine.html#.buildCompact">jamEngine.buildCompact</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".simplifyList"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Object}</span>
+					<span class="light">jamEngine.</span><b>simplifyList</b>(object, hookFunction)
+					
+					</div>
+					<div class="description">
+						Simplifies a JSON AM List into a JSON array.
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">jamHelpers.fromCurvePointList = function (curvePointList)
+{
+    return jamEngine.<strong>simplifyList</strong> (curvePointList);
+};</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Object|Array}</span> <b>object</b>
+									
+								</dt>
+								<dd>JSON AM List</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Function}</span> <b>hookFunction</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Hook function: (desc, key, getDefaultValue); returns value or undefined</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Object}</span> Simplified JSON array</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name=".simplifyObject"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Object}</span>
+					<span class="light">jamEngine.</span><b>simplifyObject</b>(object, hookFunction)
+					
+					</div>
+					<div class="description">
+						Simplifies a JSON AM Object into a JSON object.
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">jamStyles.fromLayerEffectsObject = function (layerEffectsObject)
+{
+    return jamEngine.<strong>simplifyObject</strong> (layerEffectsObject);
+};</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Object|Array}</span> <b>object</b>
+									
+								</dt>
+								<dd>JSON AM Object</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Function}</span> <b>hookFunction</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Hook function: (desc, key, getDefaultValue); returns value or undefined</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Object}</span> Simplified JSON object</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name=".uniIdStrToId"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Number}</span>
+					<span class="light">jamEngine.</span><b>uniIdStrToId</b>(uniIdStr)
+					
+					</div>
+					<div class="description">
+						Convert a unified ID string into its numerical ID.
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">var smallestHashValue = jamEngine.<strong>uniIdStrToId</strong> ("'    '");  // -> 0x20202020</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>uniIdStr</b>
+									
+								</dt>
+								<dd>unified ID string (either <code>"'xxxx'"</code> or <code>"xxxxxxxx"</code>)</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Number}</span> Numerical ID</dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/jamEngine.html#.idToUniIdStrs">jamEngine.idToUniIdStrs</a></dd>
+							
+							</dl>
+						
+
+					
+				
+			
+			
+<!-- ============================== event details ========================= -->		
+			
+			
+			<hr />
+		</div>
+
+		
+<!-- ============================== footer ================================= -->
+		<div class="fineprint" style="clear:both">
+			
+			Documentation generated by <a href="http://code.google.com/p/jsdoc-toolkit/" target="_blank">JsDoc Toolkit</a> 2.4.0 on Wed Oct 12 2016 23:32:44 GMT+0200 (CEST)
+		</div>
+	</body>
+</html>

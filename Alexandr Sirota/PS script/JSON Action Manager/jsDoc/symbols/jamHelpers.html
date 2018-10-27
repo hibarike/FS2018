@@ -1,0 +1,2592 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="generator" content="JsDoc Toolkit" />
+		
+		<title>JsDoc Reference - jamHelpers</title>
+
+		<style type="text/css">
+			/* default.css */
+body
+{
+	font: 12px "Lucida Grande", Tahoma, Arial, Helvetica, sans-serif;
+	width: 980px;
+}
+
+.header
+{
+	clear: both;
+	background-color: #ccc;
+	padding: 8px;
+}
+
+h1
+{
+	font-size: 150%;
+	font-weight: bold;
+	padding: 0;
+	margin: 1em 0 0 .3em;
+}
+
+hr
+{
+	border: none 0;
+	border-top: 1px solid #7F8FB1;
+	height: 1px;
+}
+
+pre.code
+{
+	display: block;
+	padding: 8px;
+	border: 1px dashed #ccc;
+}
+
+#index
+{
+	margin-top: 24px;
+	float: left;
+	width: 160px;
+	position: absolute;
+	left: 8px;
+	background-color: #F3F3F3;
+	padding: 8px;
+}
+
+#content
+{
+	margin-left: 190px;
+	width: 790px;
+}
+
+.classList
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0 0 0 8px;
+	font-family: arial, sans-serif;
+	font-size: 1em;
+	overflow: auto;
+}
+
+.classList li
+{
+	padding: 0;
+	margin: 0 0 8px 0;
+}
+
+.summaryTable { width: 100%; }
+
+h1.classTitle
+{
+	font-size:170%;
+	line-height:130%;
+}
+
+h2 { font-size: 110%; }
+caption, div.sectionTitle
+{
+	background-color: #7F8FB1;
+	color: #fff;
+	font-size:130%;
+	text-align: left;
+	padding: 2px 6px 2px 6px;
+	border: 1px #7F8FB1 solid;
+}
+
+div.sectionTitle { margin-bottom: 8px; }
+.summaryTable thead { display: none; }
+
+.summaryTable td
+{
+	vertical-align: top;
+	padding: 4px;
+	border-bottom: 1px #7F8FB1 solid;
+	border-right: 1px #7F8FB1 solid;
+}
+
+/*col#summaryAttributes {}*/
+.summaryTable td.attributes
+{
+	border-left: 1px #7F8FB1 solid;
+	width: 140px;
+	text-align: right;
+}
+
+td.attributes, .fixedFont
+{
+	line-height: 15px;
+	color: #002EBE;
+	font-family: "Courier New",Courier,monospace;
+	font-size: 13px;
+}
+
+.summaryTable td.nameDescription
+{
+	text-align: left;
+	font-size: 13px;
+	line-height: 15px;
+}
+
+.summaryTable td.nameDescription, .description
+{
+	line-height: 15px;
+	padding: 4px;
+	padding-left: 4px;
+}
+
+.summaryTable { margin-bottom: 8px; }
+
+ul.inheritsList
+{
+	list-style: square;
+	margin-left: 20px;
+	padding-left: 0;
+}
+
+.detailList {
+	margin-left: 20px; 
+	line-height: 15px;
+}
+.detailList dt { margin-left: 20px; }
+
+.detailList .heading
+{
+	font-weight: bold;
+	padding-bottom: 6px;
+	margin-left: 0;
+}
+
+.light, td.attributes, .light a:link, .light a:visited
+{
+	color: #777;
+	font-style: italic;
+}
+
+.fineprint
+{
+	text-align: right;
+	font-size: 10px;
+}
+		</style>
+	</head>
+
+	<body>
+<!-- ============================== header ================================= -->	
+		<!-- begin static/header.html -->
+		<div id="header">
+</div>
+		<!-- end static/header.html -->
+
+<!-- ============================== classes index ============================ -->
+		<div id="index">
+			<!-- begin publish.classesIndex -->
+			<div align="center"><a href="../index.html">Class Index</a>
+| <a href="../files.html">File Index</a></div>
+<hr />
+<h2>Classes</h2>
+<ul class="classList">
+	
+	<li><a href="../symbols/jamActions.html">jamActions</a></li>
+	
+	<li><a href="../symbols/jamBooks.html">jamBooks</a></li>
+	
+	<li><a href="../symbols/jamColors.html">jamColors</a></li>
+	
+	<li><a href="../symbols/jamEngine.html">jamEngine</a></li>
+	
+	<li><a href="../symbols/jamHelpers.html">jamHelpers</a></li>
+	
+	<li><a href="../symbols/jamJSON.html">jamJSON</a></li>
+	
+	<li><a href="../symbols/jamLayers.html">jamLayers</a></li>
+	
+	<li><a href="../symbols/jamShapes.html">jamShapes</a></li>
+	
+	<li><a href="../symbols/jamStyles.html">jamStyles</a></li>
+	
+	<li><a href="../symbols/jamText.html">jamText</a></li>
+	
+	<li><a href="../symbols/jamUtils.html">jamUtils</a></li>
+	
+</ul>
+<hr />
+			<!-- end publish.classesIndex -->
+		</div>
+		
+		<div id="content">
+<!-- ============================== class title ============================ -->
+			<h1 class="classTitle">
+				
+				Namespace jamHelpers
+			</h1>
+
+<!-- ============================== class summary ========================== -->			
+			<p class="description">
+				<br />Version
+					4.5.<br />
+				
+				
+			
+				
+				
+				
+					<br /><i>Defined in: </i> <a href="../symbols/src/jamHelpers.jsxinc.html">jamHelpers.jsxinc</a>.
+				
+			</p>
+
+<!-- ============================== constructor summary ==================== -->			
+			
+			<table class="summaryTable" cellspacing="0" summary="A summary of the constructor documented in the class jamHelpers.">
+				<caption>Namespace Summary</caption>
+				<thead>
+					<tr>
+						<th scope="col">Constructor Attributes</th>
+						<th scope="col">Constructor Name and Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="attributes">&nbsp;</td>
+						<td class="nameDescription" >
+							<div class="fixedFont">
+								<b><a href="../symbols/jamHelpers.html#constructor">jamHelpers</a></b>
+							</div>
+							<div class="description">Global object (used to simulate a namespace in JavaScript) containing
+a set of helper functions for scripts written with the
+<a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-action-manager/">JSON Action Manager</a> engine.</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			
+
+<!-- ============================== properties summary ===================== -->
+			
+
+<!-- ============================== methods summary ======================== -->
+			
+				
+				
+				<table class="summaryTable" cellspacing="0" summary="A summary of the methods documented in the class jamHelpers.">
+					<caption>Method Summary</caption>
+					<thead>
+						<tr>
+							<th scope="col">Method Attributes</th>
+							<th scope="col">Method Name and Description</th>
+						</tr>
+					</thead>
+					<tbody>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamHelpers.<b><a href="../symbols/jamHelpers.html#.fromBlendRangeList">fromBlendRangeList</a></b>(blendRangeList, explicit)
+								</div>
+								<div class="description">Get a simplified blend range JSON array from a blend range list in JSON AM Data Format.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamHelpers.<b><a href="../symbols/jamHelpers.html#.fromColorObject">fromColorObject</a></b>(colorObject, explicit)
+								</div>
+								<div class="description">Get a simplified color JSON object or JSON array from a color object in JSON AM Data Format.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamHelpers.<b><a href="../symbols/jamHelpers.html#.fromCurvePointList">fromCurvePointList</a></b>(curvePointList, explicit)
+								</div>
+								<div class="description">Get a simplified curve point JSON array from a curve point list in JSON AM Data Format.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamHelpers.<b><a href="../symbols/jamHelpers.html#.fromGradientObject">fromGradientObject</a></b>(gradientObject, explicit)
+								</div>
+								<div class="description">Get a simplified gradient JSON object or JSON array from a gradient object in JSON AM Data Format.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamHelpers.<b><a href="../symbols/jamHelpers.html#.fromIntegerList">fromIntegerList</a></b>(integerList)
+								</div>
+								<div class="description">Get a JSON array of integer values from an integer list in JSON AM Data Format.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamHelpers.<b><a href="../symbols/jamHelpers.html#.fromPathComponentList">fromPathComponentList</a></b>(pathComponentList, explicit)
+								</div>
+								<div class="description">Get either a JSON object or a JSON array (made of two elements: simplified path component values and unit ID string for coordinates) from a path component list in JSON AM Data Format.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamHelpers.<b><a href="../symbols/jamHelpers.html#.fromPointList">fromPointList</a></b>(pointList)
+								</div>
+								<div class="description">Get a JSON array of data (list of points) and optional unit ID string from a point list in JSON AM Data Format.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamHelpers.<b><a href="../symbols/jamHelpers.html#.hexFromColorObject">hexFromColorObject</a></b>(colorObject, noSign, lowercase)
+								</div>
+								<div class="description">Get a RGB color string in HTML/CSS hexadecimal notation from a color object in JSON AM Data Format.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamHelpers.<b><a href="../symbols/jamHelpers.html#.hexToColorObject">hexToColorObject</a></b>(hexColorString)
+								</div>
+								<div class="description">Get a color object in JSON AM Data Format from a RGB color string in HTML/CSS hexadecimal notation.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamHelpers.<b><a href="../symbols/jamHelpers.html#.nameToColorObject">nameToColorObject</a></b>(setName, colorName)
+								</div>
+								<div class="description">Get a color object in JSON AM Data Format from a color name belonging to a named colors set.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamHelpers.<b><a href="../symbols/jamHelpers.html#.toBlendRangeList">toBlendRangeList</a></b>(blendRanges)
+								</div>
+								<div class="description">Get a blend range list in JSON AM Data Format from a JSON array of individual channel blend ranges.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamHelpers.<b><a href="../symbols/jamHelpers.html#.toColorObject">toColorObject</a></b>(color)
+								</div>
+								<div class="description">Get a color object in JSON AM Data Format from a simplified color JSON object or JSON array.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamHelpers.<b><a href="../symbols/jamHelpers.html#.toCurvePointList">toCurvePointList</a></b>(curvePoints)
+								</div>
+								<div class="description">Get a curve point list in JSON AM Data Format from a JSON array of curve points.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamHelpers.<b><a href="../symbols/jamHelpers.html#.toCurvesAdjustmentList">toCurvesAdjustmentList</a></b>(curvesAdjustmentsArr)
+								</div>
+								<div class="description">Get a curves adjustment list in JSON AM Data Format from a JSON array of channel and individual channel curves values.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamHelpers.<b><a href="../symbols/jamHelpers.html#.toCustomShapeObject">toCustomShapeObject</a></b>(customShapeArr)
+								</div>
+								<div class="description">Get a custom shape object in JSON AM Data Format from a JSON array of data (name and bound values) and optional unit ID string.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamHelpers.<b><a href="../symbols/jamHelpers.html#.toEllipseObject">toEllipseObject</a></b>(ellipseArr)
+								</div>
+								<div class="description">Get an ellipse object in JSON AM Data Format from a JSON array of data (bound values) and optional unit ID string.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamHelpers.<b><a href="../symbols/jamHelpers.html#.toGradientObject">toGradientObject</a></b>(gradient)
+								</div>
+								<div class="description">Get a gradient object in JSON AM Data Format from a simplified gradient JSON object or JSON array.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamHelpers.<b><a href="../symbols/jamHelpers.html#.toHueSatAdjustmentV2List">toHueSatAdjustmentV2List</a></b>(hueSatAdjustmentsArr)
+								</div>
+								<div class="description">Get a hue/saturation adjustment list in JSON AM Data Format from a JSON array of master and local color ranges.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamHelpers.<b><a href="../symbols/jamHelpers.html#.toIntegerList">toIntegerList</a></b>(integersArr)
+								</div>
+								<div class="description">Get an integer list in JSON AM Data Format from a JSON array of integer values.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamHelpers.<b><a href="../symbols/jamHelpers.html#.toOffsetObject">toOffsetObject</a></b>(offsetArr)
+								</div>
+								<div class="description">Get an offset object in JSON AM Data Format from a JSON array of data (offset values) and optional unit ID string.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamHelpers.<b><a href="../symbols/jamHelpers.html#.toPathComponentList">toPathComponentList</a></b>(pathComponents)
+								</div>
+								<div class="description">Get a path component list in JSON AM Data Format from either a JSON object or a JSON array (made of two elements: simplified path component values and unit ID string for coordinates).</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamHelpers.<b><a href="../symbols/jamHelpers.html#.toPointList">toPointList</a></b>(pointsArr)
+								</div>
+								<div class="description">Get a point list in JSON AM Data Format from a JSON array of data (list of points) and optional unit ID string.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamHelpers.<b><a href="../symbols/jamHelpers.html#.toPointObject">toPointObject</a></b>(pointArr)
+								</div>
+								<div class="description">Get a point object in JSON AM Data Format from a JSON array of data (coordinate values) and optional unit ID string.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamHelpers.<b><a href="../symbols/jamHelpers.html#.toRationalPointList">toRationalPointList</a></b>(rationalPointsArr)
+								</div>
+								<div class="description">Get a rational point list in JSON AM Data Format from a JSON array of a list of rational points and optional unit ID string.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamHelpers.<b><a href="../symbols/jamHelpers.html#.toRectangleObject">toRectangleObject</a></b>(rectangleArr)
+								</div>
+								<div class="description">Get a rectangle object in JSON AM Data Format from a JSON array of data (bound values and optional radius) and optional unit ID string.</div>
+							</td>
+						</tr>
+					
+					</tbody>
+				</table>
+				
+				
+				
+			
+<!-- ============================== events summary ======================== -->
+			
+
+<!-- ============================== constructor details ==================== -->		
+			
+			<div class="details"><a name="constructor"> </a>
+				<div class="sectionTitle">
+					Namespace Detail
+				</div>
+				
+				<div class="fixedFont">
+						<b>jamHelpers</b>
+				</div>
+				
+				<div class="description">
+					Global object (used to simulate a namespace in JavaScript) containing
+a set of helper functions for scripts written with the
+<a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-action-manager/">JSON Action Manager</a> engine.
+					<br /><i>Author: </i>Michel MARIANI.
+				</div>
+				
+				
+				
+				
+					
+					
+					
+					
+					
+					
+					
+
+			</div>
+			
+
+<!-- ============================== field details ========================== -->		
+			
+
+<!-- ============================== method details ========================= -->		
+			
+				<div class="sectionTitle">
+					Method Detail
+				</div>
+				
+					<a name=".fromBlendRangeList"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Array}</span>
+					<span class="light">jamHelpers.</span><b>fromBlendRangeList</b>(blendRangeList, explicit)
+					
+					</div>
+					<div class="description">
+						Get a simplified blend range JSON array from a blend range list in JSON AM Data Format.
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">var blendRangeList =
+{
+    "&lt;list&gt;":
+    [
+        {
+            "&lt;object&gt;":
+            {
+                "blendRange":
+                {
+                    "channel":
+                    {
+                        "&lt;reference&gt;": [ { "channel": { "&lt;enumerated&gt;": { "channel": "gray" } } } ]
+                    },
+                    "srcBlackMin": { "&lt;integer&gt;": 0 },
+                    "srcBlackMax": { "&lt;integer&gt;": 80 },
+                    "srcWhiteMin": { "&lt;integer&gt;": 255 },
+                    "srcWhiteMax": { "&lt;integer&gt;": 255 },
+                    "destBlackMin": { "&lt;integer&gt;": 0 },
+                    "destBlackMax": { "&lt;integer&gt;": 0 },
+                    "destWhiteMin": { "&lt;integer&gt;": 145 },
+                    "destWhiteMax": { "&lt;integer&gt;": 255 }
+                }
+            }
+        }
+    ]
+};
+alert (jamJSON.stringify (jamHelpers.<strong>fromBlendRangeList</strong> (blendRangeList, true), '\t'));
+// ->
+// [
+//     {
+//         "channel": "gray",
+//         "srcBlackMin": 0,
+//         "srcBlackMax": 80,
+//         "srcWhiteMin": 255,
+//         "srcWhiteMax": 255,
+//         "destBlackMin": 0,
+//         "destBlackMax": 0,
+//         "destWhiteMin": 145,
+//         "destWhiteMax": 255
+//     }
+// ]
+alert (jamJSON.stringify (jamHelpers.<strong>fromBlendRangeList</strong> (blendRangeList)));
+// ->
+// [ [ "gray", 0, 80, 255, 255, 0, 0, 145, 255 ] ]</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Object|Array}</span> <b>blendRangeList</b>
+									
+								</dt>
+								<dd>Blend range list in <a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-am-data-format/">JSON AM Data Format</a></dd>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>explicit</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Explicit flag: if true, return a JSON array made of explicit JSON objects instead of minimal JSON arrays</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Array}</span> Simplified blend range JSON array
+(cf. <a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-simplified-formats/blend-range-list-simplified-format/">Blend Range List Simplified Format</a>)</dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/jamHelpers.html#.toBlendRangeList">jamHelpers.toBlendRangeList</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".fromColorObject"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Object|Array}</span>
+					<span class="light">jamHelpers.</span><b>fromColorObject</b>(colorObject, explicit)
+					
+					</div>
+					<div class="description">
+						Get a simplified color JSON object or JSON array from a color object in JSON AM Data Format.
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">jamEngine.meaningfulIds = true;
+var resultObj = jamEngine.jsonGet ([ { "application": { "&lt;enumerated&gt;": { "ordinal": "targetEnum" } } } ]);
+var fgColorArr = jamHelpers.<strong>fromColorObject</strong> (resultObj["foregroundColor"], true);
+alert (jamJSON.stringify (fgColorArr));
+// -> { "hue": 260, "saturation": 48, "brightness": 92 } // Lavender
+var bgColorArr = jamHelpers.<strong>fromColorObject</strong> (resultObj["backgroundColor"]);
+alert (jamJSON.stringify (bgColorArr));
+// -> [ "bookColor", [ "PANTONE® solid coated", "PANTONE 2395 C", 3002, " 2395C" ] ] // Vivid Magenta</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Object|Array}</span> <b>colorObject</b>
+									
+								</dt>
+								<dd>Color object in <a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-am-data-format/">JSON AM Data Format</a></dd>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>explicit</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Explicit flag: if true, return an explicit JSON object instead of a minimal JSON array</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Object|Array}</span> Simplified color JSON object or JSON array
+(cf. <a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-simplified-formats/color-object-simplified-format/">Color Object Simplified Format</a>)</dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/jamHelpers.html#.toColorObject">jamHelpers.toColorObject</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".fromCurvePointList"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Array}</span>
+					<span class="light">jamHelpers.</span><b>fromCurvePointList</b>(curvePointList, explicit)
+					
+					</div>
+					<div class="description">
+						Get a simplified curve point JSON array from a curve point list in JSON AM Data Format.
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">var curvePointList =
+{
+    "&lt;list&gt;":
+    [
+        {
+            "&lt;object&gt;":
+            {
+                "curvePoint":
+                {
+                    "horizontal": { "&lt;double&gt;": 0 },
+                    "vertical": { "&lt;double&gt;": 0 }
+                }
+            }
+        },
+        {
+            "&lt;object&gt;":
+            {
+                "curvePoint":
+                {
+                    "horizontal": { "&lt;double&gt;": 75 },
+                    "vertical": { "&lt;double&gt;": 150 }
+                }
+            }
+        },
+        {
+            "&lt;object&gt;":
+            {
+                "curvePoint":
+                {
+                    "horizontal": { "&lt;double&gt;": 175 },
+                    "vertical": { "&lt;double&gt;": 25 },
+                    "continuity": { "&lt;boolean&gt;": false }
+                }
+            }
+        },
+        {
+            "&lt;object&gt;":
+            {
+                "curvePoint":
+                {
+                    "horizontal": { "&lt;double&gt;": 255 },
+                    "vertical": { "&lt;double&gt;": 255 }
+                }
+            }
+        }
+    ]
+};
+alert (jamJSON.stringify (jamHelpers.<strong>fromCurvePointList</strong> (curvePointList, true), '\t'));
+// ->
+// [
+//     {
+//         "horizontal": 0,
+//         "vertical": 0
+//     },
+//     {
+//         "horizontal": 75,
+//         "vertical": 150
+//     },
+//     {
+//         "horizontal": 175,
+//         "vertical": 25,
+//         "continuity": false
+//     },
+//     {
+//         "horizontal": 255,
+//         "vertical": 255
+//     }
+// ]
+alert (jamJSON.stringify (jamHelpers.<strong>fromCurvePointList</strong> (curvePointList)));
+// ->
+// [ [ 0, 0 ], [ 75, 150 ], [ 175, 25, false ], [ 255, 255 ] ]</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Object|Array}</span> <b>curvePointList</b>
+									
+								</dt>
+								<dd>Curve point list in <a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-am-data-format/">JSON AM Data Format</a></dd>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>explicit</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Explicit flag: if true, return a JSON array made of explicit JSON objects instead of minimal JSON arrays</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Array}</span> Simplified curve point JSON array
+(cf. <a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-simplified-formats/curve-point-list-simplified-format/">Curve Point List Simplified Format</a>)</dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/jamHelpers.html#.toCurvePointList">jamHelpers.toCurvePointList</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".fromGradientObject"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Object|Array}</span>
+					<span class="light">jamHelpers.</span><b>fromGradientObject</b>(gradientObject, explicit)
+					
+					</div>
+					<div class="description">
+						Get a simplified gradient JSON object or JSON array from a gradient object in JSON AM Data Format.
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">var gradientObject =
+{
+    "&lt;object&gt;":
+    {
+        "gradientClassEvent":
+        {
+            "name": { "&lt;string&gt;": "N-86" },
+            "gradientForm": { "&lt;enumerated&gt;": { "gradientForm": "colorNoise" } },
+            "showTransparency": { "&lt;boolean&gt;": false },
+            "vectorColor": { "&lt;boolean&gt;": true },
+            "colorSpace": { "&lt;enumerated&gt;": { "colorSpace": "labColor" } },
+            "randomSeed": { "&lt;integer&gt;": 17 },
+            "smoothness": { "&lt;integer&gt;": 3523 },   // 3523/4096 => 86 %
+            "minimum":
+            {
+                "&lt;list&gt;":
+                [
+                    { "&lt;integer&gt;": 25 },
+                    { "&lt;integer&gt;": 0 },
+                    { "&lt;integer&gt;": 33 },
+                    { "&lt;integer&gt;": 0 }
+                ]
+            },
+            "maximum":
+            {
+                "&lt;list&gt;":
+                [
+                    { "&lt;integer&gt;": 75 },
+                    { "&lt;integer&gt;": 67 },
+                    { "&lt;integer&gt;": 100 },
+                    { "&lt;integer&gt;": 100 }
+                ]
+            }
+        }
+    }
+};
+alert (jamJSON.stringify (jamHelpers.<strong>fromGradientObject</strong> (gradientObject, true), '\t'));
+// ->
+// {
+//     "name": "N-86",
+//     "gradientForm": "colorNoise",
+//     "randomSeed": 17,
+//     "showTransparency": false,
+//     "vectorColor": true,
+//     "smoothness": 3523,
+//     "colorSpace": "labColor",
+//     "minimum": [ 25, 0, 33, 0 ],
+//     "maximum": [ 75, 67, 100, 100 ]
+// }
+alert (jamJSON.stringify (jamHelpers.<strong>fromGradientObject</strong> (gradientObject)));
+// -> [ "N-86", "colorNoise", 17, false, true, 3523, "labColor", [ 25, 0, 33, 0 ], [ 75, 67, 100, 100 ] ]</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Object|Array}</span> <b>gradientObject</b>
+									
+								</dt>
+								<dd>Gradient object in <a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-am-data-format/">JSON AM Data Format</a></dd>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>explicit</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Explicit flag: if true, return an explicit JSON object instead of a minimal JSON array</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Object|Array}</span> Simplified gradient JSON object or JSON array
+(cf. <a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-simplified-formats/gradient-object-simplified-format/">Gradient Object Simplified Format</a>)</dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/jamHelpers.html#.toGradientObject">jamHelpers.toGradientObject</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".fromIntegerList"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Array}</span>
+					<span class="light">jamHelpers.</span><b>fromIntegerList</b>(integerList)
+					
+					</div>
+					<div class="description">
+						Get a JSON array of integer values from an integer list in JSON AM Data Format.
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">var integerList =
+{
+    "&lt;list&gt;":
+    [
+        { "&lt;integer&gt;": 0 },
+        { "&lt;integer&gt;": 25 },
+        { "&lt;integer&gt;": 50 },
+        { "&lt;integer&gt;": 75 },
+        { "&lt;integer&gt;": 100 }
+    ]
+};
+alert (jamJSON.stringify (jamHelpers.<strong>fromIntegerList</strong> (integerList)));
+// -> [ 0, 25, 50, 75, 100 ]</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Object|Array}</span> <b>integerList</b>
+									
+								</dt>
+								<dd>Integer list in <a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-am-data-format/">JSON AM Data Format</a></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Array}</span> JSON array of integer values
+(cf. <a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-simplified-formats/integer-list-simplified-format/">Integer Simplified List Format</a>)</dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/jamHelpers.html#.toIntegerList">jamHelpers.toIntegerList</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".fromPathComponentList"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Array|Object}</span>
+					<span class="light">jamHelpers.</span><b>fromPathComponentList</b>(pathComponentList, explicit)
+					
+					</div>
+					<div class="description">
+						Get either a JSON object or a JSON array (made of two elements: simplified path component values and unit ID string for coordinates) from a path component list in JSON AM Data Format.
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">jamEngine.meaningfulIds = true;
+jamEngine.parseFriendly = true;
+var resultObj = jamEngine.jsonGet ([ { "path": { "&lt;property&gt;": "workPath" } } ]);
+var pathComponentArr =
+    jamHelpers.<strong>fromPathComponentList</strong> (resultObj["pathContents"][1][1]["pathComponents"], true);
+jamUtils.writeJsonFile (new File ("~/Desktop/work-path.json"), pathComponentArr, '\t');</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Object|Array}</span> <b>pathComponentList</b>
+									
+								</dt>
+								<dd>Path component list in <a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-am-data-format/">JSON AM Data Format</a></dd>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>explicit</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Explicit flag: if true, return an explicit JSON object instead of a minimal JSON array</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Array|Object}</span> JSON object or JSON array made of two elements: simplified path component values and unit ID string for coordinates ("distanceUnit", "percentUnit", "pixelsUnit")
+(cf. <a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-simplified-formats/path-component-list-simplified-format/">Path Component List Simplified Format</a>)</dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/jamHelpers.html#.toPathComponentList">jamHelpers.toPathComponentList</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".fromPointList"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Array}</span>
+					<span class="light">jamHelpers.</span><b>fromPointList</b>(pointList)
+					
+					</div>
+					<div class="description">
+						Get a JSON array of data (list of points) and optional unit ID string from a point list in JSON AM Data Format.
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">var pointList =
+{
+    "&lt;list&gt;":
+    [
+        {
+            "&lt;object&gt;":
+            {
+                "point":
+                {
+                    "horizontal": { "&lt;unitDouble&gt;": { "percentUnit": 80 } },
+                    "vertical": { "&lt;unitDouble&gt;": { "percentUnit": 50 } }
+                }
+            }
+        },
+        {
+            "&lt;object&gt;":
+            {
+                "point":
+                {
+                    "horizontal": { "&lt;unitDouble&gt;": { "percentUnit": 20 } },
+                    "vertical": { "&lt;unitDouble&gt;": { "percentUnit": 20 } }
+                }
+            }
+        },
+        {
+            "&lt;object&gt;":
+            {
+                "point":
+                {
+                    "horizontal": { "&lt;unitDouble&gt;": { "percentUnit": 20 } },
+                    "vertical": { "&lt;unitDouble&gt;": { "percentUnit": 80 } }
+                }
+            }
+        }
+    ]
+};
+alert (jamJSON.stringify (jamHelpers.<strong>fromPointList</strong> (pointList)));
+// -> [ [ [ 80, 50 ], [ 20, 20 ], [ 20, 80 ] ], "percentUnit" ]</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Object|Array}</span> <b>pointList</b>
+									
+								</dt>
+								<dd>Point list in <a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-am-data-format/">JSON AM Data Format</a></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Array}</span> JSON array of data (list of points as JSON arrays of 2 numeric coordinates: [ horizontal, vertical ]) and optional unit ID string for coordinates
+(cf. <a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-simplified-formats/point-list-simplified-format/">Point List Simplified Format</a>)</dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/jamHelpers.html#.toPointList">jamHelpers.toPointList</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".hexFromColorObject"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{String|Null}</span>
+					<span class="light">jamHelpers.</span><b>hexFromColorObject</b>(colorObject, noSign, lowercase)
+					
+					</div>
+					<div class="description">
+						Get a RGB color string in HTML/CSS hexadecimal notation from a color object in JSON AM Data Format.
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">jamEngine.meaningfulIds = true;
+var resultObj = jamEngine.jsonGet ([ { "application": { "&lt;enumerated&gt;": { "ordinal": "targetEnum" } } } ]);
+var fgHexColor = jamHelpers.<strong>hexFromColorObject</strong> (resultObj["foregroundColor"]);
+alert (jamJSON.stringify (fgHexColor));  // -> "#FFDEAD"
+var bgHexColor = jamHelpers.<strong>hexFromColorObject</strong> (resultObj["backgroundColor"], true, true);
+alert (jamJSON.stringify (bgHexColor));  // -> "4b1f5e"</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Object|Array}</span> <b>colorObject</b>
+									
+								</dt>
+								<dd>Color object in <a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-am-data-format/">JSON AM Data Format</a></dd>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>noSign</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Do not add a leading # sign (false by default)</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>lowercase</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Use lowercase hexadecimal digits (false by default)</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{String|Null}</span> RGB color string in HTML/CSS hexadecimal notation (6 digits, starting with a # sign),
+or null if color object in JSON AM Data Format is not RGB</dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/jamHelpers.html#.hexToColorObject">jamHelpers.hexToColorObject</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".hexToColorObject"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Object|Array}</span>
+					<span class="light">jamHelpers.</span><b>hexToColorObject</b>(hexColorString)
+					
+					</div>
+					<div class="description">
+						Get a color object in JSON AM Data Format from a RGB color string in HTML/CSS hexadecimal notation.
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">jamEngine.jsonPlay
+(
+    "set",
+    {
+        "target": { "&lt;reference&gt;": [ { "color": { "&lt;property&gt;": "backgroundColor" } } ] },
+        "to": jamHelpers.<strong>hexToColorObject</strong> ("#F0F")
+    }
+);
+jamEngine.jsonPlay
+(
+    "set",
+    {
+        "target": { "&lt;reference&gt;": [ { "color": { "&lt;property&gt;": "foregroundColor" } } ] },
+        "to": jamHelpers.<strong>hexToColorObject</strong> ("#00FF00")
+    }
+);</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>hexColorString</b>
+									
+								</dt>
+								<dd>RGB color string in HTML/CSS hexadecimal notation (3 or 6 digits, starting with an optional # sign)</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Object|Array}</span> Color object in <a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-am-data-format/">JSON AM Data Format</a></dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/jamHelpers.html#.hexFromColorObject">jamHelpers.hexFromColorObject</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".nameToColorObject"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Object|Array}</span>
+					<span class="light">jamHelpers.</span><b>nameToColorObject</b>(setName, colorName)
+					
+					</div>
+					<div class="description">
+						Get a color object in JSON AM Data Format from a color name belonging to a named colors set.
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">jamEngine.jsonPlay
+(
+    "set",
+    {
+        "target": { "&lt;reference&gt;": [ { "color": { "&lt;property&gt;": "backgroundColor" } } ] },
+        "to": jamHelpers.<strong>nameToColorObject</strong> ("W3C", "Slate Grey")
+    }
+);
+jamEngine.jsonPlay
+(
+    "set",
+    {
+        "target": { "&lt;reference&gt;": [ { "color": { "&lt;property&gt;": "foregroundColor" } } ] },
+        "to": jamHelpers.<strong>nameToColorObject</strong> ("X11", "Deep Pink 4")
+    }
+);</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>setName</b>
+									
+								</dt>
+								<dd>Named colors set name (case-insensitive, whitespace ignored):<br />
+<ul>
+<li>
+"CSS" or "SVG" or "W3C":
+<a href="http://www.w3.org/TR/css3-color/#svg-color">CSS Color Module Level 3 - Extended color keywords</a><br />
+or <a href="http://www.w3.org/TR/SVG/types.html#ColorKeywords">SVG 1.1 (Second Edition) - Recognized color keyword names</a>
+</li>
+<li>"X11": <a href="http://www.thomas-guettler.de/rgb.txt.html">Colors of /usr/lib/X11/rgb.txt</a></li>
+<li>or name of a custom named colors set defined by jamColors.defineNamedColorsSet ()</li>
+</ul></dd>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>colorName</b>
+									
+								</dt>
+								<dd>Color name (case-insensitive, whitespace ignored)</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Object|Array}</span> Color object in <a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-am-data-format/">JSON AM Data Format</a></dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name=".toBlendRangeList"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Object|Array}</span>
+					<span class="light">jamHelpers.</span><b>toBlendRangeList</b>(blendRanges)
+					
+					</div>
+					<div class="description">
+						Get a blend range list in JSON AM Data Format from a JSON array of individual channel blend ranges.
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">var blendRanges =
+[
+    {
+        "channel": "gray",
+        "srcBlackMin": 0,
+        "srcBlackMax": 80,
+        "srcWhiteMin": 255,
+        "srcWhiteMax": 255,
+        "destBlackMin": 0,
+        "destBlackMax": 0,
+        "destWhiteMin": 255,
+        "destWhiteMax": 255
+    },
+    {
+        "channel": "red",
+        "srcBlackMin": 0,
+        "srcBlackMax": 0,
+        "srcWhiteMin": 255,
+        "srcWhiteMax": 255,
+        "destBlackMin": 0,
+        "destBlackMax": 0,
+        "destWhiteMin": 145,
+        "destWhiteMax": 255
+    }
+];
+jamEngine.jsonPlay
+(
+    "set",
+    {
+        "target": { "&lt;reference&gt;": [ { "layer": { "&lt;enumerated&gt;": { "ordinal": "targetEnum" } } } ] },
+        "to":
+        {
+            "&lt;object&gt;":
+            {
+                "layer":
+                {
+                    "blendRange": jamHelpers.<strong>toBlendRangeList</strong> (blendRanges)
+                }
+            }
+        }
+    }
+);</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Array}</span> <b>blendRanges</b>
+									
+								</dt>
+								<dd>JSON array of individual channel blend ranges, each one being either a JSON object or a JSON array
+(cf. <a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-simplified-formats/blend-range-list-simplified-format/">Blend Range List Simplified Format</a>)</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Object|Array}</span> Blend range list in <a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-am-data-format/">JSON AM Data Format</a></dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/jamHelpers.html#.fromBlendRangeList">jamHelpers.fromBlendRangeList</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".toColorObject"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Object|Array}</span>
+					<span class="light">jamHelpers.</span><b>toColorObject</b>(color)
+					
+					</div>
+					<div class="description">
+						Get a color object in JSON AM Data Format from a simplified color JSON object or JSON array.
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">jamEngine.jsonPlay
+(
+    "set",
+    {
+        "target": { "&lt;reference&gt;": [ { "color": { "&lt;property&gt;": "foregroundColor" } } ] },
+        "to": jamHelpers.<strong>toColorObject</strong> ({ "luminance": 77, "a": -43, "b": 68 })
+    }
+);
+jamEngine.jsonPlay
+(
+    "set",
+    {
+        "target": { "&lt;reference&gt;": [ { "color": { "&lt;property&gt;": "backgroundColor" } } ] },
+        "to": jamHelpers.<strong>toColorObject</strong> ([ "RGBColor", [ 184, 0, 184 ] ])
+    }
+);</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Object|Array}</span> <b>color</b>
+									
+								</dt>
+								<dd>Simplified color JSON object or JSON array
+(cf. <a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-simplified-formats/color-object-simplified-format/">Color Object Simplified Format</a>)</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Object|Array}</span> Color object in <a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-am-data-format/">JSON AM Data Format</a></dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/jamHelpers.html#.fromColorObject">jamHelpers.fromColorObject</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".toCurvePointList"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Object|Array}</span>
+					<span class="light">jamHelpers.</span><b>toCurvePointList</b>(curvePoints)
+					
+					</div>
+					<div class="description">
+						Get a curve point list in JSON AM Data Format from a JSON array of curve points.
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">var curvePoints =
+[
+    { "horizontal": 0, "vertical": 0 },
+    { "horizontal": 75, "vertical": 150 },
+    { "horizontal": 175, "vertical": 25, "continuity": false },
+    { "horizontal": 255, "vertical": 255 }
+];
+jamEngine.jsonPlay
+(
+    "set",
+    {
+        "target":
+        {
+            "&lt;reference&gt;":
+            [
+                { "property": { "&lt;property&gt;": "layerEffects" } },
+                { "layer": { "&lt;enumerated&gt;": { "ordinal": "targetEnum" } } }
+            ]
+        },
+        "to":
+        {
+            "&lt;object&gt;":
+            {
+                "layerEffects":
+                {
+                    "scale": { "&lt;unitDouble&gt;": { "percentUnit": 100 } },
+                    "chromeFX":
+                    {
+                        "&lt;object&gt;":
+                        {
+                            "chromeFX":
+                            {
+                                "enabled": { "&lt;boolean&gt;": true },
+                                "mode": { "&lt;enumerated&gt;": { "blendMode": "normal" } },
+                                "color": jamHelpers.toColorObject ([ "HSBColorClass", [ 190, 100, 100 ] ]),
+                                "antiAlias": { "&lt;boolean&gt;": true },
+                                "invert": { "&lt;boolean&gt;": false },
+                                "opacity": { "&lt;unitDouble&gt;": { "percentUnit": 90 } },
+                                "localLightingAngle": { "&lt;unitDouble&gt;": { "angleUnit": 45 } },
+                                "distance": { "&lt;unitDouble&gt;": { "pixelsUnit": 10 } },
+                                "blur": { "&lt;unitDouble&gt;": { "pixelsUnit": 15 } },
+                                "mappingShape":
+                                {
+                                    "&lt;object&gt;":
+                                    {
+                                        "shapingCurve":
+                                        {
+                                            "curve": jamHelpers.<strong>toCurvePointList</strong> (curvePoints)
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+);</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Array}</span> <b>curvePoints</b>
+									
+								</dt>
+								<dd>JSON array of curve points, each one being either a JSON object or a JSON array
+(cf. <a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-simplified-formats/curve-point-list-simplified-format/">Curve Point List Simplified Format</a>)</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Object|Array}</span> Curve point list in <a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-am-data-format/">JSON AM Data Format</a></dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/jamHelpers.html#.fromCurvePointList">jamHelpers.fromCurvePointList</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".toCurvesAdjustmentList"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Object|Array}</span>
+					<span class="light">jamHelpers.</span><b>toCurvesAdjustmentList</b>(curvesAdjustmentsArr)
+					
+					</div>
+					<div class="description">
+						Get a curves adjustment list in JSON AM Data Format from a JSON array of channel and individual channel curves values.
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">var curvesAdjustments =
+[
+    [ "red", [ "curve", [ [ 0, 0 ], [ 77, 51 ], [ 178, 204 ], [ 255, 255 ] ] ] ],
+    [ "green", [ "curve", [ [ 0, 255 ], [ 127, 0 ], [ 255, 255 ] ] ] ],
+    [ "blue", [ "curve", [ [ 0, 255 ], [ 255, 0 ] ] ] ]
+];
+jamEngine.jsonPlay
+(
+    "make",
+    {
+        "target": { "&lt;reference&gt;": [ { "adjustmentLayer": { "&lt;class&gt;": null } } ] },
+        "using":
+        {
+            "&lt;object&gt;":
+            {
+                "adjustmentLayer":
+                {
+                    "name": { "&lt;string&gt;": "Curves" },
+                    "opacity": { "&lt;unitDouble&gt;": { "percentUnit": 75 } },
+                    "type":
+                    {
+                        "&lt;object&gt;":
+                        {
+                            "curves":
+                            {
+                                "adjustment": jamHelpers.<strong>toCurvesAdjustmentList</strong> (curvesAdjustments)
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+);</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Array}</span> <b>curvesAdjustmentsArr</b>
+									
+								</dt>
+								<dd>JSON array of channel and individual channel curves values
+(cf. <a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-simplified-formats/curves-adjustment-list-simplified-format/">Curves Adjustment List Simplified Format</a>)</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Object|Array}</span> Curves adjustment list in <a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-am-data-format/">JSON AM Data Format</a></dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name=".toCustomShapeObject"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Object|Array}</span>
+					<span class="light">jamHelpers.</span><b>toCustomShapeObject</b>(customShapeArr)
+					
+					</div>
+					<div class="description">
+						Get a custom shape object in JSON AM Data Format from a JSON array of data (name and bound values) and optional unit ID string.
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">jamEngine.jsonPlay
+(
+    "set",
+    {
+        "target": { "&lt;reference&gt;": [ { "path": { "&lt;property&gt;": "workPath" } } ] },
+        "to": jamHelpers.<strong>toCustomShapeObject</strong> ([ [ "Yin Yang", 20, 20, 80, 80 ], "percentUnit" ])
+    }
+);</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Array}</span> <b>customShapeArr</b>
+									
+								</dt>
+								<dd>JSON array of data: [ name, left, top, right, bottom ], and optional unit ID string ("distanceUnit", "percentUnit", "pixelsUnit", etc.)
+(cf. <a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-simplified-formats/custom-shape-object-simplified-format/">Custom Shape Object Simplified Format</a>)</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Object|Array}</span> Custom shape object in <a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-am-data-format/">JSON AM Data Format</a></dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name=".toEllipseObject"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Object|Array}</span>
+					<span class="light">jamHelpers.</span><b>toEllipseObject</b>(ellipseArr)
+					
+					</div>
+					<div class="description">
+						Get an ellipse object in JSON AM Data Format from a JSON array of data (bound values) and optional unit ID string.
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">jamEngine.jsonPlay
+(
+    "set",
+    {
+        "target": { "&lt;reference&gt;": [ { "path": { "&lt;property&gt;": "workPath" } } ] },
+        "to": jamHelpers.<strong>toEllipseObject</strong> ([ [ 10, 10, 90, 90 ], "percentUnit" ])
+    }
+);</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Array}</span> <b>ellipseArr</b>
+									
+								</dt>
+								<dd>JSON array of data: [ left, top, right, bottom ], and optional unit ID string ("distanceUnit", "percentUnit", "pixelsUnit", etc.)
+(cf. <a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-simplified-formats/ellipse-object-simplified-format/">Ellipse Object Simplified Format</a>)</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Object|Array}</span> Ellipse object in <a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-am-data-format/">JSON AM Data Format</a></dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name=".toGradientObject"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Object|Array}</span>
+					<span class="light">jamHelpers.</span><b>toGradientObject</b>(gradient)
+					
+					</div>
+					<div class="description">
+						Get a gradient object in JSON AM Data Format from a simplified gradient JSON object or JSON array.
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">var customStopsGradient =
+{
+    "gradientForm": "customStops",
+    "interpolation": 4096,
+    "colors":
+    [
+        {
+            "location": 0, "midpoint": 50, "type": "userStop",
+            "color": { "red": 255, "green": 0, "blue": 0 }
+        },
+        {
+            "location": 4096, "midpoint": 50, "type": "userStop",
+            "color": { "red": 95, "green": 95, "blue": 0 }
+        }
+    ],
+    "transparency":
+    [
+        { "location": 0, "midpoint": 50, "opacity": 75 },
+        { "location": 4096, "midpoint": 50, "opacity": 100 }
+    ]
+};
+jamEngine.jsonPlay
+(
+    "gradientClassEvent",
+    {
+        "from": jamHelpers.toPointObject ([ [ 50.0, 12.5 ], "percentUnit" ]),
+        "to": jamHelpers.toPointObject ([ [ 50.0, 75.0 ], "percentUnit" ]),
+        "opacity": { "&lt;unitDouble&gt;": { "percentUnit": 50 } },
+        "mode": { "&lt;enumerated&gt;": { "blendMode": "hardLight" } },
+        "type": { "&lt;enumerated&gt;": { "gradientType": "linear" } },
+        "gradient": jamHelpers.<strong>toGradientObject</strong> (customStopsGradient)
+    }
+);</pre>
+					
+					<pre class="code">var colorNoiseGradient =
+[
+    "Color Noise",
+    "colorNoise",
+    345807450,
+    false,
+    true,
+    1024,
+    "RGBColor",
+    [ 0, 18, 25, 0 ],
+    [ 100, 60, 73, 100 ]
+];
+jamEngine.jsonPlay
+(
+    "gradientClassEvent",
+    {
+        "from": jamHelpers.toPointObject ([ [ 12.5, 50.0 ], "percentUnit" ]),
+        "to": jamHelpers.toPointObject ([ [ 75.0, 50.0 ], "percentUnit" ]),
+        "opacity": { "&lt;unitDouble&gt;": { "percentUnit": 100 } },
+        "mode": { "&lt;enumerated&gt;": { "blendMode": "normal" } },
+        "type": { "&lt;enumerated&gt;": { "gradientType": "linear" } },
+        "gradient": jamHelpers.<strong>toGradientObject</strong> (colorNoiseGradient)
+    }
+);</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Object|Array}</span> <b>gradient</b>
+									
+								</dt>
+								<dd>Simplified gradient JSON object or JSON array
+(cf. <a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-simplified-formats/gradient-object-simplified-format/">Gradient Object Simplified Format</a>)</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Object|Array}</span> Gradient object in <a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-am-data-format/">JSON AM Data Format</a></dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/jamHelpers.html#.fromGradientObject">jamHelpers.fromGradientObject</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".toHueSatAdjustmentV2List"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Object|Array}</span>
+					<span class="light">jamHelpers.</span><b>toHueSatAdjustmentV2List</b>(hueSatAdjustmentsArr)
+					
+					</div>
+					<div class="description">
+						Get a hue/saturation adjustment list in JSON AM Data Format from a JSON array of master and local color ranges.
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">jamEngine.jsonPlay
+(
+    "hueSaturation",
+    {
+        "colorize": { "&lt;boolean&gt;": true },
+        "adjustment": jamHelpers.<strong>toHueSatAdjustmentV2List</strong> ([ [ 210, 30, 10 ] ])
+    }
+);</pre>
+					
+					<pre class="code">var hueSatAdjustments =
+[
+    [ 20, 0, 0 ],    // Master
+    [ 1, 315, 345, 15, 45, 0, 50, 0 ],  // Reds
+    [ 3, 75, 105, 135, 165, 0, 60, 0 ]  // Greens
+];
+jamEngine.jsonPlay
+(
+    "hueSaturation",
+    {
+        "adjustment": jamHelpers.<strong>toHueSatAdjustmentV2List</strong> (hueSatAdjustments)
+    }
+);</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Array}</span> <b>hueSatAdjustmentsArr</b>
+									
+								</dt>
+								<dd>JSON array of master and local color ranges
+(cf. <a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-simplified-formats/huesaturation-adjustment-list-simplified-format/">Hue/Saturation Adjustment List Simplified Format</a>)</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Object|Array}</span> Hue/saturation adjustment list in <a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-am-data-format/">JSON AM Data Format</a></dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name=".toIntegerList"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Object|Array}</span>
+					<span class="light">jamHelpers.</span><b>toIntegerList</b>(integersArr)
+					
+					</div>
+					<div class="description">
+						Get an integer list in JSON AM Data Format from a JSON array of integer values.
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">var customMatrix =
+[
+    0,  0,  0,  0,  0,
+    0,  1,  1,  1,  0,
+    0,  1, -8,  1,  0,
+    0,  1,  1,  1,  0,
+    0,  0,  0,  0,  0
+];
+jamEngine.jsonPlay
+(
+    "custom",
+    {
+        "scale": { "&lt;integer&gt;": 1 },
+        "offset": { "&lt;integer&gt;": 0 },
+        "matrix": jamHelpers.<strong>toIntegerList</strong> (customMatrix)
+    }
+);</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Array}</span> <b>integersArr</b>
+									
+								</dt>
+								<dd>JSON array of integer values
+(cf. <a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-simplified-formats/integer-list-simplified-format/">Integer List Simplified Format</a>)</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Object|Array}</span> Integer list in <a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-am-data-format/">JSON AM Data Format</a></dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/jamHelpers.html#.fromIntegerList">jamHelpers.fromIntegerList</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".toOffsetObject"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Object|Array}</span>
+					<span class="light">jamHelpers.</span><b>toOffsetObject</b>(offsetArr)
+					
+					</div>
+					<div class="description">
+						Get an offset object in JSON AM Data Format from a JSON array of data (offset values) and optional unit ID string.
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">jamEngine.jsonPlay
+(
+    "move",
+    {
+        "target": { "&lt;reference&gt;": [ { "layer": { "&lt;enumerated&gt;": { "ordinal": "targetEnum" } } } ] },
+        "to": jamHelpers.<strong>toOffsetObject</strong> ([ [ 50, 50 ], "percentUnit" ])
+    }
+);</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Array}</span> <b>offsetArr</b>
+									
+								</dt>
+								<dd>JSON array of data: [ horizontal, vertical ], and optional unit ID string ("distanceUnit", "percentUnit", "pixelsUnit", etc.)
+(cf. <a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-simplified-formats/offset-object-simplified-format/">Offset Object Simplified Format</a>)</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Object|Array}</span> Offset object in <a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-am-data-format/">JSON AM Data Format</a></dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name=".toPathComponentList"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Object|Array}</span>
+					<span class="light">jamHelpers.</span><b>toPathComponentList</b>(pathComponents)
+					
+					</div>
+					<div class="description">
+						Get a path component list in JSON AM Data Format from either a JSON object or a JSON array (made of two elements: simplified path component values and unit ID string for coordinates).
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">// Self-intersecting five-pointed star path
+var starPath =
+{
+    "pathComponents":
+    [
+        {
+            "shapeOperation": "add",
+            "windingFill": true,
+            "subpathListKey":
+            [
+                {
+                    "closedSubpath": true,
+                    "points":
+                    [
+                        { "anchor": { "horizontal": 12.5, "vertical": 41 } },
+                        { "anchor": { "horizontal": 87.5, "vertical": 41 } },
+                        { "anchor": { "horizontal": 23, "vertical": 85.5 } },
+                        { "anchor": { "horizontal": 50, "vertical": 14.5 } },
+                        { "anchor": { "horizontal": 77, "vertical": 85.5 } }
+                    ]
+                }
+            ]
+        }
+    ],
+    "unit": "percentUnit"
+};
+jamEngine.jsonPlay
+(
+    "set",
+    {
+        "target": { "&lt;reference&gt;": [ { "path": { "&lt;property&gt;": "workPath" } } ] },
+        "to": jamHelpers.<strong>toPathComponentList</strong> (starPath)
+    }
+);
+jamEngine.jsonPlay
+(
+    "fill",
+    {
+        "target": { "&lt;reference&gt;": [ { "path": { "&lt;property&gt;": "workPath" } } ] },
+        "wholePath": { "&lt;boolean&gt;": true },
+        "using": { "&lt;enumerated&gt;": { "fillContents": "color" } },
+        "color": jamHelpers.toColorObject ([ "RGBColor", [ 255, 0, 255 ] ]),  // Magenta
+        "opacity": { "&lt;unitDouble&gt;": { "percentUnit": 100 } },
+        "mode": { "&lt;enumerated&gt;": { "blendMode": "normal" } },
+        "radius": { "&lt;unitDouble&gt;": { "pixelsUnit": 0.0 } },
+        "antiAlias": { "&lt;boolean&gt;": true }
+    }
+);
+jamEngine.jsonPlay
+(
+    "delete",
+    {
+        "target": { "&lt;reference&gt;": [ { "path": { "&lt;property&gt;": "workPath" } } ] }
+    }
+);</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Object|Array}</span> <b>pathComponents</b>
+									
+								</dt>
+								<dd>JSON object or JSON array made of two elements: simplified path component values and unit ID string for coordinates ("distanceUnit", "percentUnit", "pixelsUnit")
+(cf. <a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-simplified-formats/path-component-list-simplified-format/">Path Component List Simplified Format</a>)</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Object|Array}</span> Path component list in <a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-am-data-format/">JSON AM Data Format</a></dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/jamHelpers.html#.fromPathComponentList">jamHelpers.fromPathComponentList</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".toPointList"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Object|Array}</span>
+					<span class="light">jamHelpers.</span><b>toPointList</b>(pointsArr)
+					
+					</div>
+					<div class="description">
+						Get a point list in JSON AM Data Format from a JSON array of data (list of points) and optional unit ID string.
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">var points = [ [ [ 467, 116 ], [ 482, 335 ], [ 313, 274 ], [ 366, 102 ] ], "pixelsUnit" ];
+jamEngine.jsonPlay
+(
+    "set",
+    {
+        "target": { "&lt;reference&gt;": [ { "channel": { "&lt;property&gt;": "selection" } } ] },
+        "to": { "&lt;object&gt": { "polygon": { "points": jamHelpers.<strong>toPointList</strong> (points) } } },
+        "feather": { "&lt;unitDouble&gt;": { "pixelsUnit": 5 } },
+        "antiAlias": { "&lt;boolean&gt;": true }
+    }
+);</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Array}</span> <b>pointsArr</b>
+									
+								</dt>
+								<dd>JSON array of data (list of points as JSON arrays of 2 numeric coordinates: [ horizontal, vertical ]) and an optional unit ID string ("distanceUnit", "percentUnit", "pixelsUnit", etc.)
+(cf. <a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-simplified-formats/point-list-simplified-format/">Point List Simplified Format</a>)</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Object|Array}</span> Point list in <a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-am-data-format/">JSON AM Data Format</a></dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/jamHelpers.html#.fromPointList">jamHelpers.fromPointList</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".toPointObject"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Object|Array}</span>
+					<span class="light">jamHelpers.</span><b>toPointObject</b>(pointArr)
+					
+					</div>
+					<div class="description">
+						Get a point object in JSON AM Data Format from a JSON array of data (coordinate values) and optional unit ID string.
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">jamEngine.jsonPlay
+(
+    "lensFlare",
+    {
+        "brightness": { "&lt;integer&gt;": 120 },
+        "flareCenter": jamHelpers.<strong>toPointObject</strong> ([ [ 0.75, 0.75 ] ]),
+        "lens": { "&lt;enumerated&gt;": { "lens": "zoom" } }
+    }
+);</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Array}</span> <b>pointArr</b>
+									
+								</dt>
+								<dd>JSON array of data: [ horizontal, vertical ], and optional unit ID string ("distanceUnit", "percentUnit", "pixelsUnit", etc.)
+(cf. <a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-simplified-formats/point-object-simplified-format/">Point Object Simplified Format</a>)</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Object|Array}</span> Point object in <a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-am-data-format/">JSON AM Data Format</a></dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name=".toRationalPointList"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Object|Array}</span>
+					<span class="light">jamHelpers.</span><b>toRationalPointList</b>(rationalPointsArr)
+					
+					</div>
+					<div class="description">
+						Get a rational point list in JSON AM Data Format from a JSON array of a list of rational points and optional unit ID string.
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">var bounds = [ [ 0, 0, 100, 100 ], "percentUnit" ];
+var meshPoints =
+[
+    [
+        [ 0, 0 ], [ 50, 0 ], [ 50, 0 ], [ 100, 0 ],
+        [ 0, 50 ], [ 100 / 3, 100 / 3 ], [ 200 / 3, 100 / 3 ], [ 100, 50 ],
+        [ 0, 50 ], [ 100 / 3, 200 / 3 ], [ 200 / 3, 200 / 3 ], [ 100, 50 ],
+        [ 0, 100 ], [ 50, 100 ], [ 50, 100 ], [ 100, 100 ]
+    ],
+    "percentUnit"
+];
+jamEngine.jsonPlay
+(
+    "transform",
+    {
+        "target": { "&lt;reference&gt;": [ { "layer": { "&lt;enumerated&gt;": { "ordinal": "targetEnum" } } } ] },
+        "freeTransformCenterState": { "&lt;enumerated&gt;": { "quadCenterState": "QCSAverage" } },
+        "warp":
+        {
+            "&lt;object&gt;":
+            {
+                "warp":
+                {
+                    "warpStyle": { "&lt;enumerated&gt;": { "warpStyle": "warpCustom" } },
+                    "bounds": jamHelpers.toRectangleObject (bounds),
+                    "uOrder": { "&lt;integer&gt;": 4 },
+                    "vOrder": { "&lt;integer&gt;": 4 },
+                    "customEnvelopeWarp":
+                    {
+                        "&lt;object&gt;":
+                        {
+                            "customEnvelopeWarp":
+                            {
+                                "meshPoints": jamHelpers.<strong>toRationalPointList</strong> (meshPoints)
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+);</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Array}</span> <b>rationalPointsArr</b>
+									
+								</dt>
+								<dd>JSON array of a list of rational points (as JSON arrays of 2 numeric coordinates: [ horizontal, vertical ]) and an optional unit ID string ("distanceUnit", "percentUnit", "pixelsUnit", etc.)
+(cf. <a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-simplified-formats/rational-point-list-simplified-format/">Rational Point List Simplified Format</a>)</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Object|Array}</span> Rational point list in <a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-am-data-format/">JSON AM Data Format</a></dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name=".toRectangleObject"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Object|Array}</span>
+					<span class="light">jamHelpers.</span><b>toRectangleObject</b>(rectangleArr)
+					
+					</div>
+					<div class="description">
+						Get a rectangle object in JSON AM Data Format from a JSON array of data (bound values and optional radius) and optional unit ID string.
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">// Plain rectangle
+jamEngine.jsonPlay
+(
+    "set",
+    {
+        "target": { "&lt;reference&gt;": [ { "channel": { "&lt;property&gt;": "selection" } } ] },
+        "to": jamHelpers.<strong>toRectangleObject</strong> ([ [ 10, 10, 90, 90 ], "percentUnit" ])
+    }
+);</pre>
+					
+					<pre class="code">// Rounded rectangle
+jamEngine.jsonPlay
+(
+    "set",
+    {
+        "target": { "&lt;reference&gt;": [ { "path": { "&lt;property&gt;": "workPath" } } ] },
+        "to": jamHelpers.<strong>toRectangleObject</strong> ([ [ 10, 10, 90, 90, 10 ], "percentUnit" ])
+    }
+);</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Array}</span> <b>rectangleArr</b>
+									
+								</dt>
+								<dd>JSON array of data: [ left, top, right, bottom ] for plain rectangles or [ left, top, right, bottom, radius ] for rounded rectangles, and optional unit ID string ("distanceUnit", "percentUnit", "pixelsUnit", etc.)
+(cf. <a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-simplified-formats/rectangle-object-simplified-format/">Rectangle Object Simplified Format</a>)</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Object|Array}</span> Rectangle object in <a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-am-data-format/">JSON AM Data Format</a></dd>
+							
+							</dl>
+						
+						
+						
+
+					
+				
+			
+			
+<!-- ============================== event details ========================= -->		
+			
+			
+			<hr />
+		</div>
+
+		
+<!-- ============================== footer ================================= -->
+		<div class="fineprint" style="clear:both">
+			
+			Documentation generated by <a href="http://code.google.com/p/jsdoc-toolkit/" target="_blank">JsDoc Toolkit</a> 2.4.0 on Wed Oct 12 2016 23:32:44 GMT+0200 (CEST)
+		</div>
+	</body>
+</html>

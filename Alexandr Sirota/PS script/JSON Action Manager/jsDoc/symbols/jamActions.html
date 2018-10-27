@@ -1,0 +1,984 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="generator" content="JsDoc Toolkit" />
+		
+		<title>JsDoc Reference - jamActions</title>
+
+		<style type="text/css">
+			/* default.css */
+body
+{
+	font: 12px "Lucida Grande", Tahoma, Arial, Helvetica, sans-serif;
+	width: 980px;
+}
+
+.header
+{
+	clear: both;
+	background-color: #ccc;
+	padding: 8px;
+}
+
+h1
+{
+	font-size: 150%;
+	font-weight: bold;
+	padding: 0;
+	margin: 1em 0 0 .3em;
+}
+
+hr
+{
+	border: none 0;
+	border-top: 1px solid #7F8FB1;
+	height: 1px;
+}
+
+pre.code
+{
+	display: block;
+	padding: 8px;
+	border: 1px dashed #ccc;
+}
+
+#index
+{
+	margin-top: 24px;
+	float: left;
+	width: 160px;
+	position: absolute;
+	left: 8px;
+	background-color: #F3F3F3;
+	padding: 8px;
+}
+
+#content
+{
+	margin-left: 190px;
+	width: 790px;
+}
+
+.classList
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0 0 0 8px;
+	font-family: arial, sans-serif;
+	font-size: 1em;
+	overflow: auto;
+}
+
+.classList li
+{
+	padding: 0;
+	margin: 0 0 8px 0;
+}
+
+.summaryTable { width: 100%; }
+
+h1.classTitle
+{
+	font-size:170%;
+	line-height:130%;
+}
+
+h2 { font-size: 110%; }
+caption, div.sectionTitle
+{
+	background-color: #7F8FB1;
+	color: #fff;
+	font-size:130%;
+	text-align: left;
+	padding: 2px 6px 2px 6px;
+	border: 1px #7F8FB1 solid;
+}
+
+div.sectionTitle { margin-bottom: 8px; }
+.summaryTable thead { display: none; }
+
+.summaryTable td
+{
+	vertical-align: top;
+	padding: 4px;
+	border-bottom: 1px #7F8FB1 solid;
+	border-right: 1px #7F8FB1 solid;
+}
+
+/*col#summaryAttributes {}*/
+.summaryTable td.attributes
+{
+	border-left: 1px #7F8FB1 solid;
+	width: 140px;
+	text-align: right;
+}
+
+td.attributes, .fixedFont
+{
+	line-height: 15px;
+	color: #002EBE;
+	font-family: "Courier New",Courier,monospace;
+	font-size: 13px;
+}
+
+.summaryTable td.nameDescription
+{
+	text-align: left;
+	font-size: 13px;
+	line-height: 15px;
+}
+
+.summaryTable td.nameDescription, .description
+{
+	line-height: 15px;
+	padding: 4px;
+	padding-left: 4px;
+}
+
+.summaryTable { margin-bottom: 8px; }
+
+ul.inheritsList
+{
+	list-style: square;
+	margin-left: 20px;
+	padding-left: 0;
+}
+
+.detailList {
+	margin-left: 20px; 
+	line-height: 15px;
+}
+.detailList dt { margin-left: 20px; }
+
+.detailList .heading
+{
+	font-weight: bold;
+	padding-bottom: 6px;
+	margin-left: 0;
+}
+
+.light, td.attributes, .light a:link, .light a:visited
+{
+	color: #777;
+	font-style: italic;
+}
+
+.fineprint
+{
+	text-align: right;
+	font-size: 10px;
+}
+		</style>
+	</head>
+
+	<body>
+<!-- ============================== header ================================= -->	
+		<!-- begin static/header.html -->
+		<div id="header">
+</div>
+		<!-- end static/header.html -->
+
+<!-- ============================== classes index ============================ -->
+		<div id="index">
+			<!-- begin publish.classesIndex -->
+			<div align="center"><a href="../index.html">Class Index</a>
+| <a href="../files.html">File Index</a></div>
+<hr />
+<h2>Classes</h2>
+<ul class="classList">
+	
+	<li><a href="../symbols/jamActions.html">jamActions</a></li>
+	
+	<li><a href="../symbols/jamBooks.html">jamBooks</a></li>
+	
+	<li><a href="../symbols/jamColors.html">jamColors</a></li>
+	
+	<li><a href="../symbols/jamEngine.html">jamEngine</a></li>
+	
+	<li><a href="../symbols/jamHelpers.html">jamHelpers</a></li>
+	
+	<li><a href="../symbols/jamJSON.html">jamJSON</a></li>
+	
+	<li><a href="../symbols/jamLayers.html">jamLayers</a></li>
+	
+	<li><a href="../symbols/jamShapes.html">jamShapes</a></li>
+	
+	<li><a href="../symbols/jamStyles.html">jamStyles</a></li>
+	
+	<li><a href="../symbols/jamText.html">jamText</a></li>
+	
+	<li><a href="../symbols/jamUtils.html">jamUtils</a></li>
+	
+</ul>
+<hr />
+			<!-- end publish.classesIndex -->
+		</div>
+		
+		<div id="content">
+<!-- ============================== class title ============================ -->
+			<h1 class="classTitle">
+				
+				Namespace jamActions
+			</h1>
+
+<!-- ============================== class summary ========================== -->			
+			<p class="description">
+				<br />Version
+					4.5.<br />
+				
+				
+			
+				
+				
+				
+					<br /><i>Defined in: </i> <a href="../symbols/src/jamActions.jsxinc.html">jamActions.jsxinc</a>.
+				
+			</p>
+
+<!-- ============================== constructor summary ==================== -->			
+			
+			<table class="summaryTable" cellspacing="0" summary="A summary of the constructor documented in the class jamActions.">
+				<caption>Namespace Summary</caption>
+				<thead>
+					<tr>
+						<th scope="col">Constructor Attributes</th>
+						<th scope="col">Constructor Name and Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="attributes">&nbsp;</td>
+						<td class="nameDescription" >
+							<div class="fixedFont">
+								<b><a href="../symbols/jamActions.html#constructor">jamActions</a></b>
+							</div>
+							<div class="description">Global object (used to simulate a namespace in JavaScript) containing
+a set of functions related to decoding actions files into a format usable by scripts written with the
+<a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-action-manager/">JSON Action Manager</a> engine.</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			
+
+<!-- ============================== properties summary ===================== -->
+			
+
+<!-- ============================== methods summary ======================== -->
+			
+				
+				
+				<table class="summaryTable" cellspacing="0" summary="A summary of the methods documented in the class jamActions.">
+					<caption>Method Summary</caption>
+					<thead>
+						<tr>
+							<th scope="col">Method Attributes</th>
+							<th scope="col">Method Name and Description</th>
+						</tr>
+					</thead>
+					<tbody>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamActions.<b><a href="../symbols/jamActions.html#.dataFromActionsFile">dataFromActionsFile</a></b>(actionsFile, isPalette)
+								</div>
+								<div class="description">Convert an actions file (*.atn) or actions palette file (Actions Palette.psp) into a data structure
+in literal object format [available in CS2 or later].</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamActions.<b><a href="../symbols/jamActions.html#.determineDialogMode">determineDialogMode</a></b>(command)
+								</div>
+								<div class="description">Determine dialog mode depending on command settings</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamActions.<b><a href="../symbols/jamActions.html#.isActionsFile">isActionsFile</a></b>(file)
+								</div>
+								<div class="description">Test if a given file is an actions file (*.atn).</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamActions.<b><a href="../symbols/jamActions.html#.isActionsPalette">isActionsPalette</a></b>(file)
+								</div>
+								<div class="description">Test if a given file is an actions palette file (Actions Palette.psp).</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamActions.<b><a href="../symbols/jamActions.html#.isLocalPlayCommand">isLocalPlayCommand</a></b>(command, actionSetName)
+								</div>
+								<div class="description">Test if a command is a play of a local action (belonging to the same action set).</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamActions.<b><a href="../symbols/jamActions.html#.readActionDescriptor">readActionDescriptor</a></b>(file, insertVersionPrefix)
+								</div>
+								<div class="description">Read an ActionDescriptor object from the current position of an open file stream [available in CS2 or later].</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamActions.<b><a href="../symbols/jamActions.html#.setCommandHandler">setCommandHandler</a></b>(commandHandler)
+								</div>
+								<div class="description">Set the global command handler [available in CS2 or later].</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamActions.<b><a href="../symbols/jamActions.html#.traverseAction">traverseAction</a></b>(actionSet, actionLocator, fromCommandIndex, continuePlay)
+								</div>
+								<div class="description">Traverse all the commands of a specific action of an action set data structure obtained from a converted actions file (*.atn)
+[available in CS2 or later].</div>
+							</td>
+						</tr>
+					
+					</tbody>
+				</table>
+				
+				
+				
+			
+<!-- ============================== events summary ======================== -->
+			
+
+<!-- ============================== constructor details ==================== -->		
+			
+			<div class="details"><a name="constructor"> </a>
+				<div class="sectionTitle">
+					Namespace Detail
+				</div>
+				
+				<div class="fixedFont">
+						<b>jamActions</b>
+				</div>
+				
+				<div class="description">
+					Global object (used to simulate a namespace in JavaScript) containing
+a set of functions related to decoding actions files into a format usable by scripts written with the
+<a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-action-manager/">JSON Action Manager</a> engine.<br />
+Uses information found in the document
+<a href="http://www.tonton-pixel.com/Photoshop%20Additional%20File%20Formats/actions-file-format.html">Photoshop Actions File Format</a>.
+					<br /><i>Author: </i>Michel MARIANI.
+				</div>
+				
+				
+				
+				
+					
+					
+					
+					
+					
+					
+					
+
+			</div>
+			
+
+<!-- ============================== field details ========================== -->		
+			
+
+<!-- ============================== method details ========================= -->		
+			
+				<div class="sectionTitle">
+					Method Detail
+				</div>
+				
+					<a name=".dataFromActionsFile"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Object|String}</span>
+					<span class="light">jamActions.</span><b>dataFromActionsFile</b>(actionsFile, isPalette)
+					
+					</div>
+					<div class="description">
+						Convert an actions file (*.atn) or actions palette file (Actions Palette.psp) into a data structure
+in literal object format [available in CS2 or later].
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">function actionsFileFilter (f)
+{
+    return (f instanceof Folder) || jamActions.isActionsFile (f);
+}
+var select = (File.fs === "Macintosh") ? actionsFileFilter : "Actions Files:*.atn,All Files:*";
+var actionsFile = File.openDialog ("Select an actions file:", select);
+if (actionsFile !== null)
+{
+    var fileData = jamActions.<strong>dataFromActionsFile</strong> (actionsFile);
+    if (typeof fileData === 'string')
+    {
+        alert (fileData + "\n" + "Actions file: “" + File.decode (actionsFile.name) + "”");
+    }
+    else
+    {
+        alert ("Action set name: “" + fileData.actionSet.name + "”");
+        alert ("Number of actions: " + fileData.actionSet.actions.length);
+    }
+}</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{String|Object}</span> <b>actionsFile</b>
+									
+								</dt>
+								<dd>Actions file (or actions palette file) path string or File object</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>isPalette</b>
+									<i>Optional</i>
+								</dt>
+								<dd>true if actions palette file</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Object|String}</span> Converted actions file data structure in literal object format, or error message string
+<p style="margin: 0.5em 0 0 0em;">
+The actions file data structure is defined as a literal object with two members: either<br />
+<code>{ fileVersion: <em>fileVersion</em>, actionSets: <em>actionSets</em> }</code> for an actions palette file, or <br />
+<code>{ fileVersion: <em>fileVersion</em>, actionSet: <em>actionSet</em> }</code> for an actions file.
+</p>
+<p style="margin: 0.5em 0 0 1.25em;">
+<code><em>fileVersion</em></code>: number<br />
+<code><em>actionSets</em></code>: literal array [ ] of <code><em>actionSet</em></code><br />
+<code><em>actionSet</em></code>: literal object with three members:
+<code>{ name: <em>name</em>, expanded: <em>expanded</em>, actions: <em>actions</em> }</code>
+</p>
+<p style="margin: 0.5em 0 0 2.5em;">
+<code><em>name</em></code>: string<br />
+<code><em>expanded</em></code>: boolean<br />
+<code><em>actions</em></code>: literal array [ ] of <code><em>action</em></code>
+</p>
+<p style="margin: 0.5em 0 0 3.75em;">
+<code><em>action</em></code>: literal object with seven members:<br />
+<code>{ functionKey: <em>functionKey</em>, shiftKey: <em>shiftKey</em>, commandKey: <em>commandKey</em>,
+colorIndex: <em>colorIndex</em>, name: <em>name</em>, expanded: <em>expanded</em>, commands: <em>commands</em> }</code>
+</p>
+<p style="margin: 0.5em 0 0 5em;">
+<code><em>functionKey</em></code>: number<br />
+<code><em>shiftKey</em></code>: boolean<br />
+<code><em>commandKey</em></code>: boolean<br />
+<code><em>colorIndex</em></code>: number<br />
+<code><em>name</em></code>: string<br />
+<code><em>expanded</em></code>: boolean<br />
+<code><em>commands</em></code>: literal array [ ] of <code><em>command</em></code>
+</p>
+<p style="margin: 0.5em 0 0 6.25em;">
+<code><em>command</em></code>: literal object with six or seven members: either<br />
+<code>{ expanded: <em>expanded</em>, enabled: <em>enabled</em>, withDialog: <em>withDialog</em>, dialogOptions: <em>dialogOptions</em>,
+eventId: <em>eventId</em>, dictionaryName: <em>dictionaryName</em> }</code> or<br />
+<code>{ expanded: <em>expanded</em>, enabled: <em>enabled</em>, withDialog: <em>withDialog</em>, dialogOptions: <em>dialogOptions</em>,
+eventId: <em>eventId</em>, dictionaryName: <em>dictionaryName</em>, actionDescriptor: <em>actionDescriptor</em> }</code><br />
+</p>
+<p style="margin: 0.5em 0 0 7.5em;">
+<code><em>expanded</em></code>: boolean<br />
+<code><em>enabled</em></code>: boolean<br />
+<code><em>withDialog</em></code>: boolean<br />
+<code><em>dialogOptions</em></code>: number<br />
+<code><em>eventId</em></code>: number<br />
+<code><em>dictionaryName</em></code>: string<br />
+<code><em>actionDescriptor</em></code>: ActionDescriptor object (optional)
+</p></dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name=".determineDialogMode"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Object}</span>
+					<span class="light">jamActions.</span><b>determineDialogMode</b>(command)
+					
+					</div>
+					<div class="description">
+						Determine dialog mode depending on command settings
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">app.executeAction (command.eventId, command.actionDescriptor, jamActions.<strong>determineDialogMode</strong> (command));</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Object}</span> <b>command</b>
+									
+								</dt>
+								<dd>Command data structure</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Object}</span> Dialog mode: either DialogModes.ALL or DialogModes.NO</dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/jamActions.html#.dataFromActionsFile">jamActions.dataFromActionsFile</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".isActionsFile"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Boolean}</span>
+					<span class="light">jamActions.</span><b>isActionsFile</b>(file)
+					
+					</div>
+					<div class="description">
+						Test if a given file is an actions file (*.atn).
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">function actionsFileFilter (f)
+{
+    return (f instanceof Folder) || jamActions.<strong>isActionsFile</strong> (f);
+}
+var select = (File.fs === "Macintosh") ? actionsFileFilter : "Actions Files:*.atn,All Files:*";
+var actionsFile = File.openDialog ("Select an actions file:", select);
+if (actionsFile !== null)
+{
+    alert ("OK!");
+}</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Object}</span> <b>file</b>
+									
+								</dt>
+								<dd>File object</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Boolean}</span> true if actions file</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name=".isActionsPalette"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Boolean}</span>
+					<span class="light">jamActions.</span><b>isActionsPalette</b>(file)
+					
+					</div>
+					<div class="description">
+						Test if a given file is an actions palette file (Actions Palette.psp).
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">function actionsPaletteFilter (f)
+{
+    return (f instanceof Folder) || jamActions.<strong>isActionsPalette</strong> (f);
+}
+var select = (File.fs === "Macintosh") ? actionsPaletteFilter : "Actions Palette File:*.psp,All Files:*.*";
+var actionsPaletteFile = File.openDialog ("Select an actions palette file:", select);
+if (actionsPaletteFile !== null)
+{
+    alert ("OK!");
+}</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Object}</span> <b>file</b>
+									
+								</dt>
+								<dd>File object</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Boolean}</span> true if actions palette file</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name=".isLocalPlayCommand"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Array|Null}</span>
+					<span class="light">jamActions.</span><b>isLocalPlayCommand</b>(command, actionSetName)
+					
+					</div>
+					<div class="description">
+						Test if a command is a play of a local action (belonging to the same action set).
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">function executeCommand (command)
+{
+    if (command.enabled)
+    {
+        var playCommand = jamActions.<strong>isLocalPlayCommand</strong> (command, actionSet.name);
+        if (playCommand !== null)
+        {
+            jamActions.traverseAction (actionSet, playCommand[0], playCommand[1], playCommand[2]);
+        }
+        else
+        {
+            var dialogMode = jamActions.determineDialogMode (command);
+            app.executeAction (command.eventId, command.actionDescriptor, dialogMode);
+        }
+    }
+}
+jamActions.setCommandHandler (executeCommand);
+jamActions.traverseAction (fileData.actionSet, actionName);</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Object}</span> <b>command</b>
+									
+								</dt>
+								<dd>Command data structure</dd>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>actionSetName</b>
+									
+								</dt>
+								<dd>Action set name</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Array|Null}</span> Array of three items: [ localActionName, localCommandIndex, localContinue ] if true, null if false</dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/jamActions.html#.dataFromActionsFile">jamActions.dataFromActionsFile</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".readActionDescriptor"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Object}</span>
+					<span class="light">jamActions.</span><b>readActionDescriptor</b>(file, insertVersionPrefix)
+					
+					</div>
+					<div class="description">
+						Read an ActionDescriptor object from the current position of an open file stream [available in CS2 or later].
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">var actionDescriptor = jamActions.<strong>readActionDescriptor</strong> (inFile);
+var resultDescriptorObj = jamEngine.classIdAndActionDescriptorToJson (0, actionDescriptor);
+$.writeln (jamJSON.stringify (resultDescriptorObj["&lt;descriptor&gt;"], '\t'));</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Object}</span> <b>file</b>
+									
+								</dt>
+								<dd>File object</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>insertVersionPrefix</b>
+									
+								</dt>
+								<dd>Insert missing version prefix at the beginning of the file stream</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Object}</span> ActionDescriptor object</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name=".setCommandHandler"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					
+					<span class="light">jamActions.</span><b>setCommandHandler</b>(commandHandler)
+					
+					</div>
+					<div class="description">
+						Set the global command handler [available in CS2 or later].<br />
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">function debugCommand (command)
+{
+    $.writeln ("Dictionary Name: " + command.dictionaryName);
+    $.writeln ("Enabled: " + command.enabled);
+    $.writeln ("With Dialog: " + command.withDialog);
+    $.writeln ();
+}
+jamActions.<strong>setCommandHandler</strong> (debugCommand);
+jamActions.traverseAction (fileData.actionSet, 0);</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Function}</span> <b>commandHandler</b>
+									
+								</dt>
+								<dd>Global command handler: function to be called by jamActions.traverseAction () for each command in the action</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/jamActions.html#.traverseAction">jamActions.traverseAction</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".traverseAction"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					
+					<span class="light">jamActions.</span><b>traverseAction</b>(actionSet, actionLocator, fromCommandIndex, continuePlay)
+					
+					</div>
+					<div class="description">
+						Traverse all the commands of a specific action of an action set data structure obtained from a converted actions file (*.atn)
+[available in CS2 or later].<br />
+The global command handler set by jamActions.setCommandHandler () is called for each command in the action.
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">Folder.current = new Folder ("~/JSON Action Manager/tests/resources/");
+jamEngine.jsonPlay ("open", { "target": { "&lt;path&gt;": "Factory.jpg" } });
+var actionsFilePath = "Cross Processing.atn";
+var fileData = jamActions.dataFromActionsFile (actionsFilePath);
+if (typeof fileData === 'string')
+{
+    alert (fileData + "\n" + "Actions file: “" + actionsFilePath + "”");
+}
+else
+{
+    function executeCommand (command)
+    {
+        if (command.enabled)
+        {
+            var dialogMode = jamActions.determineDialogMode (command);
+            app.executeAction (command.eventId, command.actionDescriptor, dialogMode);
+        }
+    }
+    jamActions.setCommandHandler (executeCommand);
+    jamActions.<strong>traverseAction</strong> (fileData.actionSet, "Cross Process 2");
+}</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Object}</span> <b>actionSet</b>
+									
+								</dt>
+								<dd>Action set data structure in literal object format</dd>
+							
+								<dt>
+									<span class="light fixedFont">{String|Number}</span> <b>actionLocator</b>
+									
+								</dt>
+								<dd>Action locator: action name or action index (0-based)</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>fromCommandIndex</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Index (0-based) of command to start from</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>continuePlay</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Continue to play remaining commands after the fromCommandIndex index</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/jamActions.html#.dataFromActionsFile">jamActions.dataFromActionsFile</a></dd>
+							
+								<dd><a href="../symbols/jamActions.html#.setCommandHandler">jamActions.setCommandHandler</a></dd>
+							
+							</dl>
+						
+
+					
+				
+			
+			
+<!-- ============================== event details ========================= -->		
+			
+			
+			<hr />
+		</div>
+
+		
+<!-- ============================== footer ================================= -->
+		<div class="fineprint" style="clear:both">
+			
+			Documentation generated by <a href="http://code.google.com/p/jsdoc-toolkit/" target="_blank">JsDoc Toolkit</a> 2.4.0 on Wed Oct 12 2016 23:32:44 GMT+0200 (CEST)
+		</div>
+	</body>
+</html>

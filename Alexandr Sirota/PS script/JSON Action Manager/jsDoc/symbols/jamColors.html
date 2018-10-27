@@ -1,0 +1,1782 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="generator" content="JsDoc Toolkit" />
+		
+		<title>JsDoc Reference - jamColors</title>
+
+		<style type="text/css">
+			/* default.css */
+body
+{
+	font: 12px "Lucida Grande", Tahoma, Arial, Helvetica, sans-serif;
+	width: 980px;
+}
+
+.header
+{
+	clear: both;
+	background-color: #ccc;
+	padding: 8px;
+}
+
+h1
+{
+	font-size: 150%;
+	font-weight: bold;
+	padding: 0;
+	margin: 1em 0 0 .3em;
+}
+
+hr
+{
+	border: none 0;
+	border-top: 1px solid #7F8FB1;
+	height: 1px;
+}
+
+pre.code
+{
+	display: block;
+	padding: 8px;
+	border: 1px dashed #ccc;
+}
+
+#index
+{
+	margin-top: 24px;
+	float: left;
+	width: 160px;
+	position: absolute;
+	left: 8px;
+	background-color: #F3F3F3;
+	padding: 8px;
+}
+
+#content
+{
+	margin-left: 190px;
+	width: 790px;
+}
+
+.classList
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0 0 0 8px;
+	font-family: arial, sans-serif;
+	font-size: 1em;
+	overflow: auto;
+}
+
+.classList li
+{
+	padding: 0;
+	margin: 0 0 8px 0;
+}
+
+.summaryTable { width: 100%; }
+
+h1.classTitle
+{
+	font-size:170%;
+	line-height:130%;
+}
+
+h2 { font-size: 110%; }
+caption, div.sectionTitle
+{
+	background-color: #7F8FB1;
+	color: #fff;
+	font-size:130%;
+	text-align: left;
+	padding: 2px 6px 2px 6px;
+	border: 1px #7F8FB1 solid;
+}
+
+div.sectionTitle { margin-bottom: 8px; }
+.summaryTable thead { display: none; }
+
+.summaryTable td
+{
+	vertical-align: top;
+	padding: 4px;
+	border-bottom: 1px #7F8FB1 solid;
+	border-right: 1px #7F8FB1 solid;
+}
+
+/*col#summaryAttributes {}*/
+.summaryTable td.attributes
+{
+	border-left: 1px #7F8FB1 solid;
+	width: 140px;
+	text-align: right;
+}
+
+td.attributes, .fixedFont
+{
+	line-height: 15px;
+	color: #002EBE;
+	font-family: "Courier New",Courier,monospace;
+	font-size: 13px;
+}
+
+.summaryTable td.nameDescription
+{
+	text-align: left;
+	font-size: 13px;
+	line-height: 15px;
+}
+
+.summaryTable td.nameDescription, .description
+{
+	line-height: 15px;
+	padding: 4px;
+	padding-left: 4px;
+}
+
+.summaryTable { margin-bottom: 8px; }
+
+ul.inheritsList
+{
+	list-style: square;
+	margin-left: 20px;
+	padding-left: 0;
+}
+
+.detailList {
+	margin-left: 20px; 
+	line-height: 15px;
+}
+.detailList dt { margin-left: 20px; }
+
+.detailList .heading
+{
+	font-weight: bold;
+	padding-bottom: 6px;
+	margin-left: 0;
+}
+
+.light, td.attributes, .light a:link, .light a:visited
+{
+	color: #777;
+	font-style: italic;
+}
+
+.fineprint
+{
+	text-align: right;
+	font-size: 10px;
+}
+		</style>
+	</head>
+
+	<body>
+<!-- ============================== header ================================= -->	
+		<!-- begin static/header.html -->
+		<div id="header">
+</div>
+		<!-- end static/header.html -->
+
+<!-- ============================== classes index ============================ -->
+		<div id="index">
+			<!-- begin publish.classesIndex -->
+			<div align="center"><a href="../index.html">Class Index</a>
+| <a href="../files.html">File Index</a></div>
+<hr />
+<h2>Classes</h2>
+<ul class="classList">
+	
+	<li><a href="../symbols/jamActions.html">jamActions</a></li>
+	
+	<li><a href="../symbols/jamBooks.html">jamBooks</a></li>
+	
+	<li><a href="../symbols/jamColors.html">jamColors</a></li>
+	
+	<li><a href="../symbols/jamEngine.html">jamEngine</a></li>
+	
+	<li><a href="../symbols/jamHelpers.html">jamHelpers</a></li>
+	
+	<li><a href="../symbols/jamJSON.html">jamJSON</a></li>
+	
+	<li><a href="../symbols/jamLayers.html">jamLayers</a></li>
+	
+	<li><a href="../symbols/jamShapes.html">jamShapes</a></li>
+	
+	<li><a href="../symbols/jamStyles.html">jamStyles</a></li>
+	
+	<li><a href="../symbols/jamText.html">jamText</a></li>
+	
+	<li><a href="../symbols/jamUtils.html">jamUtils</a></li>
+	
+</ul>
+<hr />
+			<!-- end publish.classesIndex -->
+		</div>
+		
+		<div id="content">
+<!-- ============================== class title ============================ -->
+			<h1 class="classTitle">
+				
+				Namespace jamColors
+			</h1>
+
+<!-- ============================== class summary ========================== -->			
+			<p class="description">
+				<br />Version
+					4.5.<br />
+				
+				
+			
+				
+				
+				
+					<br /><i>Defined in: </i> <a href="../symbols/src/jamColors.jsxinc.html">jamColors.jsxinc</a>.
+				
+			</p>
+
+<!-- ============================== constructor summary ==================== -->			
+			
+			<table class="summaryTable" cellspacing="0" summary="A summary of the constructor documented in the class jamColors.">
+				<caption>Namespace Summary</caption>
+				<thead>
+					<tr>
+						<th scope="col">Constructor Attributes</th>
+						<th scope="col">Constructor Name and Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="attributes">&nbsp;</td>
+						<td class="nameDescription" >
+							<div class="fixedFont">
+								<b><a href="../symbols/jamColors.html#constructor">jamColors</a></b>
+							</div>
+							<div class="description">Global object (used to simulate a namespace in JavaScript) containing
+a set of color-related functions for scripts written with the
+<a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-action-manager/">JSON Action Manager</a> engine.</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			
+
+<!-- ============================== properties summary ===================== -->
+			
+
+<!-- ============================== methods summary ======================== -->
+			
+				
+				
+				<table class="summaryTable" cellspacing="0" summary="A summary of the methods documented in the class jamColors.">
+					<caption>Method Summary</caption>
+					<thead>
+						<tr>
+							<th scope="col">Method Attributes</th>
+							<th scope="col">Method Name and Description</th>
+						</tr>
+					</thead>
+					<tbody>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamColors.<b><a href="../symbols/jamColors.html#.colorToRgb">colorToRgb</a></b>(color)
+								</div>
+								<div class="description">Get a RGB color array [ red, green, blue ] from a color string or a RGB color array.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamColors.<b><a href="../symbols/jamColors.html#.defineNamedColorsSet">defineNamedColorsSet</a></b>(setName, setData)
+								</div>
+								<div class="description">Define a custom named colors set.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamColors.<b><a href="../symbols/jamColors.html#.enumerateNamedColors">enumerateNamedColors</a></b>(setName, excludeVariants)
+								</div>
+								<div class="description">Get an array of all color names belonging to a named colors set.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamColors.<b><a href="../symbols/jamColors.html#.hclToRgb">hclToRgb</a></b>(hclColor, hclFloatRange, rgbFloatRange)
+								</div>
+								<div class="description">Convert a HCL color array [ hue, chroma, luminance ] to a RGB color array [ red, green, blue ].</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamColors.<b><a href="../symbols/jamColors.html#.hexToRgb">hexToRgb</a></b>(hexColorString)
+								</div>
+								<div class="description">Get a RGB color array [ red, green, blue ] from a RGB color string in HTML/CSS hexadecimal notation.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamColors.<b><a href="../symbols/jamColors.html#.hsbToRgb">hsbToRgb</a></b>(hsbColor, hsbFloatRange, rgbFloatRange)
+								</div>
+								<div class="description">Convert a HSB color array [ hue, saturation, brightness ] to a RGB color array [ red, green, blue ].</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamColors.<b><a href="../symbols/jamColors.html#.hslToRgb">hslToRgb</a></b>(hslColor, hslFloatRange, rgbFloatRange)
+								</div>
+								<div class="description">Convert a HSL color array [ hue, saturation, lightness ] to a RGB color array [ red, green, blue ].</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamColors.<b><a href="../symbols/jamColors.html#.labToRgb">labToRgb</a></b>(labColor, labFloatRange, rgbFloatRange)
+								</div>
+								<div class="description">Convert a Lab color array [ luminance, a, b ] to a RGB color array [ red, green, blue ].</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamColors.<b><a href="../symbols/jamColors.html#.nameToColor">nameToColor</a></b>(setName, colorName, strict)
+								</div>
+								<div class="description">Get a color in simplified array format [ class, components ] from a color name belonging to a named colors set.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamColors.<b><a href="../symbols/jamColors.html#.rgbToHcl">rgbToHcl</a></b>(rgbColor, rgbFloatRange, hclFloatRange)
+								</div>
+								<div class="description">Convert a RGB color array [ red, green, blue ] to a HCL color array [ hue, chroma, luminance ].</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamColors.<b><a href="../symbols/jamColors.html#.rgbToHex">rgbToHex</a></b>(rgbColor, noSign, lowercase)
+								</div>
+								<div class="description">Get a RGB color string in HTML/CSS hexadecimal notation from a RGB color array [ red, green, blue ].</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamColors.<b><a href="../symbols/jamColors.html#.rgbToHsb">rgbToHsb</a></b>(rgbColor, rgbFloatRange, hsbFloatRange)
+								</div>
+								<div class="description">Convert a RGB color array [ red, green, blue ] to a HSB color array [ hue, saturation, brightness ].</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamColors.<b><a href="../symbols/jamColors.html#.rgbToHsl">rgbToHsl</a></b>(rgbColor, rgbFloatRange, hslFloatRange)
+								</div>
+								<div class="description">Convert a RGB color array [ red, green, blue ] to a HSL color array [ hue, saturation, lightness ].</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamColors.<b><a href="../symbols/jamColors.html#.rgbToLab">rgbToLab</a></b>(rgbColor, rgbFloatRange, labFloatRange)
+								</div>
+								<div class="description">Convert a RGB color array [ red, green, blue ] to a Lab color array [ luminance, a, b ].</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamColors.<b><a href="../symbols/jamColors.html#.rgbToXyz">rgbToXyz</a></b>(rgbColor, rgbFloatRange, xyzFloatRange)
+								</div>
+								<div class="description">Convert a RGB color array [ red, green, blue ] to a XYZ color array [ x, y, z ].</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamColors.<b><a href="../symbols/jamColors.html#.rgbToYcbcr">rgbToYcbcr</a></b>(rgbColor, rgbFloatRange, ycbcrFloatRange)
+								</div>
+								<div class="description">Convert a RGB color array [ red, green, blue ] to a YCbCr color array [ y, cb, cr ].</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamColors.<b><a href="../symbols/jamColors.html#.xyzToRgb">xyzToRgb</a></b>(xyzColor, xyzFloatRange, rgbFloatRange)
+								</div>
+								<div class="description">Convert a XYZ color array [ x, y, z ] to a RGB color array [ red, green, blue ].</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamColors.<b><a href="../symbols/jamColors.html#.ycbcrToRgb">ycbcrToRgb</a></b>(ycbcrColor, ycbcrFloatRange, rgbFloatRange)
+								</div>
+								<div class="description">Convert a YCbCr color array [ y, cb, cr ] to a RGB color array [ red, green, blue ].</div>
+							</td>
+						</tr>
+					
+					</tbody>
+				</table>
+				
+				
+				
+			
+<!-- ============================== events summary ======================== -->
+			
+
+<!-- ============================== constructor details ==================== -->		
+			
+			<div class="details"><a name="constructor"> </a>
+				<div class="sectionTitle">
+					Namespace Detail
+				</div>
+				
+				<div class="fixedFont">
+						<b>jamColors</b>
+				</div>
+				
+				<div class="description">
+					Global object (used to simulate a namespace in JavaScript) containing
+a set of color-related functions for scripts written with the
+<a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-action-manager/">JSON Action Manager</a> engine.
+					<br /><i>Author: </i>Michel MARIANI.
+				</div>
+				
+				
+				
+				
+					
+					
+					
+					
+					
+					
+					
+
+			</div>
+			
+
+<!-- ============================== field details ========================== -->		
+			
+
+<!-- ============================== method details ========================= -->		
+			
+				<div class="sectionTitle">
+					Method Detail
+				</div>
+				
+					<a name=".colorToRgb"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Array}</span>
+					<span class="light">jamColors.</span><b>colorToRgb</b>(color)
+					
+					</div>
+					<div class="description">
+						Get a RGB color array [ red, green, blue ] from a color string or a RGB color array.
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">alert (jamJSON.stringify (jamColors.<strong>colorToRgb</strong> ("green")));         // -> [ 0, 128, 0 ]
+alert (jamJSON.stringify (jamColors.<strong>colorToRgb</strong> ("svg:green")));     // -> [ 0, 128, 0 ]
+alert (jamJSON.stringify (jamColors.<strong>colorToRgb</strong> ("svg/green")));     // -> [ 0, 128, 0 ]
+alert (jamJSON.stringify (jamColors.<strong>colorToRgb</strong> ("x11/green")));     // -> [ 0, 255, 0 ]
+alert (jamJSON.stringify (jamColors.<strong>colorToRgb</strong> ("#00FF00")));       // -> [ 0, 255, 0 ]
+alert (jamJSON.stringify (jamColors.<strong>colorToRgb</strong> ([ 0, 255, 0 ])));   // -> [ 0, 255, 0 ]</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{String|Array}</span> <b>color</b>
+									
+								</dt>
+								<dd>Color string (HTML/CSS hexadecimal notation, or color name) or RGB color array</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Array}</span> rgbColor RGB color array [ red, green, blue ]</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name=".defineNamedColorsSet"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					
+					<span class="light">jamColors.</span><b>defineNamedColorsSet</b>(setName, setData)
+					
+					</div>
+					<div class="description">
+						Define a custom named colors set.
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">var myNamedColors =
+{
+    "colorClass": "HSBColorClass",
+    "colorNames":
+    {
+        "casper": [ 0, 0, 100 ],
+        "felixthecat": [ 0, 0, 0 ],
+        "hulk": [ 80, 80, 70 ],
+        "redridinghood": [ 20, 95, 80 ],
+        "smurf": [ 197, 80, 94 ],
+        "papasmurf": "smurf",
+        "smurfette": "smurf",
+        "tweety": [ 60, 80, 100 ]
+    },
+    "fallbackColor": "felixthecat"
+};
+jamColors.<strong>defineNamedColorsSet</strong> ("myset", myNamedColors);
+var names = jamColors.enumerateNamedColors ("My Set");
+alert ("My named colors set:\r" + jamJSON.stringify (names.sort (), 4));
+jamEngine.jsonPlay
+(
+    "set",
+    {
+        "target": { "&lt;reference&gt;": [ { "color": { "&lt;property&gt;": "backgroundColor" } } ] },
+        "to": jamHelpers.nameToColorObject ("My Set", "Red Riding Hood")
+    }
+);
+jamEngine.jsonPlay
+(
+    "set",
+    {
+        "target": { "&lt;reference&gt;": [ { "color": { "&lt;property&gt;": "foregroundColor" } } ] },
+        "to": jamHelpers.nameToColorObject ("My Set", "Papa Smurf")
+    }
+);</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>setName</b>
+									
+								</dt>
+								<dd>Named colors set name (case-insensitive, whitespace ignored)</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Object}</span> <b>setData</b>
+									
+								</dt>
+								<dd>Named colors set data
+<p style="margin: 0.5em 0 0 0em;">
+The named colors set data structure is defined as a two or three-element JSON object: <br />
+<code>{ "colorClass": <em>colorClass</em>, "colorNames": <em>colorNames</em> }</code> or<br />
+<code>{ "colorClass": <em>colorClass</em>, "colorNames": <em>colorNames</em>, "fallbackColor": <em>fallbackColor</em> }</code>.
+</p>
+<p style="margin: 0.5em 0 0 1.25em;">
+<code><em>colorClass</em></code>: string (among "bookColor", "CMYKColorClass", "grayscale", "HSBColorClass", "labColor", "RGBColor")<br />
+<code><em>colorNames</em></code>: JSON object { } made of key/value pairs: <code><em>colorName</em></code>: <code><em>variantName</em></code>, or <code><em>colorName</em></code>: <code><em>colorComponents</em></code><br />
+<code><em>fallbackColor</em></code>: string (optional; if defined, must be one existing key in the <em>colorNames</em></code> object)
+</p>
+<p style="margin: 0.5em 0 0 2.5em;">
+<code><em>colorName</em></code>: string (strictly lowercase, no whitespace)<br />
+<code><em>variantName</em></code>: string (must be one existing key in the <em>colorNames</em></code> object, associated with a <code><em>colorComponents</em></code> value)<br />
+<code><em>colorComponents</em></code>: JSON array [ ] whose length and contents depend on <code><em>colorClass</em></code>:
+</p>
+<table style="margin: 0.5em 0 0 3.75em; border-collapse: collapse;">
+<tr style="border: 1px solid #E7E7E7;">
+<th style="text-align: left; color: gray; padding: 0.25em 2em;"><code><em>colorClass</em></code></th>
+<th style="text-align: left; color: gray; padding: 0.25em 2em;"><code><em>colorComponents</em></code></th>
+</tr>
+<tr style="border: 1px solid #E7E7E7;">
+<td style="padding: 0.25em 2em;"><code>"bookColor"</code></td>
+<td style="padding: 0.25em 2em;"><code>[ <em>book</em>, <em>name</em>, <em>bookID</em>, <em>bookKey</em> ]</code><br>or<br><code>[ <em>book</em>, <em>name</em> ]</code><br>or<br><code>[ <em>bookID</em>, <em>bookKey</em> ]</code> </td>
+</tr>
+<tr style="border: 1px solid #E7E7E7;">
+<td style="padding: 0.25em 2em;"><code>"CMYKColorClass"</code></td>
+<td style="padding: 0.25em 2em;"><code>[ <em>cyan</em>, <em>magenta</em>, <em>yellowColor</em>, <em>black</em> ]</code></td>
+</tr>
+<tr style="border: 1px solid #E7E7E7;">
+<td style="padding: 0.25em 2em;"><code>"grayscale"</code></td>
+<td style="padding: 0.25em 2em;"><code>[ <em>gray</em> ]</code><br>or<br><code><em>gray</em></code></td>
+</tr>
+<tr style="border: 1px solid #E7E7E7;">
+<td style="padding: 0.25em 2em;"><code>"HSBColorClass"</code></td>
+<td style="padding: 0.25em 2em;"><code>[ <em>hue</em>, <em>saturation</em>, <em>brightness</em> ]</code></td>
+</tr>
+<tr style="border: 1px solid #E7E7E7;">
+<td style="padding: 0.25em 2em;"><code>"labColor"</code></td>
+<td style="padding: 0.25em 2em;"><code>[ <em>luminance</em>, <em>a</em>, <em>b</em> ]</code></td>
+</tr>
+<tr style="border: 1px solid #E7E7E7;">
+<td style="padding: 0.25em 2em;"><code>"RGBColor"</code></td>
+<td style="padding: 0.25em 2em;"><code>[ <em>red</em>, <em>green</em>, <em>blue</em> ]</code></td>
+</tr>
+</table>
+<p style="margin: 0.5em 0 0 5em;">
+<code><em>book</em></code> : string<br />
+<code><em>name</em></code> : string<br />
+<code><em>bookID</em></code> : number<br />
+<code><em>bookKey</em></code> : string<br />
+<code><em>cyan</em></code> : number (0 to 100)<br />
+<code><em>magenta</em></code> : number (0 to 100)<br />
+<code><em>yellowColor</em></code> : number (0 to 100)<br />
+<code><em>black</em></code> : number (0 to 100)<br />
+<code><em>gray</em></code> : number (0 to 100)<br />
+<code><em>hue</em></code> : number (0 to 360)<br />
+<code><em>saturation</em></code> : number (0 to 100)<br />
+<code><em>brightness</em></code> : number (0 to 100)<br />
+<code><em>luminance</em></code> : number (0 to 100)<br />
+<code><em>a</em></code> : number (-128 to 127)<br />
+<code><em>b</em></code> : number (-128 to 127)<br />
+<code><em>red</em></code> : number (0 to 255)<br />
+<code><em>green</em></code> : number (0 to 255)<br />
+<code><em>blue</em></code> : number (0 to 255)
+</p></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/jamColors.html#.nameToColor">jamColors.nameToColor</a></dd>
+							
+								<dd><a href="../symbols/jamColors.html#.enumerateNamedColors">jamColors.enumerateNamedColors</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".enumerateNamedColors"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Array}</span>
+					<span class="light">jamColors.</span><b>enumerateNamedColors</b>(setName, excludeVariants)
+					
+					</div>
+					<div class="description">
+						Get an array of all color names belonging to a named colors set.
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">var x11Names = jamColors.<strong>enumerateNamedColors</strong> ("X11", true);
+$.writeln (jamJSON.stringify (x11Names, 4));</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>setName</b>
+									
+								</dt>
+								<dd>Named colors set name (case-insensitive, whitespace ignored):<br />
+<ul>
+<li>
+"CSS" or "SVG" or "W3C":
+<a href="http://www.w3.org/TR/css3-color/#svg-color">CSS Color Module Level 3 - Extended color keywords</a><br />
+or <a href="http://www.w3.org/TR/SVG/types.html#ColorKeywords">SVG 1.1 (Second Edition) - Recognized color keyword names</a>
+</li>
+<li>"X11": <a href="http://www.thomas-guettler.de/rgb.txt.html">Colors of /usr/lib/X11/rgb.txt</a></li>
+<li>or name of a custom named colors set defined by jamColors.defineNamedColorsSet ()</li>
+</ul></dd>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>excludeVariants</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Exclude color names spelling variants (i.e. gray/grey); false by default</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Array}</span> Array of all color names belonging to the named colors set</dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/jamColors.html#.defineNamedColorsSet">jamColors.defineNamedColorsSet</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".hclToRgb"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Array}</span>
+					<span class="light">jamColors.</span><b>hclToRgb</b>(hclColor, hclFloatRange, rgbFloatRange)
+					
+					</div>
+					<div class="description">
+						Convert a HCL color array [ hue, chroma, luminance ] to a RGB color array [ red, green, blue ].
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">var hclColor = jamColors.rgbToHcl ([ 0, 0, 255 ], false, true);
+alert (jamJSON.stringify (jamColors.<strong>hclToRgb</strong> (hclColor, true)));</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Array}</span> <b>hclColor</b>
+									
+								</dt>
+								<dd>HCL color array [ hue, chroma, luminance ]</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>hclFloatRange</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Use float range [0.0, 1.0] instead of [0, 360], [0, 128], [0, 100]</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>rgbFloatRange</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Use float range [0.0, 1.0] instead of [0, 255]</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Array}</span> RGB color array [ red, green, blue ]</dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/jamColors.html#.rgbToHcl">jamColors.rgbToHcl</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".hexToRgb"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Array}</span>
+					<span class="light">jamColors.</span><b>hexToRgb</b>(hexColorString)
+					
+					</div>
+					<div class="description">
+						Get a RGB color array [ red, green, blue ] from a RGB color string in HTML/CSS hexadecimal notation.
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">var rgbColor = jamColors.<strong>hexToRgb</strong> ("ffdead");
+alert (jamJSON.stringify (rgbColor));  // -> [ 255, 222, 173 ]</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>hexColorString</b>
+									
+								</dt>
+								<dd>RGB color string in HTML/CSS hexadecimal notation (3 or 6 digits, starting with an optional # sign)</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Array}</span> RGB color array [ red, green, blue ]</dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/jamColors.html#.rgbToHex">jamColors.rgbToHex</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".hsbToRgb"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Array}</span>
+					<span class="light">jamColors.</span><b>hsbToRgb</b>(hsbColor, hsbFloatRange, rgbFloatRange)
+					
+					</div>
+					<div class="description">
+						Convert a HSB color array [ hue, saturation, brightness ] to a RGB color array [ red, green, blue ].
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">alert (jamJSON.stringify (jamColors.<strong>hsbToRgb</strong> ([ 0, 100, 100 ])));    // -> [ 255, 0, 0 ]</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Array}</span> <b>hsbColor</b>
+									
+								</dt>
+								<dd>HSB color array [ hue, saturation, brightness ]</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>hsbFloatRange</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Use float range [0.0, 1.0] instead of [0, 360], [0, 100], [0, 100]</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>rgbFloatRange</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Use float range [0.0, 1.0] instead of [0, 255]</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Array}</span> RGB color array [ red, green, blue ]</dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/jamColors.html#.rgbToHsb">jamColors.rgbToHsb</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".hslToRgb"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Array}</span>
+					<span class="light">jamColors.</span><b>hslToRgb</b>(hslColor, hslFloatRange, rgbFloatRange)
+					
+					</div>
+					<div class="description">
+						Convert a HSL color array [ hue, saturation, lightness ] to a RGB color array [ red, green, blue ].
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">alert (jamJSON.stringify (jamColors.<strong>hslToRgb</strong> ([ 0, 100, 50 ])));    // -> [ 255, 0, 0 ]</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Array}</span> <b>hslColor</b>
+									
+								</dt>
+								<dd>HSL color array [ hue, saturation, lightness ]</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>hslFloatRange</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Use float range [0.0, 1.0] instead of [0, 360], [0, 100], [0, 100]</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>rgbFloatRange</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Use float range [0.0, 1.0] instead of [0, 255]</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Array}</span> RGB color array [ red, green, blue ]</dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/jamColors.html#.rgbToHsl">jamColors.rgbToHsl</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".labToRgb"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Array}</span>
+					<span class="light">jamColors.</span><b>labToRgb</b>(labColor, labFloatRange, rgbFloatRange)
+					
+					</div>
+					<div class="description">
+						Convert a Lab color array [ luminance, a, b ] to a RGB color array [ red, green, blue ].
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">var labColor = jamColors.rgbToLab ([ 0, 0, 255 ], false, true);
+alert (jamJSON.stringify (jamColors.<strong>labToRgb</strong> (labColor, true)));</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Array}</span> <b>labColor</b>
+									
+								</dt>
+								<dd>Lab color array [ luminance, a, b ]</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>labFloatRange</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Use float range [0.0, 1.0] instead of [0, 100], [-128, 128], [-128, 128]</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>rgbFloatRange</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Use float range [0.0, 1.0] instead of [0, 255]</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Array}</span> RGB color array [ red, green, blue ]</dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/jamColors.html#.rgbToLab">jamColors.rgbToLab</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".nameToColor"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Array}</span>
+					<span class="light">jamColors.</span><b>nameToColor</b>(setName, colorName, strict)
+					
+					</div>
+					<div class="description">
+						Get a color in simplified array format [ class, components ] from a color name belonging to a named colors set.
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">alert (jamJSON.stringify (jamColors.<strong>nameToColor</strong> ("W3C", "Fuchsia"))); // -> [ "RGBColor", [ 255, 0, 255 ] ]
+alert (jamJSON.stringify (jamColors.<strong>nameToColor</strong> ("X11", "Navy Blue"))); // -> [ "RGBColor", [ 0, 0, 128 ] ]</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>setName</b>
+									
+								</dt>
+								<dd>Named colors set name (case-insensitive, whitespace ignored):<br />
+<ul>
+<li>
+"CSS" or "SVG" or "W3C":
+<a href="http://www.w3.org/TR/css3-color/#svg-color">CSS Color Module Level 3 - Extended color keywords</a><br />
+or <a href="http://www.w3.org/TR/SVG/types.html#ColorKeywords">SVG 1.1 (Second Edition) - Recognized color keyword names</a>
+</li>
+<li>"X11": <a href="http://www.thomas-guettler.de/rgb.txt.html">Colors of /usr/lib/X11/rgb.txt</a></li>
+<li>or name of a custom named colors set defined by jamColors.defineNamedColorsSet ()</li>
+</ul></dd>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>colorName</b>
+									
+								</dt>
+								<dd>Color name (case-insensitive, whitespace ignored)</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>strict</b>
+									
+								</dt>
+								<dd>Strict mode</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Array}</span> Color in simplified array format [ class, components ]</dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/jamColors.html#.defineNamedColorsSet">jamColors.defineNamedColorsSet</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".rgbToHcl"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Array}</span>
+					<span class="light">jamColors.</span><b>rgbToHcl</b>(rgbColor, rgbFloatRange, hclFloatRange)
+					
+					</div>
+					<div class="description">
+						Convert a RGB color array [ red, green, blue ] to a HCL color array [ hue, chroma, luminance ].
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">var hclColor = jamColors.<strong>rgbToHcl</strong> ([ 215, 25, 28 ], false, true);
+alert (jamJSON.stringify (jamColors.hclToRgb (hclColor, true)));</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Array}</span> <b>rgbColor</b>
+									
+								</dt>
+								<dd>RGB color array [ red, green, blue ]</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>rgbFloatRange</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Use float range [0.0, 1.0] instead of [0, 255]</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>hclFloatRange</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Use float range [0.0, 1.0] instead of [0, 360], [0, 128], [0, 100]</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Array}</span> HCL color array [ hue, chroma, luminance ]</dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/jamColors.html#.hclToRgb">jamColors.hclToRgb</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".rgbToHex"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{String}</span>
+					<span class="light">jamColors.</span><b>rgbToHex</b>(rgbColor, noSign, lowercase)
+					
+					</div>
+					<div class="description">
+						Get a RGB color string in HTML/CSS hexadecimal notation from a RGB color array [ red, green, blue ].
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">var hexColorString = jamColors.<strong>rgbToHex</strong> ([ 255, 222, 173 ]);
+alert (jamJSON.stringify (hexColorString));  // -> "#FFDEAD"</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Array}</span> <b>rgbColor</b>
+									
+								</dt>
+								<dd>RGB color array [ red, green, blue ]</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>noSign</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Do not add a leading # sign (false by default)</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>lowercase</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Use lowercase hexadecimal digits (false by default)</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{String}</span> RGB color string in HTML/CSS hexadecimal notation (6 digits, starting with a # sign)</dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/jamColors.html#.hexToRgb">jamColors.hexToRgb</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".rgbToHsb"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Array}</span>
+					<span class="light">jamColors.</span><b>rgbToHsb</b>(rgbColor, rgbFloatRange, hsbFloatRange)
+					
+					</div>
+					<div class="description">
+						Convert a RGB color array [ red, green, blue ] to a HSB color array [ hue, saturation, brightness ].
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">alert (jamJSON.stringify (jamColors.<strong>rgbToHsb</strong> ([ 255, 255, 0 ])));    // -> [ 60, 100, 100 ]</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Array}</span> <b>rgbColor</b>
+									
+								</dt>
+								<dd>RGB color array [ red, green, blue ]</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>rgbFloatRange</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Use float range [0.0, 1.0] instead of [0, 255]</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>hsbFloatRange</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Use float range [0.0, 1.0] instead of [0, 360], [0, 100], [0, 100]</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Array}</span> HSB color array [ hue, saturation, brightness ]</dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/jamColors.html#.hsbToRgb">jamColors.hsbToRgb</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".rgbToHsl"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Array}</span>
+					<span class="light">jamColors.</span><b>rgbToHsl</b>(rgbColor, rgbFloatRange, hslFloatRange)
+					
+					</div>
+					<div class="description">
+						Convert a RGB color array [ red, green, blue ] to a HSL color array [ hue, saturation, lightness ].
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">alert (jamJSON.stringify (jamColors.<strong>rgbToHsl</strong> ([ 255, 255, 0 ])));    // -> [ 60, 100, 50 ]</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Array}</span> <b>rgbColor</b>
+									
+								</dt>
+								<dd>RGB color array [ red, green, blue ]</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>rgbFloatRange</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Use float range [0.0, 1.0] instead of [0, 255]</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>hslFloatRange</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Use float range [0.0, 1.0] instead of [0, 360], [0, 100], [0, 100]</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Array}</span> HSL color array [ hue, saturation, lightness ]</dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/jamColors.html#.hslToRgb">jamColors.hslToRgb</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".rgbToLab"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Array}</span>
+					<span class="light">jamColors.</span><b>rgbToLab</b>(rgbColor, rgbFloatRange, labFloatRange)
+					
+					</div>
+					<div class="description">
+						Convert a RGB color array [ red, green, blue ] to a Lab color array [ luminance, a, b ].
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">var labColor = jamColors.<strong>rgbToLab</strong> ([ 215, 25, 28 ], false, true);
+alert (jamJSON.stringify (jamColors.labToRgb (labColor, true)));</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Array}</span> <b>rgbColor</b>
+									
+								</dt>
+								<dd>RGB color array [ red, green, blue ]</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>rgbFloatRange</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Use float range [0.0, 1.0] instead of [0, 255]</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>labFloatRange</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Use float range [0.0, 1.0] instead of [0, 100], [-128, 128], [-128, 128]</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Array}</span> Lab color array [ luminance, a, b ]</dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/jamColors.html#.labToRgb">jamColors.labToRgb</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".rgbToXyz"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Array}</span>
+					<span class="light">jamColors.</span><b>rgbToXyz</b>(rgbColor, rgbFloatRange, xyzFloatRange)
+					
+					</div>
+					<div class="description">
+						Convert a RGB color array [ red, green, blue ] to a XYZ color array [ x, y, z ].
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">alert (jamJSON.stringify (jamColors.<strong>rgbToXyz</strong> ([ 255, 0, 255 ])));</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Array}</span> <b>rgbColor</b>
+									
+								</dt>
+								<dd>RGB color array [ red, green, blue ]</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>rgbFloatRange</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Use float range [0.0, 1.0] instead of [0, 255]</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>xyzFloatRange</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Use float range [0.0, 1.0] instead of [0, 100], [0, 100], [0, 100]</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Array}</span> XYZ color array [ x, y, z ]</dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/jamColors.html#.xyzToRgb">jamColors.xyzToRgb</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".rgbToYcbcr"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Array}</span>
+					<span class="light">jamColors.</span><b>rgbToYcbcr</b>(rgbColor, rgbFloatRange, ycbcrFloatRange)
+					
+					</div>
+					<div class="description">
+						Convert a RGB color array [ red, green, blue ] to a YCbCr color array [ y, cb, cr ].
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">var ycbcrColor = jamColors.<strong>rgbToYcbcr</strong> ([ 128, 128, 128 ], false, true);
+alert (jamJSON.stringify (jamColors.ycbcrToRgb (ycbcrColor, true))); // -> [ 128, 128, 128 ]</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Array}</span> <b>rgbColor</b>
+									
+								</dt>
+								<dd>RGB color array [ red, green, blue ]</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>rgbFloatRange</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Use float range [0.0, 1.0] instead of [0, 255]</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>ycbcrFloatRange</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Use float range [0.0, 1.0] instead of [0, 255]</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Array}</span> YCbCr color array [ y, cb, cr ]</dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/jamColors.html#.ycbcrToRgb">jamColors.ycbcrToRgb</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".xyzToRgb"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Array}</span>
+					<span class="light">jamColors.</span><b>xyzToRgb</b>(xyzColor, xyzFloatRange, rgbFloatRange)
+					
+					</div>
+					<div class="description">
+						Convert a XYZ color array [ x, y, z ] to a RGB color array [ red, green, blue ].
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">alert (jamJSON.stringify (jamColors.<strong>xyzToRgb</strong> ([ 59, 28, 97 ])));</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Array}</span> <b>xyzColor</b>
+									
+								</dt>
+								<dd>XYZ color array [ x, y, z ]</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>xyzFloatRange</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Use float range [0.0, 1.0] instead of [0, 100], [0, 100], [0, 100]</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>rgbFloatRange</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Use float range [0.0, 1.0] instead of [0, 255]</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Array}</span> RGB color array [ red, green, blue ]</dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/jamColors.html#.rgbToXyz">jamColors.rgbToXyz</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".ycbcrToRgb"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Array}</span>
+					<span class="light">jamColors.</span><b>ycbcrToRgb</b>(ycbcrColor, ycbcrFloatRange, rgbFloatRange)
+					
+					</div>
+					<div class="description">
+						Convert a YCbCr color array [ y, cb, cr ] to a RGB color array [ red, green, blue ].
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">var ycbcrColor = jamColors.rgbToYcbcr ([ 128, 128, 128 ]);
+alert (jamJSON.stringify (jamColors.<strong>ycbcrToRgb</strong> (ycbcrColor))); // -> [ 128, 128, 128 ]</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Array}</span> <b>ycbcrColor</b>
+									
+								</dt>
+								<dd>YCbCr color array [ y, cb, cr ]</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>ycbcrFloatRange</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Use float range [0.0, 1.0] instead of [0, 255]</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>rgbFloatRange</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Use float range [0.0, 1.0] instead of [0, 255]</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Array}</span> RGB color array [ red, green, blue ]</dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/jamColors.html#.rgbToYcbcr">jamColors.rgbToYcbcr</a></dd>
+							
+							</dl>
+						
+
+					
+				
+			
+			
+<!-- ============================== event details ========================= -->		
+			
+			
+			<hr />
+		</div>
+
+		
+<!-- ============================== footer ================================= -->
+		<div class="fineprint" style="clear:both">
+			
+			Documentation generated by <a href="http://code.google.com/p/jsdoc-toolkit/" target="_blank">JsDoc Toolkit</a> 2.4.0 on Wed Oct 12 2016 23:32:44 GMT+0200 (CEST)
+		</div>
+	</body>
+</html>
