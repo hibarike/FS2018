@@ -34,8 +34,6 @@ C:\Users\Y510p\Documents\работа\FS2018\Boris Belyy\TipCalc\TipCalc.Droid\o
 C:\Users\Y510p\Documents\работа\FS2018\Boris Belyy\TipCalc\TipCalc.Droid\obj\Debug\R.cs.flag
 C:\Users\Y510p\Documents\работа\FS2018\Boris Belyy\TipCalc\TipCalc.Droid\obj\Debug\R.txt
 C:\Users\Y510p\Documents\работа\FS2018\Boris Belyy\TipCalc\TipCalc.Droid\obj\Debug\uploadflags.txt
-C:\Users\Y510p\Documents\работа\FS2018\Boris Belyy\TipCalc\TipCalc.Droid\bin\Debug\TipCalc.Droid.dll
-C:\Users\Y510p\.nuget\packages\nunit\3.11.0\lib\netstandard2.0\nunit.framework.dll
 C:\Users\Y510p\Documents\работа\FS2018\Boris Belyy\TipCalc\TipCalc.Droid\bin\Debug\Mono.Android.pdb
 C:\Users\Y510p\Documents\работа\FS2018\Boris Belyy\TipCalc\TipCalc.Droid\bin\Debug\mscorlib.pdb
 C:\Users\Y510p\Documents\работа\FS2018\Boris Belyy\TipCalc\TipCalc.Droid\bin\Debug\MvvmCross.pdb
@@ -78,3 +76,4 @@ C:\Users\Y510p\Documents\работа\FS2018\Boris Belyy\TipCalc\TipCalc.Droid\o
 C:\Users\Y510p\Documents\работа\FS2018\Boris Belyy\TipCalc\TipCalc.Droid\bin\Debug\nunit.framework.dll.mdb
 C:\Users\Y510p\Documents\работа\FS2018\Boris Belyy\TipCalc\TipCalc.Droid\obj\Debug\linksrc\TipCalc.Droid.dll.mdb
 C:\Users\Y510p\Documents\работа\FS2018\Boris Belyy\TipCalc\TipCalc.Droid\obj\Debug\linksrc\nunit.framework.dll.mdb
+C:\Users\Y510p\Documents\работа\FS2018\Boris Belyy\TipCalc\TipCalc.Droid\obj\Debug\TipCalc.Droid.csprojAssemblyReference.cache
