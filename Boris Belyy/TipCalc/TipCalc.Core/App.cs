@@ -9,7 +9,9 @@ namespace TipCalc.Core
     {
         public override void Initialize()
         {
+#pragma warning disable CS0618 // Type or member is obsolete
             Mvx.RegisterType<ICalculationService, CalculationService>();
+#pragma warning restore CS0618 // Type or member is obsolete
 
             RegisterAppStart<TipViewModel>();
         }
