@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "cfe1dc2a80602aef150a12815387068463a61a0d"
+    "signature": "e6116bf392a1d1bac4fe536eaf5ad933253f5223"
   },
   "compilationOptions": {},
   "targets": {
@@ -9,6 +9,7 @@
     ".NETStandard,Version=v2.0/": {
       "TipCalc.Core/1.0.0": {
         "dependencies": {
+          "MvvmCross": "6.2.1",
           "NETStandard.Library": "2.0.3"
         },
         "runtime": {
@@ -16,6 +17,11 @@
         }
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
+      "MvvmCross/6.2.1": {
+        "runtime": {
+          "lib/netstandard2.0/MvvmCross.dll": {}
+        }
+      },
       "NETStandard.Library/2.0.3": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0"
@@ -35,6 +41,13 @@
       "sha512": "sha512-bLpT1f/SFlO1CzqXG12KnJzpZs6lv24uX2Rzi4Fmm0noJpNlnWRVryuO3yK18Ca04t/YHcO1e1Z0WDfjseqNzw==",
       "path": "microsoft.netcore.platforms/1.1.0",
       "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "MvvmCross/6.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DlADbzGRiKB5yH0fiaXf3x3fJhTvoWO+r4re7asnevqf6jlJeppZ/CjjAfKygVZCy38JuSq83DbZK1bB0QzZMw==",
+      "path": "mvvmcross/6.2.1",
+      "hashPath": "mvvmcross.6.2.1.nupkg.sha512"
     },
     "NETStandard.Library/2.0.3": {
       "type": "package",
