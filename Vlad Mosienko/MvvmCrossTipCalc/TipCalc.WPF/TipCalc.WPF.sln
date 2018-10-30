@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28010.2048
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TipCalc.WPF", "TipCalc.WPF\TipCalc.WPF.csproj", "{3A20CC57-4DC7-4546-A8E9-CB777B106E33}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TipCalc.Core", "TipCalc.Core\TipCalc.Core.csproj", "{A28A727F-16B4-40B7-AE4E-8D3268AC4682}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{3A20CC57-4DC7-4546-A8E9-CB777B106E33}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A20CC57-4DC7-4546-A8E9-CB777B106E33}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A20CC57-4DC7-4546-A8E9-CB777B106E33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A28A727F-16B4-40B7-AE4E-8D3268AC4682}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A28A727F-16B4-40B7-AE4E-8D3268AC4682}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A28A727F-16B4-40B7-AE4E-8D3268AC4682}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A28A727F-16B4-40B7-AE4E-8D3268AC4682}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
