@@ -1,6 +1,5 @@
 C:\Users\vladm\Desktop\repository\Vlad Mosienko\MvvmCrossTipCalc\TipCalc.WPF\TipCalc.Core\bin\Debug\netstandard2.0\TipCalc.Core.deps.json
 C:\Users\vladm\Desktop\repository\Vlad Mosienko\MvvmCrossTipCalc\TipCalc.WPF\TipCalc.Core\bin\Debug\netstandard2.0\TipCalc.Core.dll
-C:\Users\vladm\Desktop\repository\Vlad Mosienko\MvvmCrossTipCalc\TipCalc.WPF\TipCalc.Core\obj\Debug\netstandard2.0\TipCalc.Core.csprojAssemblyReference.cache
 C:\Users\vladm\Desktop\repository\Vlad Mosienko\MvvmCrossTipCalc\TipCalc.WPF\TipCalc.Core\obj\Debug\netstandard2.0\TipCalc.Core.csproj.CoreCompileInputs.cache
 C:\Users\vladm\Desktop\repository\Vlad Mosienko\MvvmCrossTipCalc\TipCalc.WPF\TipCalc.Core\obj\Debug\netstandard2.0\TipCalc.Core.AssemblyInfoInputs.cache
 C:\Users\vladm\Desktop\repository\Vlad Mosienko\MvvmCrossTipCalc\TipCalc.WPF\TipCalc.Core\obj\Debug\netstandard2.0\TipCalc.Core.AssemblyInfo.cs

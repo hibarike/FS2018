@@ -111,5 +111,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TipCalc.Core\TipCalc.Core.csproj">
+      <Project>{a28a727f-16b4-40b7-ae4e-8d3268ac4682}</Project>
+      <Name>TipCalc.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
