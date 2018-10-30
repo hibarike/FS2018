@@ -1,0 +1,7 @@
+C:\Users\vladm\Desktop\repository\Vlad Mosienko\MvvmCrossTipCalc\TipCalc.WPF\TipCalc.WPF\obj\Debug\TipCalc.WPF.csprojAssemblyReference.cache
+C:\Users\vladm\Desktop\repository\Vlad Mosienko\MvvmCrossTipCalc\TipCalc.WPF\TipCalc.WPF\obj\Debug\Views\TipView.baml
+C:\Users\vladm\Desktop\repository\Vlad Mosienko\MvvmCrossTipCalc\TipCalc.WPF\TipCalc.WPF\obj\Debug\MainWindow.g.cs
+C:\Users\vladm\Desktop\repository\Vlad Mosienko\MvvmCrossTipCalc\TipCalc.WPF\TipCalc.WPF\obj\Debug\Views\TipView.g.cs
+C:\Users\vladm\Desktop\repository\Vlad Mosienko\MvvmCrossTipCalc\TipCalc.WPF\TipCalc.WPF\obj\Debug\App.g.cs
+C:\Users\vladm\Desktop\repository\Vlad Mosienko\MvvmCrossTipCalc\TipCalc.WPF\TipCalc.WPF\obj\Debug\TipCalc.WPF_MarkupCompile.cache
+C:\Users\vladm\Desktop\repository\Vlad Mosienko\MvvmCrossTipCalc\TipCalc.WPF\TipCalc.WPF\obj\Debug\TipCalc.WPF_MarkupCompile.lref
