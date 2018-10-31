@@ -1,0 +1,8 @@
+C:\Users\Y510p\Documents\работа\FS2018\Boris Belyy\TipCalc\TipCalc.Core\bin\Release\netstandard2.0\TipCalc.Core.deps.json
+C:\Users\Y510p\Documents\работа\FS2018\Boris Belyy\TipCalc\TipCalc.Core\bin\Release\netstandard2.0\TipCalc.Core.dll
+C:\Users\Y510p\Documents\работа\FS2018\Boris Belyy\TipCalc\TipCalc.Core\bin\Release\netstandard2.0\TipCalc.Core.pdb
+C:\Users\Y510p\Documents\работа\FS2018\Boris Belyy\TipCalc\TipCalc.Core\obj\Release\netstandard2.0\TipCalc.Core.csproj.CoreCompileInputs.cache
+C:\Users\Y510p\Documents\работа\FS2018\Boris Belyy\TipCalc\TipCalc.Core\obj\Release\netstandard2.0\TipCalc.Core.AssemblyInfoInputs.cache
+C:\Users\Y510p\Documents\работа\FS2018\Boris Belyy\TipCalc\TipCalc.Core\obj\Release\netstandard2.0\TipCalc.Core.AssemblyInfo.cs
+C:\Users\Y510p\Documents\работа\FS2018\Boris Belyy\TipCalc\TipCalc.Core\obj\Release\netstandard2.0\TipCalc.Core.dll
+C:\Users\Y510p\Documents\работа\FS2018\Boris Belyy\TipCalc\TipCalc.Core\obj\Release\netstandard2.0\TipCalc.Core.pdb

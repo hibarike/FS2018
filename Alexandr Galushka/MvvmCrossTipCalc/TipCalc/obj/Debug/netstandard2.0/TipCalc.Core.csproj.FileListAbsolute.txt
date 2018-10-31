@@ -1,0 +1,15 @@
+D:\PROJECTS VS\TipCalc\TipCalc\bin\Debug\netstandard2.0\TipCalc.Core.deps.json
+D:\PROJECTS VS\TipCalc\TipCalc\bin\Debug\netstandard2.0\TipCalc.Core.dll
+D:\PROJECTS VS\TipCalc\TipCalc\obj\Debug\netstandard2.0\TipCalc.Core.csprojAssemblyReference.cache
+D:\PROJECTS VS\TipCalc\TipCalc\obj\Debug\netstandard2.0\TipCalc.Core.csproj.CoreCompileInputs.cache
+D:\PROJECTS VS\TipCalc\TipCalc\obj\Debug\netstandard2.0\TipCalc.Core.AssemblyInfoInputs.cache
+D:\PROJECTS VS\TipCalc\TipCalc\obj\Debug\netstandard2.0\TipCalc.Core.AssemblyInfo.cs
+D:\PROJECTS VS\repo fs2018 clone\Alexandr Galushka\MvvmCrossTipCalc\TipCalc\bin\Debug\netstandard2.0\TipCalc.Core.deps.json
+D:\PROJECTS VS\repo fs2018 clone\Alexandr Galushka\MvvmCrossTipCalc\TipCalc\bin\Debug\netstandard2.0\TipCalc.Core.dll
+D:\PROJECTS VS\repo fs2018 clone\Alexandr Galushka\MvvmCrossTipCalc\TipCalc\bin\Debug\netstandard2.0\TipCalc.Core.pdb
+D:\PROJECTS VS\repo fs2018 clone\Alexandr Galushka\MvvmCrossTipCalc\TipCalc\obj\Debug\netstandard2.0\TipCalc.Core.csprojAssemblyReference.cache
+D:\PROJECTS VS\repo fs2018 clone\Alexandr Galushka\MvvmCrossTipCalc\TipCalc\obj\Debug\netstandard2.0\TipCalc.Core.csproj.CoreCompileInputs.cache
+D:\PROJECTS VS\repo fs2018 clone\Alexandr Galushka\MvvmCrossTipCalc\TipCalc\obj\Debug\netstandard2.0\TipCalc.Core.AssemblyInfoInputs.cache
+D:\PROJECTS VS\repo fs2018 clone\Alexandr Galushka\MvvmCrossTipCalc\TipCalc\obj\Debug\netstandard2.0\TipCalc.Core.AssemblyInfo.cs
+D:\PROJECTS VS\repo fs2018 clone\Alexandr Galushka\MvvmCrossTipCalc\TipCalc\obj\Debug\netstandard2.0\TipCalc.Core.dll
+D:\PROJECTS VS\repo fs2018 clone\Alexandr Galushka\MvvmCrossTipCalc\TipCalc\obj\Debug\netstandard2.0\TipCalc.Core.pdb

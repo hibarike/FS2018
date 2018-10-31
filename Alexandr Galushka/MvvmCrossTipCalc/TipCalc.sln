@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TipCalc.Core", "TipCalc\TipCalc.Core.csproj", "{D3D4E639-1DA6-4A03-9365-BC0A9AF4296A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TipCalc", "view\TipCalc\TipCalc.csproj", "{BFEB0D88-7F77-4920-8EE9-9E4C52A6D24B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3D4E639-1DA6-4A03-9365-BC0A9AF4296A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3D4E639-1DA6-4A03-9365-BC0A9AF4296A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3D4E639-1DA6-4A03-9365-BC0A9AF4296A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3D4E639-1DA6-4A03-9365-BC0A9AF4296A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFEB0D88-7F77-4920-8EE9-9E4C52A6D24B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFEB0D88-7F77-4920-8EE9-9E4C52A6D24B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFEB0D88-7F77-4920-8EE9-9E4C52A6D24B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFEB0D88-7F77-4920-8EE9-9E4C52A6D24B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {15532FE1-B804-413B-AAB8-2064294AF513}
+	EndGlobalSection
+EndGlobal
