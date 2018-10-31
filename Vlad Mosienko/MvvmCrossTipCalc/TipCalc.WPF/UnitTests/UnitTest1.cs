@@ -42,5 +42,14 @@ namespace UnitTests
             double expected = 0;
             Assert.AreEqual(expected, result);
         }
+
+        [TestMethod]
+        public void TestMethod5()
+        {
+            CalculationService service = new CalculationService();
+            double result = service.TipAmount(-234, 15);
+            double expected = 0;
+            Assert.AreEqual(expected, result);
+        }
     }
 }
