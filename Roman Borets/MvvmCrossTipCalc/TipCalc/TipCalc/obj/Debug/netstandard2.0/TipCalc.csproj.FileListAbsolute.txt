@@ -1,0 +1,6 @@
+C:\Users\User\Desktop\GitFS2018\Roman Borets\MvvmCrossTipCalc\TipCalc\TipCalc\bin\Debug\netstandard2.0\TipCalc.deps.json
+C:\Users\User\Desktop\GitFS2018\Roman Borets\MvvmCrossTipCalc\TipCalc\TipCalc\bin\Debug\netstandard2.0\TipCalc.dll
+C:\Users\User\Desktop\GitFS2018\Roman Borets\MvvmCrossTipCalc\TipCalc\TipCalc\obj\Debug\netstandard2.0\TipCalc.csprojAssemblyReference.cache
+C:\Users\User\Desktop\GitFS2018\Roman Borets\MvvmCrossTipCalc\TipCalc\TipCalc\obj\Debug\netstandard2.0\TipCalc.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\GitFS2018\Roman Borets\MvvmCrossTipCalc\TipCalc\TipCalc\obj\Debug\netstandard2.0\TipCalc.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\GitFS2018\Roman Borets\MvvmCrossTipCalc\TipCalc\TipCalc\obj\Debug\netstandard2.0\TipCalc.AssemblyInfo.cs
