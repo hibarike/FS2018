@@ -1,0 +1,17 @@
+C:\Users\User\Desktop\GitFS2018\Roman Borets\MvvmCrossTipCalc\TipCalc\UnitTestProject1\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\User\Desktop\GitFS2018\Roman Borets\MvvmCrossTipCalc\TipCalc\UnitTestProject1\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\User\Desktop\GitFS2018\Roman Borets\MvvmCrossTipCalc\TipCalc\UnitTestProject1\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\User\Desktop\GitFS2018\Roman Borets\MvvmCrossTipCalc\TipCalc\UnitTestProject1\bin\Debug\netcoreapp2.1\UnitTestProject1.deps.json
+C:\Users\User\Desktop\GitFS2018\Roman Borets\MvvmCrossTipCalc\TipCalc\UnitTestProject1\bin\Debug\netcoreapp2.1\UnitTestProject1.runtimeconfig.json
+C:\Users\User\Desktop\GitFS2018\Roman Borets\MvvmCrossTipCalc\TipCalc\UnitTestProject1\bin\Debug\netcoreapp2.1\UnitTestProject1.runtimeconfig.dev.json
+C:\Users\User\Desktop\GitFS2018\Roman Borets\MvvmCrossTipCalc\TipCalc\UnitTestProject1\bin\Debug\netcoreapp2.1\UnitTestProject1.dll
+C:\Users\User\Desktop\GitFS2018\Roman Borets\MvvmCrossTipCalc\TipCalc\UnitTestProject1\bin\Debug\netcoreapp2.1\UnitTestProject1.pdb
+C:\Users\User\Desktop\GitFS2018\Roman Borets\MvvmCrossTipCalc\TipCalc\UnitTestProject1\bin\Debug\netcoreapp2.1\TipCalc.dll
+C:\Users\User\Desktop\GitFS2018\Roman Borets\MvvmCrossTipCalc\TipCalc\UnitTestProject1\bin\Debug\netcoreapp2.1\TipCalc.pdb
+C:\Users\User\Desktop\GitFS2018\Roman Borets\MvvmCrossTipCalc\TipCalc\UnitTestProject1\obj\Debug\netcoreapp2.1\UnitTestProject1.csprojAssemblyReference.cache
+C:\Users\User\Desktop\GitFS2018\Roman Borets\MvvmCrossTipCalc\TipCalc\UnitTestProject1\obj\Debug\netcoreapp2.1\UnitTestProject1.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\GitFS2018\Roman Borets\MvvmCrossTipCalc\TipCalc\UnitTestProject1\obj\Debug\netcoreapp2.1\UnitTestProject1.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\GitFS2018\Roman Borets\MvvmCrossTipCalc\TipCalc\UnitTestProject1\obj\Debug\netcoreapp2.1\UnitTestProject1.AssemblyInfo.cs
+C:\Users\User\Desktop\GitFS2018\Roman Borets\MvvmCrossTipCalc\TipCalc\UnitTestProject1\obj\Debug\netcoreapp2.1\UnitTestProject1.csproj.CopyComplete
+C:\Users\User\Desktop\GitFS2018\Roman Borets\MvvmCrossTipCalc\TipCalc\UnitTestProject1\obj\Debug\netcoreapp2.1\UnitTestProject1.dll
+C:\Users\User\Desktop\GitFS2018\Roman Borets\MvvmCrossTipCalc\TipCalc\UnitTestProject1\obj\Debug\netcoreapp2.1\UnitTestProject1.pdb
