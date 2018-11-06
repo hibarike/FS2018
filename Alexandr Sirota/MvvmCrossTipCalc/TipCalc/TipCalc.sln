@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TipCalc.Core", "TipCalc.Cor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TipCalc.WPF", "TipCalc.WPF\TipCalc.WPF.csproj", "{013938CC-9B17-4D1D-847B-0D552AAB81AD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{64FDEE9F-7132-444B-87A9-2C1E27A4F717}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{013938CC-9B17-4D1D-847B-0D552AAB81AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{013938CC-9B17-4D1D-847B-0D552AAB81AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{013938CC-9B17-4D1D-847B-0D552AAB81AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64FDEE9F-7132-444B-87A9-2C1E27A4F717}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64FDEE9F-7132-444B-87A9-2C1E27A4F717}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64FDEE9F-7132-444B-87A9-2C1E27A4F717}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64FDEE9F-7132-444B-87A9-2C1E27A4F717}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
