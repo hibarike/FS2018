@@ -1,0 +1,9 @@
+C:\Users\sirot\OneDrive\Документы\FS2018\Alexandr Sirota\MvvmCrossTipCalc\TipCalc\TipCalc\bin\Debug\netstandard2.0\TipCalc.deps.json
+C:\Users\sirot\OneDrive\Документы\FS2018\Alexandr Sirota\MvvmCrossTipCalc\TipCalc\TipCalc\bin\Debug\netstandard2.0\TipCalc.dll
+C:\Users\sirot\OneDrive\Документы\FS2018\Alexandr Sirota\MvvmCrossTipCalc\TipCalc\TipCalc\obj\Debug\netstandard2.0\TipCalc.csprojAssemblyReference.cache
+C:\Users\sirot\OneDrive\Документы\FS2018\Alexandr Sirota\MvvmCrossTipCalc\TipCalc\TipCalc\obj\Debug\netstandard2.0\TipCalc.csproj.CoreCompileInputs.cache
+C:\Users\sirot\OneDrive\Документы\FS2018\Alexandr Sirota\MvvmCrossTipCalc\TipCalc\TipCalc\obj\Debug\netstandard2.0\TipCalc.AssemblyInfoInputs.cache
+C:\Users\sirot\OneDrive\Документы\FS2018\Alexandr Sirota\MvvmCrossTipCalc\TipCalc\TipCalc\obj\Debug\netstandard2.0\TipCalc.AssemblyInfo.cs
+C:\Users\sirot\OneDrive\Документы\FS2018\Alexandr Sirota\MvvmCrossTipCalc\TipCalc\TipCalc\bin\Debug\netstandard2.0\TipCalc.pdb
+C:\Users\sirot\OneDrive\Документы\FS2018\Alexandr Sirota\MvvmCrossTipCalc\TipCalc\TipCalc\obj\Debug\netstandard2.0\TipCalc.dll
+C:\Users\sirot\OneDrive\Документы\FS2018\Alexandr Sirota\MvvmCrossTipCalc\TipCalc\TipCalc\obj\Debug\netstandard2.0\TipCalc.pdb
