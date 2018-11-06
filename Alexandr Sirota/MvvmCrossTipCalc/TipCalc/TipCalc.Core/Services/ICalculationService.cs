@@ -2,9 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-//used for calculating tips
-
-namespace TipCalc.Services
+namespace TipCalc.Core.Services
 {
     public interface ICalculationService
     {

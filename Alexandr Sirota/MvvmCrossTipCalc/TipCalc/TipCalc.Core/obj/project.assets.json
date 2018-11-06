@@ -234,11 +234,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sirot\\OneDrive\\Документы\\FS2018\\Alexandr Sirota\\MvvmCrossTipCalc\\TipCalc\\TipCalc\\TipCalc.csproj",
-      "projectName": "TipCalc",
-      "projectPath": "C:\\Users\\sirot\\OneDrive\\Документы\\FS2018\\Alexandr Sirota\\MvvmCrossTipCalc\\TipCalc\\TipCalc\\TipCalc.csproj",
+      "projectUniqueName": "C:\\Users\\sirot\\OneDrive\\Документы\\FS2018\\Alexandr Sirota\\MvvmCrossTipCalc\\TipCalc\\TipCalc.Core\\TipCalc.Core.csproj",
+      "projectName": "TipCalc.Core",
+      "projectPath": "C:\\Users\\sirot\\OneDrive\\Документы\\FS2018\\Alexandr Sirota\\MvvmCrossTipCalc\\TipCalc\\TipCalc.Core\\TipCalc.Core.csproj",
       "packagesPath": "C:\\Users\\sirot\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sirot\\OneDrive\\Документы\\FS2018\\Alexandr Sirota\\MvvmCrossTipCalc\\TipCalc\\TipCalc\\obj\\",
+      "outputPath": "C:\\Users\\sirot\\OneDrive\\Документы\\FS2018\\Alexandr Sirota\\MvvmCrossTipCalc\\TipCalc\\TipCalc.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
