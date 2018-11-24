@@ -1,0 +1,861 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="generator" content="JsDoc Toolkit" />
+		
+		<title>JsDoc Reference - jamShapes</title>
+
+		<style type="text/css">
+			/* default.css */
+body
+{
+	font: 12px "Lucida Grande", Tahoma, Arial, Helvetica, sans-serif;
+	width: 980px;
+}
+
+.header
+{
+	clear: both;
+	background-color: #ccc;
+	padding: 8px;
+}
+
+h1
+{
+	font-size: 150%;
+	font-weight: bold;
+	padding: 0;
+	margin: 1em 0 0 .3em;
+}
+
+hr
+{
+	border: none 0;
+	border-top: 1px solid #7F8FB1;
+	height: 1px;
+}
+
+pre.code
+{
+	display: block;
+	padding: 8px;
+	border: 1px dashed #ccc;
+}
+
+#index
+{
+	margin-top: 24px;
+	float: left;
+	width: 160px;
+	position: absolute;
+	left: 8px;
+	background-color: #F3F3F3;
+	padding: 8px;
+}
+
+#content
+{
+	margin-left: 190px;
+	width: 790px;
+}
+
+.classList
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0 0 0 8px;
+	font-family: arial, sans-serif;
+	font-size: 1em;
+	overflow: auto;
+}
+
+.classList li
+{
+	padding: 0;
+	margin: 0 0 8px 0;
+}
+
+.summaryTable { width: 100%; }
+
+h1.classTitle
+{
+	font-size:170%;
+	line-height:130%;
+}
+
+h2 { font-size: 110%; }
+caption, div.sectionTitle
+{
+	background-color: #7F8FB1;
+	color: #fff;
+	font-size:130%;
+	text-align: left;
+	padding: 2px 6px 2px 6px;
+	border: 1px #7F8FB1 solid;
+}
+
+div.sectionTitle { margin-bottom: 8px; }
+.summaryTable thead { display: none; }
+
+.summaryTable td
+{
+	vertical-align: top;
+	padding: 4px;
+	border-bottom: 1px #7F8FB1 solid;
+	border-right: 1px #7F8FB1 solid;
+}
+
+/*col#summaryAttributes {}*/
+.summaryTable td.attributes
+{
+	border-left: 1px #7F8FB1 solid;
+	width: 140px;
+	text-align: right;
+}
+
+td.attributes, .fixedFont
+{
+	line-height: 15px;
+	color: #002EBE;
+	font-family: "Courier New",Courier,monospace;
+	font-size: 13px;
+}
+
+.summaryTable td.nameDescription
+{
+	text-align: left;
+	font-size: 13px;
+	line-height: 15px;
+}
+
+.summaryTable td.nameDescription, .description
+{
+	line-height: 15px;
+	padding: 4px;
+	padding-left: 4px;
+}
+
+.summaryTable { margin-bottom: 8px; }
+
+ul.inheritsList
+{
+	list-style: square;
+	margin-left: 20px;
+	padding-left: 0;
+}
+
+.detailList {
+	margin-left: 20px; 
+	line-height: 15px;
+}
+.detailList dt { margin-left: 20px; }
+
+.detailList .heading
+{
+	font-weight: bold;
+	padding-bottom: 6px;
+	margin-left: 0;
+}
+
+.light, td.attributes, .light a:link, .light a:visited
+{
+	color: #777;
+	font-style: italic;
+}
+
+.fineprint
+{
+	text-align: right;
+	font-size: 10px;
+}
+		</style>
+	</head>
+
+	<body>
+<!-- ============================== header ================================= -->	
+		<!-- begin static/header.html -->
+		<div id="header">
+</div>
+		<!-- end static/header.html -->
+
+<!-- ============================== classes index ============================ -->
+		<div id="index">
+			<!-- begin publish.classesIndex -->
+			<div align="center"><a href="../index.html">Class Index</a>
+| <a href="../files.html">File Index</a></div>
+<hr />
+<h2>Classes</h2>
+<ul class="classList">
+	
+	<li><a href="../symbols/jamActions.html">jamActions</a></li>
+	
+	<li><a href="../symbols/jamBooks.html">jamBooks</a></li>
+	
+	<li><a href="../symbols/jamColors.html">jamColors</a></li>
+	
+	<li><a href="../symbols/jamEngine.html">jamEngine</a></li>
+	
+	<li><a href="../symbols/jamHelpers.html">jamHelpers</a></li>
+	
+	<li><a href="../symbols/jamJSON.html">jamJSON</a></li>
+	
+	<li><a href="../symbols/jamLayers.html">jamLayers</a></li>
+	
+	<li><a href="../symbols/jamShapes.html">jamShapes</a></li>
+	
+	<li><a href="../symbols/jamStyles.html">jamStyles</a></li>
+	
+	<li><a href="../symbols/jamText.html">jamText</a></li>
+	
+	<li><a href="../symbols/jamUtils.html">jamUtils</a></li>
+	
+</ul>
+<hr />
+			<!-- end publish.classesIndex -->
+		</div>
+		
+		<div id="content">
+<!-- ============================== class title ============================ -->
+			<h1 class="classTitle">
+				
+				Namespace jamShapes
+			</h1>
+
+<!-- ============================== class summary ========================== -->			
+			<p class="description">
+				<br />Version
+					4.5.<br />
+				
+				
+			
+				
+				
+				
+					<br /><i>Defined in: </i> <a href="../symbols/src/jamShapes.jsxinc.html">jamShapes.jsxinc</a>.
+				
+			</p>
+
+<!-- ============================== constructor summary ==================== -->			
+			
+			<table class="summaryTable" cellspacing="0" summary="A summary of the constructor documented in the class jamShapes.">
+				<caption>Namespace Summary</caption>
+				<thead>
+					<tr>
+						<th scope="col">Constructor Attributes</th>
+						<th scope="col">Constructor Name and Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="attributes">&nbsp;</td>
+						<td class="nameDescription" >
+							<div class="fixedFont">
+								<b><a href="../symbols/jamShapes.html#constructor">jamShapes</a></b>
+							</div>
+							<div class="description">Global object (used to simulate a namespace in JavaScript) containing
+a set of functions related to decoding custom shapes files into a format usable by scripts written with the
+<a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-action-manager/">JSON Action Manager</a> engine.</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			
+
+<!-- ============================== properties summary ===================== -->
+			
+				
+				
+				<table class="summaryTable" cellspacing="0" summary="A summary of the fields documented in the class jamShapes.">
+					<caption>Field Summary</caption>
+					<thead>
+						<tr>
+							<th scope="col">Field Attributes</th>
+							<th scope="col">Field Name and Description</th>
+						</tr>
+					</thead>
+					<tbody>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">
+								jamShapes.<b><a href="../symbols/jamShapes.html#.debugMode">debugMode</a></b>
+								</div>
+								<div class="description">Global option: if true, jamShapes.pathComponentsFromCustomShape () returns the path components of 
+the shape's bounding box instead of the shape itself.</div>
+							</td>
+						</tr>
+					
+					</tbody>
+				</table>
+				
+				
+				
+			
+
+<!-- ============================== methods summary ======================== -->
+			
+				
+				
+				<table class="summaryTable" cellspacing="0" summary="A summary of the methods documented in the class jamShapes.">
+					<caption>Method Summary</caption>
+					<thead>
+						<tr>
+							<th scope="col">Method Attributes</th>
+							<th scope="col">Method Name and Description</th>
+						</tr>
+					</thead>
+					<tbody>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamShapes.<b><a href="../symbols/jamShapes.html#.dataFromCustomShapesFile">dataFromCustomShapesFile</a></b>(shapesFile, shapeIndex)
+								</div>
+								<div class="description">Convert a custom shapes file (*.csh or CustomShapes.psp) into a data structure in JSON format.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamShapes.<b><a href="../symbols/jamShapes.html#.isCustomShapesFile">isCustomShapesFile</a></b>(file)
+								</div>
+								<div class="description">Test if a given file is a custom shapes file (*.csh).</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamShapes.<b><a href="../symbols/jamShapes.html#.isCustomShapesPrefsFile">isCustomShapesPrefsFile</a></b>(file)
+								</div>
+								<div class="description">Test if a given file is a custom shapes preferences file (CustomShapes.psp).</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">jamShapes.<b><a href="../symbols/jamShapes.html#.pathComponentsFromCustomShape">pathComponentsFromCustomShape</a></b>(customShape, shapeOperation, bounds, constrainProportions)
+								</div>
+								<div class="description">Get a JSON array of data (simplified path component values) and unit ID string for coordinates 
+from a custom shape data structure obtained from a converted custom shapes file (*.csh).</div>
+							</td>
+						</tr>
+					
+					</tbody>
+				</table>
+				
+				
+				
+			
+<!-- ============================== events summary ======================== -->
+			
+
+<!-- ============================== constructor details ==================== -->		
+			
+			<div class="details"><a name="constructor"> </a>
+				<div class="sectionTitle">
+					Namespace Detail
+				</div>
+				
+				<div class="fixedFont">
+						<b>jamShapes</b>
+				</div>
+				
+				<div class="description">
+					Global object (used to simulate a namespace in JavaScript) containing
+a set of functions related to decoding custom shapes files into a format usable by scripts written with the
+<a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-action-manager/">JSON Action Manager</a> engine.<br />
+Uses information found in the document
+<a href="http://www.tonton-pixel.com/Photoshop%20Additional%20File%20Formats/custom-shapes-file-format.html">Photoshop Custom Shapes File Format</a>.
+					<br /><i>Author: </i>Michel MARIANI.
+				</div>
+				
+				
+				
+				
+					
+					
+					
+					
+					
+					
+					
+
+			</div>
+			
+
+<!-- ============================== field details ========================== -->		
+			
+				<div class="sectionTitle">
+					Field Detail
+				</div>
+				
+					<a name=".debugMode"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Boolean}</span>
+					<span class="light">jamShapes.</span><b>debugMode</b>
+					
+					</div>
+					<div class="description">
+						Global option: if true, jamShapes.pathComponentsFromCustomShape () returns the path components of 
+the shape's bounding box instead of the shape itself.
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">var fileData = jamShapes.dataFromCustomShapesFile ("~/JSON Action Manager/tests/resources/Logo-X-Aqua.csh");
+if (typeof fileData === 'string')
+{
+    alert (fileData);
+}
+else
+{
+    var customShape = fileData["customShapes"][0];
+    var bounds = [ [ 10, 10, 90, 90 ], "percentUnit" ];
+    jamShapes.<strong>debugMode</strong> = true;
+    pathComponents = jamShapes.pathComponentsFromCustomShape (customShape, "add", bounds, true);
+    jamEngine.jsonPlay
+    (
+        "set",
+        {
+            "target": { "&lt;reference&gt;": [ { "path": { "&lt;property&gt;": "workPath" } } ] },
+            "to": jamHelpers.toPathComponentList (pathComponents)
+        }
+    );
+    jamEngine.jsonPlay
+    (
+        "fill",
+        {
+            "target": { "&lt;reference&gt;": [ { "path": { "&lt;property&gt;": "workPath" } } ] },
+            "wholePath": { "&lt;boolean&gt;": true },
+            "using": { "&lt;enumerated&gt;": { "fillContents": "color" } },
+            "color": jamHelpers.nameToColorObject ("W3C", "Red"),
+            "opacity": { "&lt;unitDouble&gt;": { "percentUnit": 50 } },
+            "mode": { "&lt;enumerated&gt;": { "blendMode": "normal" } },
+            "radius": { "&lt;unitDouble&gt;": { "pixelsUnit": 0.0 } },
+            "antiAlias": { "&lt;boolean&gt;": true }
+        }
+    );
+}</pre>
+					
+					
+
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+							<dd><a href="../symbols/jamShapes.html#.pathComponentsFromCustomShape">jamShapes.pathComponentsFromCustomShape</a></dd>
+							
+							</dl>
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Default Value:</dt>
+							<dd>
+								false
+							</dd>
+							</dl>
+						
+
+					
+				
+			
+
+<!-- ============================== method details ========================= -->		
+			
+				<div class="sectionTitle">
+					Method Detail
+				</div>
+				
+					<a name=".dataFromCustomShapesFile"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Object|String}</span>
+					<span class="light">jamShapes.</span><b>dataFromCustomShapesFile</b>(shapesFile, shapeIndex)
+					
+					</div>
+					<div class="description">
+						Convert a custom shapes file (*.csh or CustomShapes.psp) into a data structure in JSON format.
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">function customShapesFileFilter (f)
+{
+    return (f instanceof Folder) || jamShapes.isCustomShapesFile (f);
+}
+var select = (File.fs === "Macintosh") ? customShapesFileFilter : "Custom Shapes Files:*.csh,All Files:*";
+var customShapesFile = File.openDialog ("Select a custom shapes file:", select);
+if (customShapesFile !== null)
+{
+    var fileData = jamShapes.<strong>dataFromCustomShapesFile</strong> (customShapesFile, -1);
+    if (typeof fileData === 'string')
+    {
+        alert (fileData + "\n" + "Custom shapes file: “" + File.decode (customShapesFile.name) + "”");
+    }
+    else
+    {
+        alert ("Number of custom shapes: " + fileData["customShapes"].length);
+    }
+}</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{String|Object}</span> <b>shapesFile</b>
+									
+								</dt>
+								<dd>Custom shapes file path string or File object</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>shapeIndex</b>
+									<i>Optional</i>
+								</dt>
+								<dd>If defined, the returned information for each custom shape is limited to its name and ID 
+(no bounds, no path records) except for the shape located at this index; passing -1 will limit the information for 
+all custom shapes</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Object|String}</span> Converted custom shapes file data structure in JSON format, or error message string
+<p style="margin: 0.5em 0 0 0em;">
+The custom shapes file data structure is defined as a JSON object { } with two members:<br />
+<code>{ "fileVersion": <em>fileVersion</em>, "customShapes": <em>customShapes</em> }</code>
+</p>
+<p style="margin: 0.5em 0 0 1.25em;">
+<code><em>fileVersion</em></code>: number<br />
+<code><em>customShapes</em></code>: JSON array [ ] of <code><em>customShape</em></code>
+</p>
+<p style="margin: 0.5em 0 0 2.5em;">
+<code><em>customShape</em></code>: JSON object { } with four members:<br />
+<code>{ "name": <em>name</em>, "ID": <em>ID</em>, "bounds": <em>bounds</em>, 
+"pathRecords": <em>pathRecords</em> }</code>
+</p>
+<p style="margin: 0.5em 0 0 3.75em;">
+<code><em>name</em></code>: string<br />
+<code><em>ID</em></code>: string<br />
+<code><em>bounds</em></code>: JSON array [ ] with four items: 
+<code>[ <em>top</em>, <em>left</em>, <em>bottom</em>, <em>right</em> ]</code>
+</p>
+<p style="margin: 0.5em 0 0 5em;">
+<code><em>top</em></code>: number<br />
+<code><em>left</em></code>: number<br />
+<code><em>bottom</em></code>: number<br />
+<code><em>right</em></code>: number<br />
+</p>
+<p style="margin: 0.5em 0 0 3.75em;">
+<code><em>pathRecords</em></code>: JSON array [ ] of <code><em>pathRecord</em></code>
+</p>
+<p style="margin: 0.5em 0 0 5em;">
+<code><em>pathRecord</em></code>: JSON array [ ] with two items: <code>[ <em>selector</em>, <em>data</em> }</code>
+</p>
+<table style="margin: 0.5em 0 0 6.25em; border-collapse: collapse;">
+<tr style="border: 1px solid #E7E7E7;">
+<th style="text-align: left; color: gray; padding: 0.25em 2em;"><code><em>selector</em></code></th>
+<th style="text-align: left; color: gray; padding: 0.25em 2em;"><code><em>data</em></code></th>
+</tr>
+<tr style="border: 1px solid #E7E7E7;">
+<td style="padding: 0.25em 2em;"><code>"pathFill"</code></td>
+<td style="padding: 0.25em 2em;"><code>null</null></td>
+</tr>
+<tr style="border: 1px solid #E7E7E7;">
+<td style="padding: 0.25em 2em;"><code>"initialFill"</code></td>
+<td style="padding: 0.25em 2em;">number (0 or 1)</code></td>
+</tr>
+<tr style="border: 1px solid #E7E7E7;">
+<td style="padding: 0.25em 2em;"><code>"closedLength"</code></td>
+<td style="padding: 0.25em 2em;">number</td>
+</tr>
+<tr style="border: 1px solid #E7E7E7;">
+<td style="padding: 0.25em 2em;"><code>"closedLinked"</code></td>
+<td style="padding: 0.25em 2em;">JSON array [ ] with three items: <code>[ <em>backward</em>, <em>anchor</em>, <em>forward</em> ]</code></td>
+</tr>
+<tr style="border: 1px solid #E7E7E7;">
+<td style="padding: 0.25em 2em;"><code>"closedUnlinked"</code></td>
+<td style="padding: 0.25em 2em;">JSON array [ ] with three items: <code>[ <em>backward</em>, <em>anchor</em>, <em>forward</em> ]</code></td>
+</tr>
+<tr style="border: 1px solid #E7E7E7;">
+<td style="padding: 0.25em 2em;"><code>"openLength"</code></td>
+<td style="padding: 0.25em 2em;">number</td>
+</tr>
+<tr style="border: 1px solid #E7E7E7;">
+<td style="padding: 0.25em 2em;"><code>"openLinked"</code></td>
+<td style="padding: 0.25em 2em;">JSON array [ ] with three items: <code>[ <em>backward</em>, <em>anchor</em>, <em>forward</em> ]</code></td>
+</tr>
+<tr style="border: 1px solid #E7E7E7;">
+<td style="padding: 0.25em 2em;"><code>"openUnlinked"</code></td>
+<td style="padding: 0.25em 2em;">JSON array [ ] with three items: <code>[ <em>backward</em>, <em>anchor</em>, <em>forward</em> ]</code></td>
+</tr>
+</table>
+<p style="margin: 0.5em 0 0 7.5em;">
+<code><em>backward</em></code>: JSON array [ ] with two items: <code>[ <em>vertical</em>, <em>horizontal</em> ]</code><br />
+<code><em>anchor</em></code>: JSON array [ ] with two items: <code>[ <em>vertical</em>, <em>horizontal</em> ]</code><br />
+<code><em>forward</em></code>: JSON array [ ] with two items: <code>[ <em>vertical</em>, <em>horizontal</em> ]</code><br />
+</p>
+<p style="margin: 0.5em 0 0 8.75em;">
+<code><em>vertical</em></code>: number<br />
+<code><em>horizontal</em></code>: number<br />
+</p></dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name=".isCustomShapesFile"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Boolean}</span>
+					<span class="light">jamShapes.</span><b>isCustomShapesFile</b>(file)
+					
+					</div>
+					<div class="description">
+						Test if a given file is a custom shapes file (*.csh).
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">function customShapesFileFilter (f)
+{
+    return (f instanceof Folder) || jamShapes.<strong>isCustomShapesFile</strong> (f);
+}
+var select = (File.fs === "Macintosh") ? customShapesFileFilter : "Custom Shapes Files:*.csh,All Files:*";
+var customShapesFile = File.openDialog ("Select a custom shapes file:", select);
+if (customShapesFile !== null)
+{
+    alert ("OK!");
+}</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Object}</span> <b>file</b>
+									
+								</dt>
+								<dd>File object</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Boolean}</span> true if custom shapes file</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name=".isCustomShapesPrefsFile"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Boolean}</span>
+					<span class="light">jamShapes.</span><b>isCustomShapesPrefsFile</b>(file)
+					
+					</div>
+					<div class="description">
+						Test if a given file is a custom shapes preferences file (CustomShapes.psp).
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">function customShapesPrefsFileFilter (f)
+{
+    return (f instanceof Folder) || jamShapes.<strong>isCustomShapesPrefsFile</strong> (f);
+}
+var select = (File.fs === "Macintosh") ?
+                 customShapesPrefsFileFilter :
+                 "Custom Shapes Preferences File:CustomShapes.psp,All Files:*.*";
+var customShapesPrefsFile = File.openDialog ("Select a custom shapes preferences file:", select);
+if (customShapesPrefsFile !== null)
+{
+    alert ("OK!");
+}</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Object}</span> <b>file</b>
+									
+								</dt>
+								<dd>File object</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Boolean}</span> true if custom shapes preferences file</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name=".pathComponentsFromCustomShape"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Array}</span>
+					<span class="light">jamShapes.</span><b>pathComponentsFromCustomShape</b>(customShape, shapeOperation, bounds, constrainProportions)
+					
+					</div>
+					<div class="description">
+						Get a JSON array of data (simplified path component values) and unit ID string for coordinates 
+from a custom shape data structure obtained from a converted custom shapes file (*.csh).
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">var fileData = jamShapes.dataFromCustomShapesFile ("~/JSON Action Manager/tests/resources/Logo-X-Aqua.csh");
+if (typeof fileData === 'string')
+{
+    alert (fileData);
+}
+else
+{
+    var customShape = fileData["customShapes"][0];
+    var bounds = [ [ 10, 10, 90, 90 ], "percentUnit" ];
+    var pathComponents = jamShapes.<strong>pathComponentsFromCustomShape</strong> (customShape, "add", bounds, true);
+    jamEngine.jsonPlay
+    (
+        "set",
+        {
+            "target": { "&lt;reference&gt;": [ { "path": { "&lt;property&gt;": "workPath" } } ] },
+            "to": jamHelpers.toPathComponentList (pathComponents)
+        }
+    );
+}</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Object}</span> <b>customShape</b>
+									
+								</dt>
+								<dd>Custom shape data structure in JSON format, obtained from a converted custom shapes file (*.csh)</dd>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>shapeOperation</b>
+									
+								</dt>
+								<dd>Shape operation:<br />
+<ul>
+<li>"add"</li>
+<li>"subtract"</li>
+<li>"intersect"</li>
+<li>"xor"</li>
+</ul></dd>
+							
+								<dt>
+									<span class="light fixedFont">{Array}</span> <b>bounds</b>
+									
+								</dt>
+								<dd>Path bounds rectangle with optional unit (either "distanceUnit" or "percentUnit" or "pixelsUnit"):<br />
+[ [ left, top, right, bottom ], unit ]</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>constrainProportions</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Constrain proportions using the custom shape aspect ratio (false by default)</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Array}</span> JSON array of data (simplified path component values) and unit ID string for coordinates
+(cf. <a href="http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-simplified-formats/path-component-list-simplified-format/">Path Component List Simplified Format</a>);
+if jamShapes.debugMode is true, returns the path components of the shape's bounding box instead of the shape itself</dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/jamShapes.html#.dataFromCustomShapesFile">jamShapes.dataFromCustomShapesFile</a></dd>
+							
+								<dd><a href="../symbols/jamShapes.html#.debugMode">jamShapes.debugMode</a></dd>
+							
+							</dl>
+						
+
+					
+				
+			
+			
+<!-- ============================== event details ========================= -->		
+			
+			
+			<hr />
+		</div>
+
+		
+<!-- ============================== footer ================================= -->
+		<div class="fineprint" style="clear:both">
+			
+			Documentation generated by <a href="http://code.google.com/p/jsdoc-toolkit/" target="_blank">JsDoc Toolkit</a> 2.4.0 on Wed Oct 12 2016 23:32:44 GMT+0200 (CEST)
+		</div>
+	</body>
+</html>
