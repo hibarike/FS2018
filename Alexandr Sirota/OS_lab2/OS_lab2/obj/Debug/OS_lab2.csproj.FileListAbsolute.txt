@@ -1,0 +1,10 @@
+C:\Users\sirot\OneDrive\Документы\FS2018\Alexandr Sirota\OS_lab2\OS_lab2\bin\Debug\OS_lab2.exe.config
+C:\Users\sirot\OneDrive\Документы\FS2018\Alexandr Sirota\OS_lab2\OS_lab2\bin\Debug\OS_lab2.exe
+C:\Users\sirot\OneDrive\Документы\FS2018\Alexandr Sirota\OS_lab2\OS_lab2\bin\Debug\OS_lab2.pdb
+C:\Users\sirot\OneDrive\Документы\FS2018\Alexandr Sirota\OS_lab2\OS_lab2\obj\Debug\OS_lab2.csprojAssemblyReference.cache
+C:\Users\sirot\OneDrive\Документы\FS2018\Alexandr Sirota\OS_lab2\OS_lab2\obj\Debug\OS_lab2.Refactorer.resources
+C:\Users\sirot\OneDrive\Документы\FS2018\Alexandr Sirota\OS_lab2\OS_lab2\obj\Debug\OS_lab2.Properties.Resources.resources
+C:\Users\sirot\OneDrive\Документы\FS2018\Alexandr Sirota\OS_lab2\OS_lab2\obj\Debug\OS_lab2.csproj.GenerateResource.cache
+C:\Users\sirot\OneDrive\Документы\FS2018\Alexandr Sirota\OS_lab2\OS_lab2\obj\Debug\OS_lab2.csproj.CoreCompileInputs.cache
+C:\Users\sirot\OneDrive\Документы\FS2018\Alexandr Sirota\OS_lab2\OS_lab2\obj\Debug\OS_lab2.exe
+C:\Users\sirot\OneDrive\Документы\FS2018\Alexandr Sirota\OS_lab2\OS_lab2\obj\Debug\OS_lab2.pdb
