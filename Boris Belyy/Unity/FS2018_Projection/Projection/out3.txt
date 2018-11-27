@@ -1,0 +1,6 @@
+{
+	"objectProjectionPS":{
+		"X":1101,
+		"Y":516	
+		}
+}

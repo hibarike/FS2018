@@ -1,0 +1,24 @@
+{
+	"objectPosition":{
+ 		"X":10,
+		"Y":0,
+		"Z":37.7
+		},
+	"camera":{
+		"cameraPosition":{
+			"X":0,
+			"Y":0,
+			"Z":0
+			},
+		"cameraRotation":{
+			"X":0,
+			"Y":0,
+			"Z":-10
+			},
+		"cameraFOV": 90,
+		"aspect":{
+			"width":1,
+			"height":1
+			}
+		}
+}
