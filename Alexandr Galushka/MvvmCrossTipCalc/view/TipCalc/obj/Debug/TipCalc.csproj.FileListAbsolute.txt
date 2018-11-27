@@ -121,3 +121,6 @@ D:\PROJECTS VS\repo fs2018 clone\Alexandr Galushka\MvvmCrossTipCalc\view\TipCalc
 D:\PROJECTS VS\repo fs2018 clone\Alexandr Galushka\MvvmCrossTipCalc\view\TipCalc\obj\Debug\TipCalc.csproj.CopyComplete
 D:\PROJECTS VS\repo fs2018 clone\Alexandr Galushka\MvvmCrossTipCalc\view\TipCalc\obj\Debug\TipCalc.exe
 D:\PROJECTS VS\repo fs2018 clone\Alexandr Galushka\MvvmCrossTipCalc\view\TipCalc\obj\Debug\TipCalc.pdb
+C:\Users\Y510p\Documents\работа\FS2018\Alexandr Galushka\MvvmCrossTipCalc\view\TipCalc\obj\Debug\TipCalc.csprojAssemblyReference.cache
+C:\Users\Y510p\Documents\работа\FS2018\Alexandr Galushka\MvvmCrossTipCalc\view\TipCalc\obj\Debug\TipCalc.exe.config
+C:\Users\Y510p\Documents\работа\FS2018\Alexandr Galushka\MvvmCrossTipCalc\view\TipCalc\obj\Debug\TipCalc_MarkupCompile.cache

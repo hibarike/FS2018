@@ -49,6 +49,9 @@
         "build": {
           "build/NUnit.props": {}
         }
+      },
+      "NUnitTestAdapter/2.1.1": {
+        "type": "package"
       }
     }
   },
@@ -268,13 +271,33 @@
         "nunit.3.11.0.nupkg.sha512",
         "nunit.nuspec"
       ]
+    },
+    "NUnitTestAdapter/2.1.1": {
+      "sha512": "630XUk7svcRoBSyL1ydvgKtKwStWaP0ipRj40fJpt53gmzGRbAAb1oDynA0x9EX7SRk/8iV3hCmCFpkS6jeuyw==",
+      "type": "package",
+      "path": "nunittestadapter/2.1.1",
+      "files": [
+        ".signature.p7s",
+        "LICENSE.txt",
+        "nunittestadapter.2.1.1.nupkg.sha512",
+        "nunittestadapter.nuspec",
+        "tools/Mono.Cecil.Mdb.dll",
+        "tools/Mono.Cecil.Pdb.dll",
+        "tools/Mono.Cecil.Rocks.dll",
+        "tools/Mono.Cecil.dll",
+        "tools/NUnit.VisualStudio.TestAdapter.dll",
+        "tools/nunit.core.dll",
+        "tools/nunit.core.interfaces.dll",
+        "tools/nunit.util.dll"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "MvvmCross >= 6.2.1",
       "NETStandard.Library >= 2.0.3",
-      "NUnit >= 3.11.0"
+      "NUnit >= 3.11.0",
+      "NUnitTestAdapter >= 2.1.1"
     ]
   },
   "packageFolders": {
@@ -331,6 +354,10 @@
           "NUnit": {
             "target": "Package",
             "version": "[3.11.0, )"
+          },
+          "NUnitTestAdapter": {
+            "target": "Package",
+            "version": "[2.1.1, )"
           }
         },
         "imports": [

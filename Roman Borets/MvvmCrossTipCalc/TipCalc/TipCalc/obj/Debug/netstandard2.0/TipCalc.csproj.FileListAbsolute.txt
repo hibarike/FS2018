@@ -7,3 +7,12 @@ C:\Users\User\Desktop\GitFS2018\Roman Borets\MvvmCrossTipCalc\TipCalc\TipCalc\ob
 C:\Users\User\Desktop\GitFS2018\Roman Borets\MvvmCrossTipCalc\TipCalc\TipCalc\bin\Debug\netstandard2.0\TipCalc.pdb
 C:\Users\User\Desktop\GitFS2018\Roman Borets\MvvmCrossTipCalc\TipCalc\TipCalc\obj\Debug\netstandard2.0\TipCalc.dll
 C:\Users\User\Desktop\GitFS2018\Roman Borets\MvvmCrossTipCalc\TipCalc\TipCalc\obj\Debug\netstandard2.0\TipCalc.pdb
+C:\Users\Y510p\Documents\работа\FS2018\Roman Borets\MvvmCrossTipCalc\TipCalc\TipCalc\bin\Debug\netstandard2.0\TipCalc.deps.json
+C:\Users\Y510p\Documents\работа\FS2018\Roman Borets\MvvmCrossTipCalc\TipCalc\TipCalc\bin\Debug\netstandard2.0\TipCalc.dll
+C:\Users\Y510p\Documents\работа\FS2018\Roman Borets\MvvmCrossTipCalc\TipCalc\TipCalc\bin\Debug\netstandard2.0\TipCalc.pdb
+C:\Users\Y510p\Documents\работа\FS2018\Roman Borets\MvvmCrossTipCalc\TipCalc\TipCalc\obj\Debug\netstandard2.0\TipCalc.csprojAssemblyReference.cache
+C:\Users\Y510p\Documents\работа\FS2018\Roman Borets\MvvmCrossTipCalc\TipCalc\TipCalc\obj\Debug\netstandard2.0\TipCalc.csproj.CoreCompileInputs.cache
+C:\Users\Y510p\Documents\работа\FS2018\Roman Borets\MvvmCrossTipCalc\TipCalc\TipCalc\obj\Debug\netstandard2.0\TipCalc.AssemblyInfoInputs.cache
+C:\Users\Y510p\Documents\работа\FS2018\Roman Borets\MvvmCrossTipCalc\TipCalc\TipCalc\obj\Debug\netstandard2.0\TipCalc.AssemblyInfo.cs
+C:\Users\Y510p\Documents\работа\FS2018\Roman Borets\MvvmCrossTipCalc\TipCalc\TipCalc\obj\Debug\netstandard2.0\TipCalc.dll
+C:\Users\Y510p\Documents\работа\FS2018\Roman Borets\MvvmCrossTipCalc\TipCalc\TipCalc\obj\Debug\netstandard2.0\TipCalc.pdb

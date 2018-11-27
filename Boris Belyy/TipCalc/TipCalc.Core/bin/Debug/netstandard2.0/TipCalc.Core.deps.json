@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "e09873725105aa240fde6b784517c7397b5a672b"
+    "signature": "a2712e228c376676b4afb5bf71af073af001859c"
   },
   "compilationOptions": {},
   "targets": {
@@ -11,7 +11,8 @@
         "dependencies": {
           "MvvmCross": "6.2.1",
           "NETStandard.Library": "2.0.3",
-          "NUnit": "3.11.0"
+          "NUnit": "3.11.0",
+          "NUnitTestAdapter": "2.1.1"
         },
         "runtime": {
           "TipCalc.Core.dll": {}
@@ -35,7 +36,8 @@
         "runtime": {
           "lib/netstandard2.0/nunit.framework.dll": {}
         }
-      }
+      },
+      "NUnitTestAdapter/2.1.1": {}
     }
   },
   "libraries": {
@@ -71,6 +73,13 @@
       "sha512": "sha512-zecrYxUA5p5w8AZ2bvbBbiUIcrQnZAVPrziNMSWMdcOi0D2Oe7yKUNivWPIQMcUwQDHmWtS/ijnD48ubU/eHZQ==",
       "path": "nunit/3.11.0",
       "hashPath": "nunit.3.11.0.nupkg.sha512"
+    },
+    "NUnitTestAdapter/2.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-630XUk7svcRoBSyL1ydvgKtKwStWaP0ipRj40fJpt53gmzGRbAAb1oDynA0x9EX7SRk/8iV3hCmCFpkS6jeuyw==",
+      "path": "nunittestadapter/2.1.1",
+      "hashPath": "nunittestadapter.2.1.1.nupkg.sha512"
     }
   }
 }

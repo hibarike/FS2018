@@ -13,3 +13,12 @@ D:\PROJECTS VS\repo fs2018 clone\Alexandr Galushka\MvvmCrossTipCalc\TipCalc\obj\
 D:\PROJECTS VS\repo fs2018 clone\Alexandr Galushka\MvvmCrossTipCalc\TipCalc\obj\Debug\netstandard2.0\TipCalc.Core.AssemblyInfo.cs
 D:\PROJECTS VS\repo fs2018 clone\Alexandr Galushka\MvvmCrossTipCalc\TipCalc\obj\Debug\netstandard2.0\TipCalc.Core.dll
 D:\PROJECTS VS\repo fs2018 clone\Alexandr Galushka\MvvmCrossTipCalc\TipCalc\obj\Debug\netstandard2.0\TipCalc.Core.pdb
+C:\Users\Y510p\Documents\работа\FS2018\Alexandr Galushka\MvvmCrossTipCalc\TipCalc\bin\Debug\netstandard2.0\TipCalc.Core.deps.json
+C:\Users\Y510p\Documents\работа\FS2018\Alexandr Galushka\MvvmCrossTipCalc\TipCalc\bin\Debug\netstandard2.0\TipCalc.Core.dll
+C:\Users\Y510p\Documents\работа\FS2018\Alexandr Galushka\MvvmCrossTipCalc\TipCalc\bin\Debug\netstandard2.0\TipCalc.Core.pdb
+C:\Users\Y510p\Documents\работа\FS2018\Alexandr Galushka\MvvmCrossTipCalc\TipCalc\obj\Debug\netstandard2.0\TipCalc.Core.csprojAssemblyReference.cache
+C:\Users\Y510p\Documents\работа\FS2018\Alexandr Galushka\MvvmCrossTipCalc\TipCalc\obj\Debug\netstandard2.0\TipCalc.Core.csproj.CoreCompileInputs.cache
+C:\Users\Y510p\Documents\работа\FS2018\Alexandr Galushka\MvvmCrossTipCalc\TipCalc\obj\Debug\netstandard2.0\TipCalc.Core.AssemblyInfoInputs.cache
+C:\Users\Y510p\Documents\работа\FS2018\Alexandr Galushka\MvvmCrossTipCalc\TipCalc\obj\Debug\netstandard2.0\TipCalc.Core.AssemblyInfo.cs
+C:\Users\Y510p\Documents\работа\FS2018\Alexandr Galushka\MvvmCrossTipCalc\TipCalc\obj\Debug\netstandard2.0\TipCalc.Core.dll
+C:\Users\Y510p\Documents\работа\FS2018\Alexandr Galushka\MvvmCrossTipCalc\TipCalc\obj\Debug\netstandard2.0\TipCalc.Core.pdb

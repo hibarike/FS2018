@@ -6,3 +6,4 @@ C:\Users\Y510p\Documents\работа\FS2018\Boris Belyy\TipCalc\TipCalc.Core\ob
 C:\Users\Y510p\Documents\работа\FS2018\Boris Belyy\TipCalc\TipCalc.Core\bin\Debug\netstandard2.0\TipCalc.Core.pdb
 C:\Users\Y510p\Documents\работа\FS2018\Boris Belyy\TipCalc\TipCalc.Core\obj\Debug\netstandard2.0\TipCalc.Core.dll
 C:\Users\Y510p\Documents\работа\FS2018\Boris Belyy\TipCalc\TipCalc.Core\obj\Debug\netstandard2.0\TipCalc.Core.pdb
+C:\Users\Y510p\Documents\работа\FS2018\Boris Belyy\TipCalc\TipCalc.Core\obj\Debug\netstandard2.0\TipCalc.Core.csprojAssemblyReference.cache

@@ -1,2 +1,0 @@
-C:\Users\Y510p\Documents\работа\FS2018\Boris Belyy\TipCalc\TipCalc.Droid\obj\Release\TipCalc.Droid.csprojAssemblyReference.cache
-C:\Users\Y510p\Documents\работа\FS2018\Boris Belyy\TipCalc\TipCalc.Droid\obj\Release\TipCalc.Droid.csproj.CoreCompileInputs.cache

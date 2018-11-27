@@ -125,3 +125,6 @@ C:\Users\User\Desktop\GitFS2018\Roman Borets\MvvmCrossTipCalc\TipCalc\TipCalc.WP
 C:\Users\User\Desktop\GitFS2018\Roman Borets\MvvmCrossTipCalc\TipCalc\TipCalc.WPF\obj\Debug\TipCalc.WPF.csproj.CopyComplete
 C:\Users\User\Desktop\GitFS2018\Roman Borets\MvvmCrossTipCalc\TipCalc\TipCalc.WPF\obj\Debug\TipCalc.WPF.exe
 C:\Users\User\Desktop\GitFS2018\Roman Borets\MvvmCrossTipCalc\TipCalc\TipCalc.WPF\obj\Debug\TipCalc.WPF.pdb
+C:\Users\Y510p\Documents\работа\FS2018\Roman Borets\MvvmCrossTipCalc\TipCalc\TipCalc.WPF\obj\Debug\TipCalc.WPF.csprojAssemblyReference.cache
+C:\Users\Y510p\Documents\работа\FS2018\Roman Borets\MvvmCrossTipCalc\TipCalc\TipCalc.WPF\obj\Debug\TipCalc.WPF.exe.config
+C:\Users\Y510p\Documents\работа\FS2018\Roman Borets\MvvmCrossTipCalc\TipCalc\TipCalc.WPF\obj\Debug\TipCalc.WPF_MarkupCompile.cache
