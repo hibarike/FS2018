@@ -4,7 +4,7 @@ using System.Text;
 
 namespace TipCalc.Core.Services
 {
-    interface ICalculationService
+   public interface ICalculationService
     {
         double TipAmount(double subTotal, int generosity);
     }
