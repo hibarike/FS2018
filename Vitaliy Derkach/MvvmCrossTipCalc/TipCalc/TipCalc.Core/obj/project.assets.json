@@ -234,11 +234,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Vetal\\source\\repos\\TipCalc\\TipCalc.Core\\TipCalc.Core.csproj",
+      "projectUniqueName": "E:\\FS2018\\Vitaliy Derkach\\MvvmCrossTipCalc\\TipCalc\\TipCalc.Core\\TipCalc.Core.csproj",
       "projectName": "TipCalc.Core",
-      "projectPath": "C:\\Users\\Vetal\\source\\repos\\TipCalc\\TipCalc.Core\\TipCalc.Core.csproj",
+      "projectPath": "E:\\FS2018\\Vitaliy Derkach\\MvvmCrossTipCalc\\TipCalc\\TipCalc.Core\\TipCalc.Core.csproj",
       "packagesPath": "C:\\Users\\Vetal\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Vetal\\source\\repos\\TipCalc\\TipCalc.Core\\obj\\",
+      "outputPath": "E:\\FS2018\\Vitaliy Derkach\\MvvmCrossTipCalc\\TipCalc\\TipCalc.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -5,7 +5,7 @@ using TipCalc.Core.ViewModels;
 
 namespace TipCalc.Core
 {
-	class App: MvxApplication
+	public class App: MvxApplication
 	{
 		public override void Initialize()
 		{
