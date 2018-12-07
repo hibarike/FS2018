@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&effect=outline" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body class="mdl-base">
+    <div class="mdl-layout__container mdl-js-layout has-scrolling-header">
+        <header class=" mdl-layout__header mdl-color--black">
+            <div class="mdl-layout--large-screen-only mdl-layout__header-row">
+            </div>
+
+            <div class=" mdl-layout__header-row">
+                <div class="header-title">
+                    <a class="header-title__link" href="index.html">
+                        <h1>JS Blog</h1>
+                    </a>
+                </div>
+
+                <form action="#">
+                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
+                        <label class="mdl-button mdl-js-button mdl-button--icon" for="fixed-header-drawer-exp">
+                            <i class="material-icons">search</i>
+                        </label>
+                        <div class="mdl-textfield__expandable-holder">
+                            <input class="mdl-textfield__input" type="text" id="fixed-header-drawer-exp">
+                            <label class="mdl-textfield__label" for="sample-expandable">Expandable Input</label>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+
+            <div class="mdl-layout--large-screen-only mdl-layout__header-row">
+            </div>
+        </header>
+
+        <main class="mdl-layout__content ">
+
+            <div class="main-title-text">
+                <h1 class="font-effect-outline">ES6 Features</h1>
+            </div>
+
+            <div class="main">
+                <div class="main-content">
+                    <h2><code>String.prototype.padStart</code>/<code>padEnd</code></h2>
+
+                    <p><code>padStart</code> and <code>padEnd</code> allow us to pad a given string with any text of
+                        our choosing to ensure a string matches a given length:</p>
+
+                    <pre class="js">
+                    // padStart(desiredLength, textToPrepend)
+                    
+                    // No text
+                    ''.padStart(10, 'Hi') // 'HiHiHiHiHi'
+                    
+                    // Some text
+                    'def'.padStart(6, 'abc') // 'abcdef'
+                    
+                    // Only use what gets to length
+                    '5678'.padStart(7, '1234') // '1235678'
+                    
+                    // padEnd(desiredLength, textToAppend)
+                    
+                    '23'.padEnd(8, '0') // '23000000'
+                    </pre>
+
+                    <p>One usage of <code>padStart</code> could include prepending an area code to phone number if the
+                        user input isn't the correct length. <code>padEnd</code> could be used for decimal precision.</p>
+
+                    <h2><code>Object.entries</code></h2>
+
+                    <p><code>Object.entries</code> allows us to get an object's enumerable property pairs in array
+                        format ([key, value]):</p>
+
+                    <pre class="js">
+                    // Object literal
+                    Object.entries({ 'a': 'A', 'b': 'B' }); // [["a","A"],["b","B"]]
+                    
+                    // String
+                    Object.entries('david') // [["0","d"],["1","a"],["2","v"],["3","i"],["4","d"]]
+                    </pre>
+
+                    <p><code>Object.entries</code> follows the same order as <code>for...in</code> would.</p>
+
+                    <h2><code>Object.values</code></h2>
+
+                    <p><code>Object.keys</code> has been immensely useful for me so I was also excited to see <code>Object.values</code>
+                        introduced:</p>
+
+                    <pre class="js">
+                    // Object literal
+                    Object.values({ 'a': 23, 'b': 19 }) // [23, 19]
+                    
+                    // Array-like object (order not preserved)
+                    Object.values({ 80: 'eighty', 0: 1, 1: 'yes' }) // [1, 'yes', 'eighty']
+                    
+                    // String
+                    Object.values('davidwalsh') // ["d", "a", "v", "i", "d", "w", "a", "l", "s", "h"]
+                    
+                    // Array
+                    Object.values([1, 2, 3]) // [1, 2, 3]
+                    </pre>
+
+                    <p><code>Object.values</code> provides value entries in object literals, arrays, strings, etc.</p>
+
+                    <h2><code>Array.prototype.includes</code></h2>
+
+                    <p><code>Array.prototype.includes</code> is a bit like <code>indexOf</code> but instead returns a
+                        <code>true</code> or <code>false</code> value instead of the item's index:</p>
+
+                    <pre class="js">
+                    ['a', 'b', 'c'].includes('a') // true, not 0 like indexOf would give
+                    ['a', 'b', 'c'].includes('d') // false
+                    </pre>
+
+                    <p><code>indexOf</code> has been used over the years to detect item presence in array, but the `0`
+                        index can lead to false negatives if not coded properly. I'm glad JavaScript has added a
+                        function that returns exactly what we need: a positive or negative answer!</p>
+
+                    <h2>Exponentiation</h2>
+                    <p>JavaScript has introduced a shorthand method of exponentiation:</p>
+
+                    <pre class="js">
+                    // 2 to the power of 8
+                    Math.pow(2, 8) // 256
+                    
+                    // ..becomes
+                    2 ** 8 // 256
+                    </pre>
+
+                    <p>This new syntax accomplishes the same as <code>Math.pow</code> with less code!</p>
+
+                    <h2>Trailing Commas</h2>
+
+                    <p>I'm old enough to remember the days where a trailing comma would completely explode your
+                        JavaScript code in Internet Explorer 6. JavaScript now accommodates for the extra comma:</p>
+
+                    <pre class="js">
+                    let myObj = { a:'b', b: 'c', } // No error!
+                    
+                    let myArr = [1, 2, 3, ] // No error!
+                    
+                    [1, 2, 3,].length // 3
+                    [1, 2, 3, , , ].length // 5
+                    </pre>
+
+                    <p>The case of the Array length is one to keep in mind. ESLint has a <code>comma-dangle</code> rule
+                        you can use to ensure your comma dangle usage is consistent.</p>
+
+
+                </div>
+
+                <div class="sidebar">
+                    <div class="popular-topics">
+                        <h4 style="background-color:#ca4040; ">
+                            <a style="color: white; padding: 10px; text-decoration: none" href="#">Popular Topics</a>
+                        </h4>
+
+                        <a href="#topic" class="mdl-chip">
+                            <span class="mdl-chip__text">AJAX</span>
+                        </a>
+                        <a href="#topic" class="mdl-chip">
+                            <span class="mdl-chip__text">Node.js</span>
+                        </a>
+                        <a href="#topic" class="mdl-chip">
+                            <span class="mdl-chip__text">CSS</span>
+                        </a>
+                        <a href="#topic" class="mdl-chip">
+                            <span class="mdl-chip__text">Dojo</span>
+                        </a>
+                        <a href="#topic" class="mdl-chip">
+                            <span class="mdl-chip__text">JQuery</span>
+                        </a>
+                        <a href="#topic" class="mdl-chip">
+                            <span class="mdl-chip__text">Media</span>
+                        </a>
+                        <a href="#topic" class="mdl-chip">
+                            <span class="mdl-chip__text">Performance</span>
+                        </a>
+                        <a href="#topic" class="mdl-chip">
+                            <span class="mdl-chip__text">Snippets</span>
+                        </a>
+                        <a href="#topic" class="mdl-chip">
+                            <span class="mdl-chip__text">Mobile</span>
+                        </a>
+                        <a href="#topic" class="mdl-chip">
+                            <span class="mdl-chip__text">React</span>
+                        </a>
+                        <a href="#topic" class="mdl-chip">
+                            <span class="mdl-chip__text">Adobe</span>
+                        </a>
+                    </div>
+
+                    <div class="popular-features">
+                        <h4 style="background-color:hsl(115, 60%, 52%); ">
+                            <a style="color: white; padding: 10px; text-decoration: none" href="#">Popular Features</a>
+                        </h4>
+
+                        <ul class="demo-list-item mdl-list">
+                            <li class="mdl-list__item">
+                                <a href="#" class="mdl-list__item-primary-content">
+                                    Get Up and Win
+                                </a>
+                            </li>
+                            <li class="mdl-list__item">
+                                <a href="#" class="mdl-list__item-primary-content">
+                                    Conquering Impostor Syndrome
+                                </a>
+                            </li>
+                            <li class="mdl-list__item">
+                                <a href="#" class="mdl-list__item-primary-content">
+                                    Being a Dev Dad JavaScript Promise API
+                                </a>
+                            </li>
+                            <li class="mdl-list__item">
+                                <a href="#" class="mdl-list__item-primary-content">
+                                    JavaScript Promise API
+                                </a>
+                            </li>
+                            <li class="mdl-list__item">
+                                <a href="#" class="mdl-list__item-primary-content">
+                                    7 Essential JavaScript Functions
+                                </a>
+                            </li>
+                            <li class="mdl-list__item">
+                                <a href="#" class="mdl-list__item-primary-content">
+                                    I'm an Impostor
+                                </a>
+                            </li>
+                            <li class="mdl-list__item">
+                                <a href="#" class="mdl-list__item-primary-content">
+                                    fetch API
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+        <footer class="mdl-mini-footer">
+            <div class="mdl-mini-footer__left-section">
+                <div class="mdl-logo">© Mosienko Vladislav 2018-2019. Hosting by my own xd.</div>
+
+            </div>
+        </footer>
+
+    </div>
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+</body>
+
+</html>
