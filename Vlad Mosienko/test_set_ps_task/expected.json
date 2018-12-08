@@ -1,0 +1,34 @@
+{
+    "docWidth": 2100,
+    "docHeight": 1500,
+    "coordsArr": [
+        {
+            "name": "Layer 3",
+            "left_x": 1458,
+            "left_y": 408,
+            "right_x": 1798,
+            "right_y": 918
+        },
+        {
+            "name": "Layer 2",
+            "left_x": 826,
+            "left_y": 421,
+            "right_x": 1155,
+            "right_y": 942
+        },
+        {
+            "name": "Layer 1",
+            "left_x": 152,
+            "left_y": 433,
+            "right_x": 322,
+            "right_y": 997
+        },
+        {
+            "name": "Background",
+            "left_x": 184,
+            "left_y": 1302,
+            "right_x": 1837,
+            "right_y": 1382
+        }
+    ]
+}
