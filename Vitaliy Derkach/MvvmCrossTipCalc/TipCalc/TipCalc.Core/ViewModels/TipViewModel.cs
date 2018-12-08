@@ -1,12 +1,17 @@
 ﻿using MvvmCross.ViewModels;
 using TipCalc.Core.Services;
 using System.Threading.Tasks;
+using System.Windows.Input;
+using MvvmCross.Commands;
+using System.Collections.Generic;
+using MvvmCross.Navigation;
 
 namespace TipCalc.Core.ViewModels
 {
 	public class TipViewModel : MvxViewModel
 	{
 		readonly ICalculationService _calculationService;
+		readonly IMvxNavigationService _navigationService;
 		public TipViewModel(ICalculationService calculationService)
 		{
 			_calculationService = calculationService;
@@ -27,8 +32,9 @@ namespace TipCalc.Core.ViewModels
 		{
 			get => _subTotal;
 			set {
-				_subTotal = value;
-				RaisePropertyChanged(() => SubTotal);
+				SetProperty(ref _subTotal, value);
+				//_subTotal = value;
+				//RaisePropertyChanged(() => SubTotal);
 
 				Recalculate();
 			}
@@ -40,8 +46,9 @@ namespace TipCalc.Core.ViewModels
 			get => _generosity;
 			set
 			{
-				_generosity = value;
-				RaisePropertyChanged(() => Generosity);
+				SetProperty(ref _generosity, value);
+				//_generosity = value;
+				//RaisePropertyChanged(() => Generosity);
 
 				Recalculate();
 			}
@@ -53,8 +60,9 @@ namespace TipCalc.Core.ViewModels
 			get => _tip;
 			set
 			{
-				_tip = value;
-				RaisePropertyChanged(() => Tip);
+				SetProperty(ref _tip, value);
+				//_tip = value;
+				//RaisePropertyChanged(() => Tip);
 			}
 
 		}
@@ -63,5 +71,7 @@ namespace TipCalc.Core.ViewModels
 		{
 			Tip = _calculationService.TipAmount(SubTotal, Generosity);
 		}
+
 	}
-}
+		
+	}

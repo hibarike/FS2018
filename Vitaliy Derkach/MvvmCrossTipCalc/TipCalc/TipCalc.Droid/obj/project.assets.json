@@ -528,6 +528,7 @@
   },
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v8.1": [
+      "MvvmCross >= 6.2.2",
       "TipCalc.Core >= 1.0.0",
       "Xamarin.Android.Support.Design >= 27.0.2.1"
     ]
@@ -569,6 +570,10 @@
     "frameworks": {
       "monoandroid81": {
         "dependencies": {
+          "MvvmCross": {
+            "target": "Package",
+            "version": "[6.2.2, )"
+          },
           "Xamarin.Android.Support.Design": {
             "target": "Package",
             "version": "[27.0.2.1, )"
