@@ -1,0 +1,68 @@
+body {
+  color: #fff; }
+
+.grid-content {
+  display: grid;
+  grid-gap: 40px 50px;
+  width: 80%;
+  margin: auto;
+  margin-top: 70px;
+  grid-template-areas: "title" "image" "description" "about" "trailer"; }
+
+.film-title {
+  grid-area: title; }
+  .film-title h2 {
+    font-size: 45px; }
+
+.film-image {
+  grid-area: image; }
+  .film-image img {
+    width: 100%; }
+    .film-image img:hover {
+      border: 1px solid #fff;
+      opacity: 0.85;
+      cursor: pointer; }
+
+.film-description {
+  grid-area: description; }
+
+.film-about {
+  grid-area: about; }
+
+.film-trailer {
+  grid-area: trailer;
+  margin-bottom: 40px; }
+  .film-trailer .trailer {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 */
+    height: 0;
+    text-align: center;
+    margin-top: 20px; }
+    .film-trailer .trailer iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      -webkit-box-shadow: 5px 5px 31px 8px rgba(0, 0, 0, 0.62);
+      -moz-box-shadow: 5px 5px 31px 8px rgba(0, 0, 0, 0.62);
+      box-shadow: 5px 5px 31px 8px rgba(0, 0, 0, 0.62); }
+
+.grid-description {
+  display: grid;
+  grid-template-columns: 3fr 7fr;
+  grid-gap: 20px 30px; }
+  .grid-description .description-title {
+    font-weight: 600; }
+  .grid-description .description-value,
+  .grid-description .description-title {
+    text-transform: capitalize;
+    font-size: 20px; }
+
+@media screen and (min-width: 768px) {
+  .grid-content {
+    width: 65%;
+    margin-top: 70px;
+    grid-template-columns: 230px 1fr;
+    grid-template-areas: "title title" "image description" "about about" "trailer trailer"; } }
