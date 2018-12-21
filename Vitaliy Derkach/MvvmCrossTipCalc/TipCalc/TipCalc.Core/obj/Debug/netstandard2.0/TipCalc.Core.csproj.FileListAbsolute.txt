@@ -1,0 +1,15 @@
+C:\Users\Vetal\source\repos\TipCalc\TipCalc.Core\bin\Debug\netstandard2.0\TipCalc.Core.deps.json
+C:\Users\Vetal\source\repos\TipCalc\TipCalc.Core\bin\Debug\netstandard2.0\TipCalc.Core.dll
+C:\Users\Vetal\source\repos\TipCalc\TipCalc.Core\obj\Debug\netstandard2.0\TipCalc.Core.csprojAssemblyReference.cache
+C:\Users\Vetal\source\repos\TipCalc\TipCalc.Core\obj\Debug\netstandard2.0\TipCalc.Core.csproj.CoreCompileInputs.cache
+C:\Users\Vetal\source\repos\TipCalc\TipCalc.Core\obj\Debug\netstandard2.0\TipCalc.Core.AssemblyInfoInputs.cache
+C:\Users\Vetal\source\repos\TipCalc\TipCalc.Core\obj\Debug\netstandard2.0\TipCalc.Core.AssemblyInfo.cs
+E:\FS2018\Vitaliy Derkach\MvvmCrossTipCalc\TipCalc\TipCalc.Core\bin\Debug\netstandard2.0\TipCalc.Core.deps.json
+E:\FS2018\Vitaliy Derkach\MvvmCrossTipCalc\TipCalc\TipCalc.Core\bin\Debug\netstandard2.0\TipCalc.Core.dll
+E:\FS2018\Vitaliy Derkach\MvvmCrossTipCalc\TipCalc\TipCalc.Core\bin\Debug\netstandard2.0\TipCalc.Core.pdb
+E:\FS2018\Vitaliy Derkach\MvvmCrossTipCalc\TipCalc\TipCalc.Core\obj\Debug\netstandard2.0\TipCalc.Core.csprojAssemblyReference.cache
+E:\FS2018\Vitaliy Derkach\MvvmCrossTipCalc\TipCalc\TipCalc.Core\obj\Debug\netstandard2.0\TipCalc.Core.csproj.CoreCompileInputs.cache
+E:\FS2018\Vitaliy Derkach\MvvmCrossTipCalc\TipCalc\TipCalc.Core\obj\Debug\netstandard2.0\TipCalc.Core.AssemblyInfoInputs.cache
+E:\FS2018\Vitaliy Derkach\MvvmCrossTipCalc\TipCalc\TipCalc.Core\obj\Debug\netstandard2.0\TipCalc.Core.AssemblyInfo.cs
+E:\FS2018\Vitaliy Derkach\MvvmCrossTipCalc\TipCalc\TipCalc.Core\obj\Debug\netstandard2.0\TipCalc.Core.dll
+E:\FS2018\Vitaliy Derkach\MvvmCrossTipCalc\TipCalc\TipCalc.Core\obj\Debug\netstandard2.0\TipCalc.Core.pdb

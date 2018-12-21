@@ -1,0 +1,237 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Introducing Lollipop, a sweet new take on Android.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>SimpleNews</title>
+
+    <!-- Page styles -->
+	 <link rel="icon" sizes="192x192" href="images/logo-news.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.min.css">
+    <link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="styles-content.css">
+	
+	<link href="https://fonts.googleapis.com/css?family=Gamja+Flower" rel="stylesheet">
+	
+    <style>
+    #view-source {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 40px;
+      margin-bottom: 40px;
+      z-index: 900;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+
+      <div class="android-header mdl-layout__header mdl-layout__header--waterfall">
+        <div class="mdl-layout__header-row">
+          <span class="android-title mdl-layout-title">
+            <img class="android-logo-image" src="images/logo.png">
+          </span>
+		  <span class = "android-title mdl-layout-title">
+		  <img class="news-logo-image" src="images/logo-news.png">
+		  </span>
+          <!-- Add spacer, to align navigation to the right in desktop -->
+          <div class="android-header-spacer mdl-layout-spacer"></div>
+          <div class="android-search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width">
+            <label class="mdl-button mdl-js-button mdl-button--icon" for="search-field">
+              <i class="material-icons">search</i>
+            </label>
+            <div class="mdl-textfield__expandable-holder">
+              <input class="mdl-textfield__input" type="text" id="search-field">
+            </div>
+          </div>
+          <!-- Navigation -->
+          <div class="android-navigation-container">
+            <nav class="android-navigation mdl-navigation">
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Home</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Sport</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Weather</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Business</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Auto</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Science</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Tech</a>
+            </nav>
+          </div>
+          <span class="android-mobile-title mdl-layout-title">
+            <img class="android-logo-image" src="logo.png">
+          </span>
+        </div>
+      </div>
+
+	
+	 
+	  
+
+      <div class="android-content mdl-layout__content">
+        <a name="top"></a>
+		
+		<div class = "sidenav">
+			<div class = "head">
+				<h4> Popular news </h4>
+			</div>
+			<div class="mdl-card mdl-shadow--3dp">
+              <div class="mdl-card__media">
+                <img src="images/content-title1.jpg">
+              </div>
+              <div class="mdl-card__title">
+                 <h4 class="mdl-card__title-text">How Trump feud with Tillerson erupted</h4>
+              </div>
+              <div class="mdl-card__actions">
+                 <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="">
+                   Read more
+                   <i class="material-icons">chevron_right</i>
+                 </a>
+              </div>
+            </div>
+					
+			<div class="mdl-card mdl-shadow--3dp">
+              <div class="mdl-card__media">
+                <img src="images/content-title2.jpg">
+              </div>
+              <div class="mdl-card__title">
+                 <h4 class="mdl-card__title-text">Facebook could threaten democracy</h4>
+              </div>
+              <div class="mdl-card__actions">
+                 <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="">
+                   Read more
+                   <i class="material-icons">chevron_right</i>
+                 </a>
+              </div>
+            </div>
+			
+			 <div class="mdl-card mdl-shadow--3dp">
+              <div class="mdl-card__media">
+                <img src="images/content-title3.jpg">
+              </div>
+              <div class="mdl-card__title">
+                 <h4 class="mdl-card__title-text">Why Huawei matters in five charts</h4>
+              </div>
+              <div class="mdl-card__actions">
+                 <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="">
+                   Read more
+                   <i class="material-icons">chevron_right</i>
+                 </a>
+              </div>
+            </div>
+			
+		</div>
+		
+		
+		<div class="demo-card-wide mdl-card mdl-shadow--6dp ">
+		
+			<div class = "mdl-card__title" >
+				<h3> <span>Russia will build missiles if US leaves treaty, Putin warns</span> </h3>
+			</div>
+			
+			<img class="card-image-title" src="images/content-title.jpg">
+			
+			<div class="mdl-card__supporting-text">
+				<p>Russia will develop missiles banned under a Cold War agreement if the US exits the pact, President Vladimir Putin has warned.</p>
+
+				<p>His comments follow Nato's accusation on Tuesday that Russia has already broken the Intermediate-range Nuclear Forces (INF) Treaty.</p>
+
+				<p>Signed in 1987 by the US and USSR, it banned both countries' use of all short and medium-range missiles.</p>
+
+				<p>But Mr Putin says the accusation is a pretext for the US to leave the pact.</p>
+
+				<p>In televised comments, the Russian leader said many other countries had developed weapons banned under the INF treaty.</p>
+
+				<p>"Now it seems our American partners believe that the situation has changed so much that [they] must also have such a weapon," he said.</p>
+
+				<p>"What's our response? It's simple - in that case we will also do this."</p>
+
+
+				<p>US President Donald Trump has previously said the country would leave the treaty because of Russian actions.</p>
+
+				<p>Analysts say Russia sees the weapons as a cheaper alternative to conventional forces.</p>
+
+				<p> <span>What has Nato said?</span><br>
+					On Tuesday, the Western military alliance formally accused Russia of breaking the treaty.</p>
+
+				<p>"Allies have concluded that Russia has developed and fielded a missile system, the 9M729, which violates the INF Treaty and poses significant risks to Euro-Atlantic security," the Nato foreign ministers' statement read.</p>
+
+				<p>The statement said the member nations "strongly support" the US claim that Russia is in breach of the pact, and called on Moscow to "return urgently to full and verifiable compliance".</p>
+				
+				<img class="card-image" src="images/racket.jpg">
+
+				<p>Russia denies building missiles that violate the accord
+				Speaking after the release of Nato's statement, US Secretary of State Mike Pompeo said Russia had 60 days to return to compliance with the treaty, after which time the US would suspend its own compliance.</p>
+
+				<p>"During this 60 days we will still not test or produce or deploy any systems, and we'll see what happens during this 60-day period," he said.</p>
+
+				<p>Russia has repeatedly denied breaking the Cold War treaty.</p>
+				
+			</div>
+		</div>
+	
+		
+	
+	
+        <footer class="android-footer mdl-mega-footer">
+          <div class="mdl-mega-footer--top-section">
+            <div class="mdl-mega-footer--left-section">
+              <button class="mdl-mega-footer--social-btn"></button>
+              &nbsp;
+              <button class="mdl-mega-footer--social-btn"></button>
+              &nbsp;
+              <button class="mdl-mega-footer--social-btn"></button>
+            </div>
+            <div class="mdl-mega-footer--right-section">
+              <a class="mdl-typography--font-light" href="#top">
+                Back to Top
+                <i class="material-icons">expand_less</i>
+              </a>
+            </div>
+          </div>
+
+          <div class="mdl-mega-footer--middle-section">
+            <p class="mdl-typography--font-light">Satellite imagery: © 2014 Astrium, DigitalGlobe</p>
+            <p class="mdl-typography--font-light">Some features and devices may not be available in all areas</p>
+          </div>
+
+          <div class="mdl-mega-footer--bottom-section">
+            <a class="android-link android-link-menu mdl-typography--font-light" id="version-dropdown">
+              Versions
+              <i class="material-icons">arrow_drop_up</i>
+            </a>
+            <ul class="mdl-menu mdl-js-menu mdl-menu--top-left mdl-js-ripple-effect" for="version-dropdown">
+              <li class="mdl-menu__item">5.0 Lollipop</li>
+              <li class="mdl-menu__item">4.4 KitKat</li>
+              <li class="mdl-menu__item">4.3 Jelly Bean</li>
+              <li class="mdl-menu__item">Android History</li>
+            </ul>
+            <a class="android-link android-link-menu mdl-typography--font-light" id="developers-dropdown">
+              For Developers
+              <i class="material-icons">arrow_drop_up</i>
+            </a>
+            <ul class="mdl-menu mdl-js-menu mdl-menu--top-left mdl-js-ripple-effect" for="developers-dropdown">
+              <li class="mdl-menu__item">App developer resources</li>
+              <li class="mdl-menu__item">Android Open Source Project</li>
+              <li class="mdl-menu__item">Android SDK</li>
+              <li class="mdl-menu__item">Android for Work</li>
+            </ul>
+            <a class="android-link mdl-typography--font-light" href="">Blog</a>
+            <a class="android-link mdl-typography--font-light" href="">Privacy Policy</a>
+          </div>
+
+        </footer>
+      </div>
+    </div>
+	
+	
+	
+    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
+  </body>
+</html>

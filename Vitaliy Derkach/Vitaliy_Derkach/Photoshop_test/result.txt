@@ -1,0 +1,6 @@
+The result of testing:
+Background.png - true
+Layout-1.png - false
+Layout-2.png - false
+Layout-3.png - false
+JSON files ARE equal.

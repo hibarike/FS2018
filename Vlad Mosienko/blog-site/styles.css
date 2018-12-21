@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+}
+
+/* header styles */
+
+.mdl-layout__header-row {
+  padding-left: 6%;
+}
+
+.mdl-layout--large-screen-only  {
+  height: 30px;
+}
+
+.header-title__link {
+  text-decoration: none;
+  color: white;
+}
+
+/*  */
+
+/* main styles */
+
+.main::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.main-title-text {
+  text-align: center;
+  background-color: hsl(194, 88%, 68%);
+  color: white;
+}
+
+.main-title-text>h1 {
+  font-family: 'Roboto', sans-serif;
+}
+
+.main-content {
+  margin-left: 5%;
+  /* padding-top: 2px; */
+  float: left;
+  width: 60%;
+  padding: 23px;
+}
+
+.mdl-card {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.mdl-card__supporting-text {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.mdl-card__title {
+  color: #fff;
+  height: 176px;
+}
+
+.card1>.mdl-card__title {
+  background: url('images/topic1.png') center / cover;
+}
+
+.card2>.mdl-card__title {
+  background: url('images/topic2.jpg') center / cover;
+  background-size: cover;
+}
+
+.card3>.mdl-card__title {
+  background: url('images/topic3.png') center / cover;
+  background-size: contain;
+}
+
+.mdl-card__menu {
+  color: #fff;
+}
+
+/* */
+
+/* sidebar styles */
+
+.sidebar {
+  float: left;
+  width: 30%;
+  padding: 20px;
+  padding-top: 0px;
+}
+
+.mdl-list__item {
+  border-bottom: 1px solid lightgrey;
+}
+
+.mdl-list__item-primary-content {
+  color: black;
+}
+
+/* */
+
+.mdl-mini-footer {
+  padding-left: 6%;
+}

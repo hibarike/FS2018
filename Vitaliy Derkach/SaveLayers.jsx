@@ -15,7 +15,7 @@ function SaveLayersToPNG(doc) {
         var lengthState = doc.historyStates.length;
         var saveState = doc.activeHistoryState;
         var pngSaveOptions = new PNGSaveOptions();
-        var folder = new Folder(Folder.desktop + "/Vitaliy_Derkach");
+        var folder = new Folder(Folder.desktop + "/Vitaliy_Derkach/Photoshop_test/ps_layers");
         if (!folder.exists) {
             folder.create();
         }
@@ -31,7 +31,7 @@ function SaveLayersToPNG(doc) {
                 }
                 var handle = doc.artLayers[i].name + ".png";
                 doc.trim(TrimType.TOPLEFT, false, false, false, false) //Trims the transparent area around the image
-                jpgFile = new File(Folder.desktop + "/Vitaliy_Derkach/" + handle);
+                jpgFile = new File(Folder.desktop + "/Vitaliy_Derkach/Photoshop_test/ps_layers/" + handle);
                 doc.saveAs(jpgFile, pngSaveOptions, true, Extension.LOWERCASE);
             }
 
@@ -39,8 +39,8 @@ function SaveLayersToPNG(doc) {
         }
         else {
             var handle = doc.artLayers[0].name + ".png";
-            jpgFile = new File(Folder.desktop + "/Vitaliy_Derkach/" + handle);
-            doc.saveAs(jpgFile, jpgSaveOptions, true, Extension.LOWERCASE);
+            jpgFile = new File(Folder.desktop + "/Vitaliy_Derkach/Photoshop_test/ps_layers/" + handle);
+            doc.saveAs(jpgFile, pngSaveOptions, true, Extension.LOWERCASE);
         }
         doc.activeHistoryState = doc.historyStates[lengthState - 1];
         app.purge(PurgeTarget.UNDOCACHES);
@@ -54,11 +54,11 @@ function SaveLayersToPNG(doc) {
 function LayersToJSON(doc) {
     var length = doc.artLayers.length;
     if (length !== 0) {
-        var folder = new Folder(Folder.desktop + "/Vitaliy_Derkach");
+        var folder = new Folder(Folder.desktop + "/Vitaliy_Derkach/Photoshop_test/scripts");
         if (!folder.exists) {
             folder.create();
         }
-        var file = new File(Folder.desktop + "/Vitaliy_Derkach/layers.json");
+        var file = new File(Folder.desktop + "/Vitaliy_Derkach/Photoshop_test/scripts/ps_layers.json");
         file.open("w");
         file.write("{\n\"layers\":[");
 
