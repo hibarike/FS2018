@@ -1,0 +1,9 @@
+C:\Users\User\Desktop\FS2018\Alexandr Galushka\Toy_DataBase\Model\bin\Debug\netstandard2.0\Model.deps.json
+C:\Users\User\Desktop\FS2018\Alexandr Galushka\Toy_DataBase\Model\bin\Debug\netstandard2.0\Model.dll
+C:\Users\User\Desktop\FS2018\Alexandr Galushka\Toy_DataBase\Model\obj\Debug\netstandard2.0\Model.csprojAssemblyReference.cache
+C:\Users\User\Desktop\FS2018\Alexandr Galushka\Toy_DataBase\Model\obj\Debug\netstandard2.0\Model.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\FS2018\Alexandr Galushka\Toy_DataBase\Model\obj\Debug\netstandard2.0\Model.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\FS2018\Alexandr Galushka\Toy_DataBase\Model\obj\Debug\netstandard2.0\Model.AssemblyInfo.cs
+C:\Users\User\Desktop\FS2018\Alexandr Galushka\Toy_DataBase\Model\bin\Debug\netstandard2.0\Model.pdb
+C:\Users\User\Desktop\FS2018\Alexandr Galushka\Toy_DataBase\Model\obj\Debug\netstandard2.0\Model.dll
+C:\Users\User\Desktop\FS2018\Alexandr Galushka\Toy_DataBase\Model\obj\Debug\netstandard2.0\Model.pdb
