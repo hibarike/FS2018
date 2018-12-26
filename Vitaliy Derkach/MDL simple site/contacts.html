@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>MyCoffee - A Great Place To Drink Coffee</title>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
+ <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+ <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+ <link rel="stylesheet" href="styles.css">
+</head>
+<body class="mdl-base">
+<div class="mdl-layout mdl-js-layout mdl-layout--top">
+ <header class="mdl-layout__header  mdl-layout--large-screen-only mdl-layout__header--seamed mdl-layout__header--transparent ">
+  <div class="mdl-layout-icon"></div>
+  <div class="mdl-layout__header-row">
+   <span class="mdl-layout__title">MYCOFFEE</span>
+   <div class="mdl-layout-spacer"></div>
+   <nav class="mdl-navigation">
+    <a class="mdl-navigation__link" href="index.html">HOME</a>
+    <a class="mdl-navigation__link" href="menu.html">MENU</a>
+    <a class="mdl-navigation__link" href="reservations.html">RESERVATIONS</a>
+    <a class="mdl-navigation__link" href="#">CONTACTS</a>
+   </nav>
+  </div>  
+ </header>
+ <div class="mdl-layout__drawer mdl-layout--small-screen-only">
+  <span class="mdl-layout__title">MYCOFFE</span>
+  <nav class="mdl-navigation">
+   <a class="mdl-navigation__link" href="index.html">HOME</a>
+   <a class="mdl-navigation__link" href="menu.html">MENU</a>
+   <a class="mdl-navigation__link" href="reservations.html">RESERVATIONS</a>
+   <a class="mdl-navigation__link" href="#">CONTACTS</a>
+  </nav>
+ </div>
+ <main>
+
+
+<section>
+<div class="mdl-grid mdl-grid--on-top">
+<div class="mdl-cell mdl-cell--12-col mdl-cell--null-top mdl-cell--400px mdl-cell--100pct">
+<img class="mdl-cell--12-col__image"  src="Pictures/Coffee_main.jpg" alt="Home Page"/>
+</div>
+</div>
+</section>
+<section>
+<div class="mdl-grid">
+<div class="mdl-cell  mdl-cell--6-col mdl-cell--height-auto">
+<h3 >GET IN TOUCH</h3>
+
+<p class="mdl-cell--justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet suscipit dui. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer venenatis fermentum lacus, vel malesuada risus tincidunt a. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam a risus bibendum, tincidunt massa ut, faucibus est. Pellentesque est libero, elementum quis tristique id, tincidunt non sapien. Mauris congue sollicitudin est. Integer imperdiet lorem eu mauris ornare faucibus. Maecenas tincidunt sodales sapien sagittis accumsan. Sed sit amet ultrices lacus, et mollis ex. Vestibulum vehicula nisl ut purus molestie, quis scelerisque erat ornare.</p>
+</div>
+<div class="mdl-cell mdl-cell--6-col mdl-cell--height-auto mdl-cell--flex-center" >
+<form action="#">
+<div class="mdl-textfield mdl-js-textfield">
+<label class="mdl-textfield__label" for="name">Your Name (required)</label>
+<input class="mdl-textfield__input" type="text" name="name" required>
+</div><br>
+ <div class="mdl-textfield mdl-js-textfield">
+<label class="mdl-textfield__label" for="email">Your Email (required)</label>
+<input class="mdl-textfield__input" type="email" name="email" required>
+</div><br>
+ <div class="mdl-textfield mdl-js-textfield">
+<label class="mdl-textfield__label" for="phone">Your Phone (mobile)</label>
+<input class="mdl-textfield__input" type="tel" name="phone"  pattern="[0-9]{10}">
+</div><br>
+ <div class="mdl-textfield mdl-js-textfield">
+<label class="mdl-textfield__label" for="subject">Subject</label>
+<input class="mdl-textfield__input" style="margin: auto; display: block;" type="text" name="subject" maxlength="40">
+</div><br>
+ <div class="mdl-textfield mdl-js-textfield">
+<label class="mdl-textfield__label" for="message">Your Message</label>
+<textarea class="mdl-textfield__input" type="text" rows= "10" name="message" maxlength="500"></textarea>
+</div><br>
+<button class="mdl-button" type="submit">Send</button>
+</form>
+
+</div>
+</div>
+</section>
+
+<section>
+<div class="mdl-grid">
+<div class="mdl-cell mdl-cell--12-col">
+<h3>How to find us Demo</h3>
+    <!--The div element for the map -->
+    <div id="mdl-map--mycoffee-geomarker"></div>
+</div>
+</div>
+</section>
+ </main>
+
+<footer class="mdl-mega-footer" >
+  <div class="mdl-mega-footer__bottom-section">
+  <div>
+    <ul class="link-list__unordered-list--inline">
+    <li>MYCOFFEE 2018</li>
+    <li>Dnipro</li>
+    <li>Tel: 000-00-00</li>
+    <li>Author Vitaliy Derkach</li>
+   <ul>  
+  </div>
+ 
+<div>
+   <ul class="link-list__unordered-list--inline">
+    <li><a href="https://getmdl.io/">MAKED WITH MDL</a></li>
+    <li><a href="#">CONTACT THE AUTHOR</a></li>
+   <ul>
+ </div>
+</div>
+</footer>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+<script src="script.js"></script>
+<script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDaxtO7Zrngj_i0R-qgyOIYcm5ksg3GD-s&callback=initMap">
+</script>

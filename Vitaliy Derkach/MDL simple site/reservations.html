@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>MyCoffee - A Great Place To Drink Coffee</title>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
+ <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+ <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+ <link rel="stylesheet" href="styles.css">
+ <link rel="stylesheet" href="jsCalendar.css">
+</head>
+<body class="mdl-base">
+<div class="mdl-layout mdl-js-layout mdl-layout--top">
+ <header id="header" class="mdl-layout__header  mdl-layout--large-screen-only mdl-layout__header--seamed mdl-layout__header--transparent">
+  <div class="mdl-layout-icon"></div>
+  <div class="mdl-layout__header-row">
+   <span class="mdl-layout__title">MYCOFFEE</span>
+   <div class="mdl-layout-spacer"></div>
+   <nav class="mdl-navigation">
+    <a class="mdl-navigation__link" href="index.html">HOME</a>
+    <a class="mdl-navigation__link" href="menu.html">MENU</a>
+    <a class="mdl-navigation__link" href="#">RESERVATIONS</a>
+    <a class="mdl-navigation__link" href="contacts.html">CONTACTS</a>
+   </nav>
+  </div>  
+ </header>
+ <div class="mdl-layout__drawer mdl-layout--small-screen-only">
+  <span class="mdl-layout__title">MYCOFFE</span>
+  <nav class="mdl-navigation">
+   <a class="mdl-navigation__link" href="index.html">HOME</a>
+   <a class="mdl-navigation__link" href="menu.html">MENU</a>
+   <a class="mdl-navigation__link" href="#">RESERVATIONS</a>
+   <a class="mdl-navigation__link" href="contacts.html">CONTACTS</a>
+  </nav>
+ </div>
+ <main>
+
+
+<section>
+<div class="mdl-grid mdl-grid--on-top">
+<div class="mdl-cell mdl-cell--12-col mdl-cell--null-top mdl-cell--400px mdl-cell--100pct">
+<img class="mdl-cell--12-col__image"  src="Pictures/Coffee_main.jpg" alt="Home Page"/>
+</div>
+</div>
+</section>
+
+
+<section>
+ <div align = "center"> 
+<h3>MAKE ONLINE RESERVATION</h3>
+<form action="#">
+<div class="mdl-textfield mdl-js-textfield mdl-textfield--date-picker">
+  <label>
+      <i class="material-icons mdl-textfield__label--horyzontally">calendar_today</i>
+    </label>
+<input class="mdl-textfield__input mdl-textfield__input--date-picker mdl-textfield__input--horyzontally" type="text" name="date" readonly>
+<div class="calendar-picker" style="position: absolute; z-index: 2"></div>
+</div>
+<div class="mdl-textfield mdl-js-textfield">
+  <label>
+      <i class="material-icons mdl-textfield__label--horyzontally">alarm</i>
+    </label>
+
+  <select name="time" class="mdl-textfield__input mdl-textfield__input--horyzontally" required>
+<option value="6:00am">6:00 am</option>
+<option value="6:30am">6:30 am</option>
+<option value="7:00am">7:00 am</option>
+<option value="7:30am">7:30 am</option>
+<option value="8:00am">8:00 am</option>
+<option value="8:30am">8:30 am</option>
+<option value="9:00am">9:00 am</option>
+<option value="9:30am">9:30 am</option>
+<option value="10:00am">10:00 am</option>
+<option value="10:30am">10:30 am</option>
+<option value="11:00am">11:00 am</option>
+<option value="11:30am">11:30 am</option>
+<option value="12:00pm">12:00 pm</option>
+<option value="12:30pm">12:30 pm</option>
+<option value="1:00pm">1:00 pm</option>
+<option value="1:30pm">1:30 pm</option>
+<option value="2:00pm">2:00 pm</option>
+<option value="2:30pm">2:30 pm</option>
+<option value="3:00pm">3:00 pm</option>
+<option value="3:30pm">3:30 pm</option>
+<option value="4:00pm">4:00 pm</option>
+<option value="4:30pm">4:30 pm</option>
+<option value="5:00pm">5:00 pm</option>
+<option value="5:30pm">5:30 pm</option>
+<option value="6:00pm">6:00 pm</option>
+<option value="6:30pm">6:30 pm</option>
+<option value="7:00pm" selected="selected">7:00 pm</option>
+<option value="7:30pm">7:30 pm</option>
+<option value="8:00pm">8:00 pm</option>
+<option value="8:30pm">8:30 pm</option>
+<option value="9:00pm">9:00 pm</option>
+<option value="9:30pm">9:30 pm</option>
+<option value="10:00pm">10:00 pm</option>
+<option value="10:30pm">10:30 pm</option>
+<option value="11:00pm">11:00 pm</option>
+<option value="11:30pm">11:30 pm</option>
+        </select>
+</div>
+
+
+<div class="mdl-textfield mdl-js-textfield">
+  <label>
+      <i class="material-icons mdl-textfield__label--horyzontally">person</i>
+    </label>
+
+  <select name="time" class="mdl-textfield__input mdl-textfield__input--horyzontally">
+<option value="1 Person">1 Person</option>
+<option value="2 People">2 People</option>
+<option value="3 People">3 People</option>
+<option value="4 People">4 People</option>
+<option value="5 People">5 People</option>
+<option value="6 People">6 People</option>
+<option value="7 People">7 People</option>
+<option value="8 People">8 People</option>
+<option value="9 People">9 People</option>
+<option value="10 People">10 People</option>
+
+        </select>
+</div>
+<div>
+  
+<button class="mdl-button" type="submit">Find a table</button>
+</div>
+</form>
+ <div>
+</section>
+
+<section>
+<div class="mdl-grid">
+<div class="mdl-cell mdl-cell--6-col">
+<h4>THE CAFE OPENING HOURS<h4>
+<p>Mon – Fri: 6am – 10pm (kitchen closes at 9:45pm)</p>
+
+<p>Sat – Sun: 8am – 12pm (kitchen closes at 11:45pm)</p>
+</div>
+<div class="mdl-cell mdl-cell--6-col">
+<h4>THE CAFE BOOKING NOTES<h4>
+<p class="mdl-cell--justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet suscipit dui. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer venenatis fermentum lacus, vel malesuada risus tincidunt a. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam a risus bibendum, tincidunt massa ut, faucibus est.</p>
+ </div>
+   </div>
+</section>
+ </main>
+
+<footer class="mdl-mega-footer" >
+  <div class="mdl-mega-footer__bottom-section">
+  <div>
+    <ul class="link-list__unordered-list--inline">
+    <li>MYCOFFEE 2018</li>
+    <li>Dnipro</li>
+    <li>Tel: 000-00-00</li>
+    <li>Author Vitaliy Derkach</li>
+   <ul>  
+  </div>
+ 
+<div>
+   <ul class="link-list__unordered-list--inline">
+    <li><a href="https://getmdl.io/">MAKED WITH MDL</a></li>
+    <li><a href="#">CONTACT THE AUTHOR</a></li>
+   <ul>
+ </div>
+</div>
+</footer>
+
+</div>
+</body>
+</html>
+<script src="jsCalendar.js"></script>
+<script src="script.js"></script>
+<script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDaxtO7Zrngj_i0R-qgyOIYcm5ksg3GD-s&callback=initMap">
+</script>
