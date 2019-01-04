@@ -1,0 +1,162 @@
+* {
+font-family: "Open Sans", sans-serif;
+}
+
+
+.mdl-mega-footer{
+background-color: #ad3e3e; 
+}
+
+
+
+.mdl-layout__header{
+	background-color: #cc494f;
+	color: #cccccc;
+}
+
+.mdl-navigation__dropdown-content{
+
+background-color: #cc494f;
+color: #cccccc;
+}
+
+.mdl-logo {
+	color: inherit;
+}
+
+.mdl-layout{
+	background-color: #ad3e3e;
+}
+
+
+.mdl-mega-footer__social-btn {
+	background-color: #ffffff;
+}
+
+
+
+.mdl-blockquote{
+	border-left-color: grey;
+
+}
+
+
+
+.button-mobile{
+	font-size: 4rem;
+	color: #ffffff;
+	background-color: transparent; 
+	outline: none;
+}
+
+.navigation-mobile{
+background-color: #cc494f;
+	color: #cccccc;
+
+
+}
+
+.navigation-mobile__link{
+	font-size: 1.8rem;
+color: #ffffff;
+line-height: 1.8;
+border-bottom-color: #ad3e3e;
+}
+
+.navigation-mobile__link:first-child{
+border-top-color: #ad3e3e;
+}
+
+
+.navigation-mobile__clickable{
+	border-bottom-color: #ad3e3e;
+}
+.navigation-mobile__link--clickable{
+		font-size: 1.8rem;
+color: #ffffff;
+line-height: 1.8;
+}
+
+.navigation-mobile__button--clickable{
+	font-size: 1.8rem;
+    color: #ffffff;
+	background-color: transparent;
+    line-height: 1.8;
+	border-left-color: #ad3e3e;
+	outline: none;
+}
+
+.layout__content{
+	background-color: #ad3e3e;
+}
+
+.mdl-layout--white{
+	background-color: #ffffff;
+}
+
+
+.mdl-mega-footer--white{
+background-color: white;
+}
+
+.mdl-mega-footer__bottom-section{
+	background-color: #ffffff;
+}
+
+
+.button--raised.button--colored{
+	background: #ad3e3e;
+	box-shadow: none;
+	outline: none;
+	color: white;
+		border: none;
+	border-radius: 2px;
+	padding: 0 16px;
+	font-weight: 200;
+	font-size: 28px;
+	line-height: 36px;
+}
+
+.button--raised.button--colored:hover{
+	background: #cc494f;
+}
+
+.button--raised.button--colored:active{
+	background: #cc494f;
+}
+
+/*////////////////////////////////////////////////////////*/
+.mdl-navigation__dropdown-content{
+	color: inherit;
+}
+
+.mdl-navigation__link:hover{
+	opacity: 0.5;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.navigation-mobile__button--clickable:hover{
+	opacity: 0.5;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.title{
+	color: white;
+}
+
+.title__text--outline{
+text-shadow: 
+-1px -1px 1px #cc494f,
+1px -1px 1px #cc494f,
+-1px 1px 1px #cc494f,
+1px 1px 1px #cc494f;
+}
+
+.title__link {
+	color: white;
+	text-decoration: none;
+}
+
+.mdl-navigation__link--current{
+	background-color : #ad3e3e;
+}
